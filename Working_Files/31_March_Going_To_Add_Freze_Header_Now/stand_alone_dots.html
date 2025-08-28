@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Slideshow Test</title>
+  <style>
+    .slideshow-container {
+      width: 80%;
+      max-width: 800px;
+      margin: 50px auto;
+      position: relative;
+      aspect-ratio: 16 / 9;
+      background-color: #f1f1f1;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+
+    .slide {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transform: translateX(100%) scale(0.8);
+      transition: all 0.8s ease-in-out;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    .slide.active {
+      opacity: 1;
+      transform: translateX(0) scale(1);
+      z-index: 1;
+      pointer-events: auto;
+    }
+
+    .slide img,
+    .slide iframe {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .slide-dots {
+      text-align: center;
+      position: absolute;
+      bottom: 15px;
+      width: 100%;
+      z-index: 3;
+    }
+
+    .slide-dot {
+      display: inline-block;
+      height: 12px;
+      width: 12px;
+      margin: 0 6px;
+      background-color: #ccc;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .slide-dot.active {
+      background-color: #a855f7 !important;
+    }
+
+    .grid-reveal {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: grid;
+      grid-template-columns: repeat(10, 1fr);
+      grid-template-rows: repeat(6, 1fr);
+      pointer-events: none;
+      z-index: 2;
+    }
+
+    .grid-reveal span {
+      display: block;
+      width: 100%;
+      height: 100%;
+      background-color: #ffffff;
+      opacity: 1;
+      animation: flyInSquare 0.6s ease forwards;
+    }
+
+    @keyframes flyInSquare {
+      0% {
+        transform: translateY(50px) scale(0.5) rotate(15deg);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0) scale(1) rotate(0deg);
+        opacity: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="slideshow-container">
+    <div class="slide active">
+      <div class="grid-reveal"></div>
+      <img src="https://via.placeholder.com/800x450/8e44ad/ffffff?text=Slide+1" alt="Slide 1" />
+    </div>
+    <div class="slide">
+      <div class="grid-reveal"></div>
+      <img src="https://via.placeholder.com/800x450/3498db/ffffff?text=Slide+2" alt="Slide 2" />
+    </div>
+    <div class="slide">
+      <div class="grid-reveal"></div>
+      <iframe id="ytplayer" src="https://www.youtube.com/embed/BtN-goy9VOY?enablejsapi=1&rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+
+    <div id="slideDots" class="slide-dots"></div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const slides = document.querySelectorAll('.slide');
+      const slideDotsContainer = document.getElementById('slideDots');
+      const slideSpeed = 3000;
+      let current = 0;
+      let interval = null;
+      let isPaused = false;
+      let isVideoSlide = false;
+      let ytPlayer = null;
+      let dots;
+      const iframe = document.getElementById('ytplayer');
+
+      // Create dots
+      slides.forEach((_, index) => {
+        const dot = document.createElement('span');
+        dot.classList.add('slide-dot');
+        if (index === current) dot.classList.add('active');
+        dot.addEventListener('click', () => {
+          current = index;
+          showSlide(current);
+          pauseSlideshow();
+        });
+        slideDotsContainer.appendChild(dot);
+      });
+
+      dots = document.querySelectorAll('.slide-dot');
+
+      function updateDots() {
+        dots.forEach((dot, i) => {
+          dot.classList.toggle('active', i === current);
+        });
+      }
+
+      function showSlide(index) {
+        slides.forEach((slide, i) => {
+          slide.classList.toggle('active', i === index);
+        });
+        isVideoSlide = slides[index].contains(iframe);
+        updateDots();
+
+        const reveal = slides[index].querySelector('.grid-reveal');
+        if (reveal && reveal.childElementCount === 0) {
+          for (let i = 0; i < 60; i++) {
+            const sq = document.createElement('span');
+            sq.style.animationDelay = `${Math.random() * 0.5}s`;
+            reveal.appendChild(sq);
+          }
+          setTimeout(() => {
+            reveal.innerHTML = '';
+          }, 1000);
+        }
+
+        if (isVideoSlide && ytPlayer) {
+          ytPlayer.seekTo(0);
+          ytPlayer.playVideo();
+        } else if (ytPlayer) {
+          ytPlayer.pauseVideo();
+        }
+      }
+
+      function nextSlide() {
+        current = (current + 1) % slides.length;
+        showSlide(current);
+      }
+
+      function startSlideshow() {
+        clearInterval(interval);
+        interval = setInterval(() => {
+          if (!isVideoSlide && !isPaused) nextSlide();
+        }, slideSpeed);
+      }
+
+      function pauseSlideshow() {
+        clearInterval(interval);
+      }
+
+      // YouTube API hook
+      window.onYouTubeIframeAPIReady = function () {
+        ytPlayer = new YT.Player('ytplayer', {
+          events: {
+            'onStateChange': function (event) {
+              if (event.data === YT.PlayerState.ENDED) {
+                nextSlide();
+                if (!isPaused) startSlideshow();
+              } else if (event.data === YT.PlayerState.PLAYING) {
+                pauseSlideshow();
+              }
+            }
+          }
+        });
+      };
+
+      showSlide(current);
+      startSlideshow();
+
+      // Load YouTube API
+      const tag = document.createElement('script');
+      tag.src = 'https://www.youtube.com/iframe_api';
+      document.body.appendChild(tag);
+    });
+  </script>
+</body>
+</html>

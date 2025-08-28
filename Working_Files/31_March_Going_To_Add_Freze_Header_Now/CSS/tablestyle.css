@@ -1,0 +1,61 @@
+<style>
+  /* Responsive table with borders */
+  .responsive-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  .responsive-table th,
+  .responsive-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .responsive-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+
+  /* Sticky header for small screens */
+  @media (max-width: 700px) {
+    .responsive-table {
+      border: none;
+      display: block;
+      position: relative;
+    }
+
+    .responsive-table thead {
+      display: none; /* Hide the header entirely on small screens */
+    }
+
+    .responsive-table tbody {
+      display: block;
+    }
+
+    .responsive-table tbody tr {
+      display: flex;
+      flex-direction: column;
+      padding: 12px 10px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .responsive-table td {
+      display: block;
+      padding: 6px 10px;
+      font-size: 0.95rem;
+      border: none;
+      word-wrap: break-word;
+    }
+
+    .responsive-table td::before {
+      content: attr(data-label);
+      font-weight: bold;
+      display: block;
+      margin-bottom: 3px;
+      color: #333;
+    }
+  }

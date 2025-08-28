@@ -1,0 +1,95 @@
+.faculty-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  /* Each profile card */
+  .faculty-card {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    max-width: 600px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  /* Hover effect on photo */
+  .faculty-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Faculty image */
+  .faculty-photo {
+    width: 180px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 0;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .faculty-card:hover .faculty-photo {
+    transform: scale(1.05);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Info section */
+  .faculty-info {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /* Name styling */
+  .faculty-name {
+    color: #ffe188;
+    font-size: 1.2rem;
+    margin: 0 0 0.5rem 0;
+    cursor: pointer;
+    transition: font-weight 0.3s ease, text-shadow 0.3s ease;
+  }
+
+  .faculty-name:hover {
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Title and research text */
+  .faculty-title,
+  .faculty-research {
+    font-size: 0.95rem;
+    margin: 0.25rem 0;
+  }
+
+  /* Responsive: stack layout on smaller screens */
+  @media screen and (max-width: 768px) {
+    .faculty-container {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .faculty-card {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .faculty-photo {
+      width: 140px;
+      height: 160px;
+    }
+
+    .faculty-info {
+      align-items: center;
+    }
+  }

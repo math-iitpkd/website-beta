@@ -1,0 +1,117 @@
+<nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Academic</a></li>
+            <li><a href="#">People</a></li>
+            <li><a href="#">Research</a></li>
+            <li><a href="#">Activities</a></li>
+            <li><a href="#">Contacts</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Welcome to the Department of Mathematics</h2>
+            <p>Pushing the frontiers of mathematical research and education.</p>
+        </div>
+    </section>
+
+    <!-- Quick Links Section -->
+    <section class="quick-links">
+        <div class="container">
+            <a href="#" class="button">Admissions</a>
+            <a href="#" class="button">Course Offerings</a>
+            <a href="#" class="button">Research Opportunities</a>
+        </div>
+    </section>
+
+    <!-- News & Highlights Section -->
+    <section class="news-highlights">
+        <div class="container">
+            <h3>News & Highlights</h3>
+            <marquee behavior="scroll" direction="left">
+                <ul>
+                    <li>Departmental achievements and recent news...</li>
+                    <li>Upcoming conferences, workshops, and seminars...</li>
+                    <li>Faculty and student awards...</li>
+                </ul>
+            </marquee>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <h3>About the Department</h3>
+            <p>A concise overview of the department’s vision, mission, and core strengths.</p>
+        </div>
+    </section>
+
+    <!-- Upcoming Events Section -->
+    <section class="events">
+        <div class="container">
+            <h3>Upcoming Events</h3>
+            <ul>
+                <li>
+                    <strong>Event Title 1</strong>
+                    <p>Date & Time</p>
+                </li>
+                <li>
+                    <strong>Event Title 2</strong>
+                    <p>Date & Time</p>
+                </li>
+                <li>
+                    <strong>Event Title 3</strong>
+                    <p>Date & Time</p>
+                </li>
+            </ul>
+            <a href="#" class="button">View Full Calendar</a>
+        </div>
+    </section>
+
+    <!-- Research Spotlight Section -->
+    <section class="research-spotlight">
+        <div class="container">
+            <h3>Research Spotlight</h3>
+            <p>Highlighting key research groups and recent publications.</p>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="achievements">
+        <div class="container">
+            <h3>Faculty & Student Achievements</h3>
+            <p>Showcasing awards, recognitions, and successful alumni stories.</p>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <div class="container">
+            <h3>Gallery</h3>
+            <div class="gallery-slider">
+                <img src="image1.jpg" alt="Gallery Image 1">
+                <img src="image2.jpg" alt="Gallery Image 2">
+                <img src="image3.jpg" alt="Gallery Image 3">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Department of Mathematics, IIT Palakkad. All rights reserved.</p>
+                <div class="social-media">
+                    <a href="#"><img src="linkedin.png" alt="LinkedIn"></a>
+                    <a href="#"><img src="twitter.png" alt="Twitter"></a>
+                    <a href="#"><img src="youtube.png" alt="YouTube"></a>
+                </div>
+            </div>
+            <div class="contact-info">
+                <p>Address: IIT Palakkad, Kanjikode, Palakkad, Kerala, 678623</p>
+                <p>Email: mathdept@iitpkd.ac.in | Phone: +91 491 123 4567</p>
+            </div>
+        </div>
+    </footer>

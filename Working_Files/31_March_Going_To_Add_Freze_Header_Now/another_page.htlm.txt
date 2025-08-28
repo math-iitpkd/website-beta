@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="CSS/style.css"/>
+  <title>Mathematics</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Top Banner -->
+        <header>
+          <div class="banner">
+            <img src="images/iit_pkd_mino_log.jpg" alt="Logo" class="logo" />
+            <div class="divider"></div>
+            <div class="title-group">
+              <div class="main-title">Department of Mathematics</div>
+              <div class="sub-title">Indian Institute of Technology Palakkad</div>
+            </div>
+          </div>
+        </header>
+
+        <button class="hamburger" onclick="toggleMenu()">☰</button>
+
+        <!-- Menu Bar -->
+        <nav class="menu-bar" id="menu">
+          <a href="index.html">Home</a>
+          <div class="dropdown">
+            <button class="dropbtn">Academic</button>
+            <div class="dropdown-content">
+        
+              <div class="submenu">
+                <span>Courses ▸</span>
+                <div class="submenu-content">
+                  <a href="#">Course Catalogue</a>
+                  <a href="#">Current Semester</a>
+                </div>
+              </div>
+        
+              <div class="submenu">
+                <span>Programmes ▸</span>
+                <div class="submenu-content">
+        
+                  <div class="submenu">
+                    <span>Department ▸</span>
+                    <div class="submenu-content">
+                      <a href="#">MSc</a>
+                      <a href="#">MS by Research</a>
+                      <a href="#">PhD</a>
+                    </div>
+                  </div>
+        
+                  <div class="submenu">
+                    <span>Institute ▸</span>
+                    <div class="submenu-content">
+                      <a href="#">B.Tech</a>
+                    </div>
+                  </div>
+        
+                </div>
+              </div>
+        
+            </div>
+          </div>
+        
+          <!-- People Menu -->
+          <div class="dropdown">
+            <button class="dropbtn">People</button>
+            <div class="dropdown-content">
+              <a href="#">Faculty</a>
+              <a href="#">Post-docs</a>
+              <a href="#">PhD Scholars</a>
+              <a href="#">MS Scholars</a>
+              <a href="#">M.Sc. Students</a>
+              <a href="#">Staff</a>
+        
+              <div class="submenu">
+                <span>Past Members ▸</span>
+                <div class="submenu-content">
+                  <a href="#">Alumni</a>
+                  <a href="#">Faculty</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">Research</button>
+            <div class="dropdown-content">
+              <a href="#">Research Area</a>
+              <a href="#">Projects</a>
+              <a href="#">Awards and Recognitions</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">Activities</button>
+            <div class="dropdown-content">
+              <a href="#">Seminar</a>
+              <a href="#">STP 2025</a>
+              <a href="#">Symposium</a>
+              <a href="#">Workshops and Conferences</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">Committee</button>
+            <div class="dropdown-content">
+              <a href="#">Department Grievance Cell</a>
+              <a href="#">Department Research Committee</a>
+            </div>
+          </div>
+          <a href="Subpages/contact.html">Contact</a>
+        </nav>
+    
+        <div style="height: 20px;"></div>
+
+<!-- News Marquee Section -->
+<div class="news-container">
+  <div class="news-label">Announcements</div>
+  <div class="news-marquee">
+    <marquee behavior="scroll" direction="left" scrollamount="7">
+      Summer Training Programme in Mathematics: Applications are invited. Closing date is on April 30. Selection announcement will be made by May 25.
+    </marquee>
+  </div>
+</div>
+
+<div class="section-wrapper">
+    <div class="section-inner">
+    <!-- About Department Box -->
+    <div class="about-box">
+      <div class="about-title">Department of Mathematics</div>
+      <div class="about-content">
+        <p>
+            Department of Mathematics at IIT Palakkad is strongly committed to excellence in 
+            research and teaching. We envisage a period of fast growth leading to a strong and 
+            diverse Mathematics community at IIT Palakkad. The expertise of the faculties spread
+             across pure and applied mathematics. The department offers a doctoral research program 
+             from 2017 for students who would like to pursue their career in mathematics. Current expertise 
+             of the faculty members include Algebraic Geometry, Commutative Algebra, Computational Fluid Dynamics, 
+             Differential Equations, Functional Analysis, Low-dimensional Topology, Mathematical Statistics, Probability, 
+             Information Theory, and Several Complex Variables. The department started an MSc program in 2020. The curriculum for
+              this program is very well-thought-out and flexible, offering the students a wide-range of electives that will allow the
+               student to specialise in an area of their choice. The department is a part of two interdisciplinary M.Tech programs
+                (one in Computing and Mathematics and the other in Data Science) and also offers several core and elective courses 
+                for the B.Tech programs of the institute. The department is  very keen on having researchers in every major field
+                 of mathematics and are proactive  to ensure that this is achieved in the near future. In addition, the PhD students
+                  are actively involved as teaching assistants for both B.Tech as well as MSc courses. This will prepare them well for 
+                  a future career in academia. The department is also involved in developing mathematical talent in school children and 
+                  coordinates the MATH CIRCLES program to nurture and encourage school children.
+        </p>
+      </div>
+      </div>
+    </div>
+  
+    <!-- Slideshow Box (reuse your slideshow container) -->
+    <div class="slideshow-container" id="slideshow">
+      <div class="slide active">
+        <img src="images/slideshow/image_old_people.jpg" alt="Slide 1" />
+      </div>
+      <div class="slide">
+        <img src="images/slideshow/image_sarath.jpg" alt="Slide 2" />
+      </div>
+      <div class="slide">
+        <img src="images/slideshow/image_topo.jpg" alt="Slide 2" />
+      </div>
+      <div class="slide">
+        <img src="images/slideshow/image_senior.jpg" alt="Slide 2" />
+      </div>
+      <div class="slide" id="video-slide">
+        <iframe
+          id="ytplayer"
+          src="https://www.youtube.com/embed/BtN-goy9VOY?enablejsapi=1&rel=0"
+          frameborder="0"
+          allow="autoplay; encrypted-media"
+          allowfullscreen>
+        </iframe>
+      </div>
+  
+      <!-- Arrows and pause button -->
+      <div class="arrow left" onclick="manualPrev()">&#10094;</div>
+      <div class="arrow right" onclick="manualNext()">&#10095;</div>
+      <button id="pauseBtn" class="pause-btn" onclick="toggleSlideshow()">⏸ Pause</button>
+    </div>
+  
+  </div>
+
+        <!-- Page Content -->
+       
+        <div class="footer-ribbon">
+            <div class="footer-section">
+              <ul>
+                <li><a href="#">Main Website</a></li>
+                <li><a href="#">LMS/Moodle</a></li>
+                <li><a href="#">Library</a></li>
+                <li><a href="#">PG Admission</a></li>
+                <li><a href="#">Research Admission</a></li>
+              </ul>
+            </div>
+            <div class="footer-section">
+              <ul>
+                <li><a href="#">Telephone Directory</a></li>
+                <li><a href="#">Join Us</a></li>
+                <li><a href="#">Faculty Recruitment</a></li>
+                <li><a href="#">HPC</a></li>
+                <li><a href="#">How to Reach</a></li>
+              </ul>
+            </div>
+            <div class="footer-section address">
+              <p><strong>Address:</strong><br>
+              Indian Institute of Technology Palakkad<br>
+              Kanjikkode | Palakkad<br>
+              Kerala | Pin: 678623</p>
+            </div>
+          </div>
+
+        <!-- Footer -->
+        <footer>
+      All rights reserved. &copy; 2025 Department of Mathematics. <br> <br>
+      Last updated: March 25, 2025
+        </footer>
+    
+      </div>
+      <!-- Page Container Ends -->
+    
+      <!-- Toggle Script -->
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById("menu");
+      menu.classList.toggle("show");
+    }
+  </script>
+
+<script>
+    const slides = document.querySelectorAll('.slide');
+    const iframe = document.getElementById('ytplayer');
+    let current = 0;
+    let interval = null;
+    let isPaused = false;
+    let isVideoSlide = false;
+    let ytPlayer = null;
+  
+    // Slide transition speed (ms)
+    const slideSpeed = 5000;
+  
+    // YouTube API ready
+    function onYouTubeIframeAPIReady() {
+      ytPlayer = new YT.Player('ytplayer', {
+        events: {
+          'onStateChange': onPlayerStateChange
+        }
+      });
+    }
+  
+    function onPlayerStateChange(event) {
+      if (event.data === YT.PlayerState.ENDED) {
+        // When video finishes, resume auto slideshow
+        nextSlide();
+        if (!isPaused) startSlideshow();
+      } else if (event.data === YT.PlayerState.PLAYING) {
+        pauseSlideshow(); // Pause auto slideshow during video
+      }
+    }
+  
+    function showSlide(index) {
+      slides.forEach((s, i) => s.classList.toggle('active', i === index));
+      isVideoSlide = slides[index].contains(iframe);
+  
+      if (isVideoSlide && ytPlayer) {
+        ytPlayer.seekTo(0);
+        ytPlayer.playVideo();
+      } else if (ytPlayer) {
+        ytPlayer.pauseVideo();
+      }
+    }
+  
+    function nextSlide() {
+      current = (current + 1) % slides.length;
+      showSlide(current);
+    }
+  
+    function prevSlide() {
+      current = (current - 1 + slides.length) % slides.length;
+      showSlide(current);
+    }
+  
+    function startSlideshow() {
+      clearInterval(interval);
+      interval = setInterval(() => {
+        if (!isVideoSlide) nextSlide();
+      }, slideSpeed);
+    }
+  
+    function pauseSlideshow() {
+      clearInterval(interval);
+    }
+  
+    function toggleSlideshow() {
+      isPaused = !isPaused;
+      const btn = document.getElementById('pauseBtn');
+      btn.innerText = isPaused ? '▶ Play' : '⏸ Pause';
+      if (isPaused) {
+        pauseSlideshow();
+      } else {
+        if (!isVideoSlide) startSlideshow();
+      }
+    }
+  
+    function manualNext() {
+      pauseSlideshow();
+      isPaused = false;
+      toggleSlideshow();
+      nextSlide();
+    }
+  
+    function manualPrev() {
+      pauseSlideshow();
+      isPaused = false;
+      toggleSlideshow();
+      prevSlide();
+    }
+  
+    // Start on load
+    showSlide(current);
+    startSlideshow();
+  
+    // Load YouTube API
+    const tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/iframe_api";
+    document.body.appendChild(tag);
+  </script>
+
+    </body>
+    </html>
+    

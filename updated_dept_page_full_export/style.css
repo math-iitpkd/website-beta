@@ -1,0 +1,127 @@
+/* Gradient background for QUT-style color scheme */
+.gradient-bg {
+  background: linear-gradient(90deg, #002b49, #00587c);
+  color: #ffffff;
+}
+
+/* Complementary text links */
+.gradient-bg a {
+  color: #ffcc00;
+  text-decoration: none;
+}
+.gradient-bg a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Header animation */
+.animated-header {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Fade slide effect on page load */
+.fade-slide {
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeInSlide 1.2s ease forwards;
+}
+
+@keyframes fadeInSlide {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Slideshow styles */
+.slideshow {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.wel-slide {
+  display: none;
+  width: 100%;
+  height: auto;
+  transition: opacity 0.5s ease-in-out;
+}
+.wel-slide.active {
+  display: block;
+}
+.wel-slide img, .wel-slide video, .wel-slide iframe {
+  width: 100%;
+  border-radius: 12px;
+}
+
+/* Arrows */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: solid #ffffff;
+  border-width: 0 3px 3px 0;
+  padding: 10px;
+  background: rgba(0,0,0,0.3);
+  cursor: pointer;
+  z-index: 10;
+  transition: transform 0.2s;
+}
+.arrow.left {
+  left: 10px;
+  transform: rotate(135deg);
+}
+.arrow.right {
+  right: 10px;
+  transform: rotate(-45deg);
+}
+.arrow:hover {
+  transform: scale(1.2);
+}
+
+/* Dots */
+.wel-dots {
+  text-align: center;
+  margin-top: 10px;
+}
+.wel-dot {
+  height: 12px;
+  width: 12px;
+  margin: 0 4px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+.wel-dot.active {
+  background-color: #ffcc00;
+}
+
+/* Pause Button */
+.pause-btn {
+  background: transparent;
+  border: 2px solid #ffcc00;
+  color: #ffcc00;
+  font-size: 20px;
+  padding: 5px 10px;
+  border-radius: 6px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+/* Themed hamburger */
+.hamburger.themed {
+  background-color: #002b49;
+  color: #ffcc00;
+  border: 2px solid #ffcc00;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 20px;
+  transition: background 0.3s ease;
+  margin: 10px;
+}
+.hamburger.themed:hover {
+  background-color: #004060;
+}

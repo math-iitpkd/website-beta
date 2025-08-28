@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Banner Page</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #ffffff;
+      padding: 20px 40px; /* Increased padding for a wider feel */
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .banner {
+      display: flex;
+      align-items: center;
+      max-width: 1400px; /* Wider container */
+      margin: 0 auto;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      height: 60px;
+      width: 60px;
+      object-fit: contain;
+    }
+
+    .divider {
+      height: 45px;
+      width: 1px;
+      background-color: #ccc;
+      margin: 0 20px;
+    }
+
+    .site-name {
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9rem;
+      color: #666;
+      background-color: #eee;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      .banner {
+        justify-content: center;
+        text-align: center;
+      }
+      .divider {
+        display: none;
+      }
+      .site-name {
+        margin-top: 10px;
+        font-size: 1.4rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Banner -->
+  <header>
+    <div class="banner">
+      <img src="https://via.placeholder.com/60" alt="Logo" class="logo" />
+      <div class="divider"></div>
+      <div class="site-name">My Website Name</div>
+    </div>
+  </header>
+
+  <!-- Page Content -->
+  <main>
+    <p>Welcome to the responsive webpage! This layout adjusts smoothly across devices.</p>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 My Website. All rights reserved.
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+.flagship-banner {
+    position: relative;
+    background-color: #6922b5;
+    color: white;
+    text-align: center;
+    padding: 30px 20px 20px;  /* more space at top, less bottom */
+    font-size: 2.2rem;
+    font-weight: bold;
+    font-family: Calibri, sans-serif;
+    z-index: 1;
+  }
+  
+  .seminar-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    padding: 20px;
+    margin-top: -30px; /* slight overlap */
+    position: relative;
+    z-index: 2;
+  }
+  
+  .seminar-box {
+    flex: 1 1 300px;
+    max-width: 360px;
+    padding: 24px;
+    background: rgba(255, 255, 255, 0.15);
+    border-left: 6px solid #7c3aed;
+    border-radius: 16px;
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    color: #1f1f1f;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-family: Calibri, sans-serif;
+  }
+  
+  .seminar-box:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 16px 36px rgba(0, 0, 0, 0.2);
+  }
+  
+  .seminar-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 12px;
+    font-family: Calibri, sans-serif;
+  }
+  
+  .seminar-box:nth-child(1) .seminar-title {
+    color: #b480d6; /* lavender, slightly bolder */
+  }
+  
+  .seminar-box:nth-child(2) .seminar-title {
+    color: #ff8fa3; /* rose pink */
+  }
+  
+  .seminar-box:nth-child(3) .seminar-title {
+    color: #48c9b0; /* bold mint */
+  }
+  
+  .seminar-theme {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+  }
+  

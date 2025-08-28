@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="CSS/edits_meeting.css"/>
+  <link rel="stylesheet" href="CSS/searchbar.css"/>
+  <link rel="stylesheet" href="CSS/welcomebox.css"/>
+  <link rel="stylesheet" href="CSS/semibox.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <title>Mathematics</title>
+</head>
+<body>
+
+  <div class="top-info-bar">
+    <div class="info-container">
+      <div class="info-left">
+        <span class="info-item"><i class="fas fa-envelope"></i> <a href="mailto:office_ma@iitpkd.ac.in ">office_ma@iitpkd.ac.in </a></span>
+        <span class="info-item"><i class="fa fa-phone" style="color: white;"></i> <a href="tel:+911234567890">+91-491-209-1401</a></span>
+      </div>
+      <div class="info-right">
+        <span class="info-item">🌐 <a href="https://www.iitpkd.ac.in" target="_blank">IIT Palakkad</a></span>
+      </div>
+    </div>
+  </div>
+        <!-- Top Banner -->
+        <header>
+          <div class="banner">
+            <img src="images/220px-Indian_Institute_of_Technology_Palakkad.webp" alt="Logo" class="logo" />
+            <div class="divider"></div>
+            <div class="title-group">
+              <div class="main-title">Department of Mathematics</div>
+              <div class="sub-title">Indian Institute of Technology Palakkad</div>
+            </div>
+          </div>
+        </header>
+
+        <button class="hamburger" onclick="toggleMenu()">☰</button>
+
+        <!-- Menu Bar -->
+        <nav class="menu-bar" id="menu">
+          <a href="index_edits.html">Home</a>
+          <div class="dropdown">
+            <button class="dropbtn">Academic</button>
+            <div class="dropdown-content">
+        
+              <div class="submenu">
+                <span>Courses ▸</span>
+                <div class="submenu-content">
+                  <a href="#">Course Catalogue</a>
+                  <a href="#">Current Semester</a>
+                </div>
+              </div>
+        
+              <div class="submenu">
+                <span>Programmes ▸</span>
+                <div class="submenu-content">
+        
+                  <div class="submenu">
+                    <span>Department ▸</span>
+                    <div class="submenu-content">
+                     <a href="#">MSc</a>
+                      <a href="#">MS by Research</a>
+                      <a href="#">PhD</a>
+                    </div>
+                  </div>
+        
+                  <div class="submenu">
+                    <span>Institute ▸</span>
+                    <div class="submenu-content">
+                      <a href="#">B.Tech</a>
+                    </div>
+                  </div>
+        
+                </div>
+              </div>
+        
+            </div>
+          </div>
+        
+          <!-- People Menu -->
+          <div class="dropdown">
+            <button class="dropbtn">People</button>
+            <div class="dropdown-content">
+              <a href="Subpages/faculty.html">Faculty</a>
+              <a href="#">Post-docs</a>
+              <a href="#">PhD Scholars</a>
+              <a href="#">MS Scholars</a>
+              <a href="#">M.Sc. Students</a>
+              <a href="#">Staff</a>
+        
+              <div class="submenu">
+                <span>Past Members ▸</span>
+                <div class="submenu-content">
+                  <a href="#">Alumni</a>
+                  <a href="#">Faculty</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">Research</button>
+            <div class="dropdown-content">
+              <a href="Subpages/research.html">Research Area</a>
+              <a href="#">Projects</a>
+              <a href="#">Awards and Recognitions</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">Activities</button>
+            <div class="dropdown-content">
+              <a href="Subpages/seminar.html">Seminar</a>
+              <a href="#">Summer Training Programme</a>
+              <a href="#">Yukthibhasa Series</a>
+              <a href="#">Symposium</a>
+              <a href="#">Workshops and Conferences</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">Committee</button>
+            <div class="dropdown-content">
+              <a href="Subpages/grievance.html">Department Grievance Cell</a>
+              <a href="Subpages/drc.html">Department Research Committee</a>
+            </div>
+          </div>
+          <a href="Subpages/contact.html">Contact</a>
+        </nav>
+
+     
+    
+        <div style="height: 10px;"></div>
+
+        <div class="news-container">
+          <div class="news-label">Announcements</div>
+          <div class="news-marquee">
+            <marquee behavior="scroll" direction="left" scrollamount="7">
+              Summer Training Programme in Mathematics: Applications are invited. Closing date is on April 30. Selection announcement will be made by May 25.
+            </marquee>
+          </div>
+        </div>
+
+        <div style="height: 20px;"></div>
+
+        <div class="wel-box-wrapper">
+          <div class="wel-box-image">
+            <img src="images/slideshow/saraswathi_main.jpg" alt="Welcome Image">
+          </div>
+          <div class="wel-box-text">
+            <h2>Welcome to Maths@IIT Palakkad</h2>
+            <p style="font-family: Calibri;">Welcome to the Department of Mathematics at IIT Palakkad — shaping ideas, solving problems, building the future.</p>
+          </div>
+        </div>
+
+ 
+<!-- News Marquee Section -->
+
+
+
+<div class="section-wrapper">
+   
+   <!-- Slideshow Box (reuse your slideshow container) -->
+   <div class="slideshow-container" id="slideshow">
+    <div class="slide active">
+      <img src="images/slideshow/image_old_people.jpg" alt="Slide 1" />
+    </div>
+    <div class="slide">
+      <img src="images/slideshow/image_sarath.jpg" alt="Slide 2" />
+    </div>
+    <div class="slide">
+      <img src="images/slideshow/image_topo.jpg" alt="Slide 2" />
+    </div>
+    <div class="slide">
+      <img src="images/slideshow/image_senior.jpg" alt="Slide 2" />
+    </div>
+    <div class="slide">
+      <img src="images/slideshow/SD_1.jpg" alt="Slide 2" />
+    </div>
+    <div class="slide">
+      <img src="images/slideshow/SD_2.jpg" alt="Slide 2" />
+    </div>
+    <div class="slide">
+      <img src="images/slideshow/sarath_mohan_w_21.jpg" alt="Slide 2" />
+    </div>
+  <!-- /* <div class="slide" id="video-slide">
+      <iframe
+        id="ytplayer"
+        src="https://www.youtube.com/embed/BtN-goy9VOY?enablejsapi=1&rel=0"
+        frameborder="0"
+        allow="autoplay; encrypted-media"
+        allowfullscreen>
+      </iframe>
+    </div>  -->
+
+  
+<!-- Dots -->
+<div id="slideDots" class="slide-dots"></div>
+
+    <!-- Arrows and pause button -->
+    <div class="arrow left" onclick="manualPrev()"></div>
+<div class="arrow right" onclick="manualNext()"></div>
+<button id="pauseBtn" class="pause-btn" onclick="toggleSlideshow()">⏸</button>
+  </div>
+
+  
+</div>
+ 
+<div style="height: 60px;"></div>
+
+  <div class="section-inner">
+    <!-- About Department Box -->
+     <div class="about-box">
+        <div class="about-title">About the Department</div>
+           <div class="about-content">
+             <p>
+              The Department of Mathematics at IIT Palakkad is a vibrant hub for research and teaching in pure and applied mathematics. With strengths spanning areas like Algebraic Geometry, Fluid Dynamics, Probability, and more, the department offers PhD (since 2017) and MSc (since 2020) programs with flexible, research-driven curricula. It actively contributes to interdisciplinary M.Tech programs and B.Tech courses, while nurturing talent through initiatives like Math Circles for school students. A growing, diverse faculty and committed research culture position the department for dynamic expansion.
+              </p>
+          </div>
+      </div>
+    </div>
+
+    <div style="height: 60px;"></div>
+
+
+    <div class="flagship-banner">Flagship Events</div>
+
+    <div class="seminar-boxes">
+      <div class="seminar-box">
+        <div class="seminar-title">Summer Training Programme</div>
+        <div class="seminar-theme">Annual training programme conducted for second year undergraduate students for state-or-the-art training in foundational
+          topics.
+        </div>
+      </div>
+      <div class="seminar-box">
+        <div class="seminar-title">Annual Symposium</div>
+        <div class="seminar-theme">Annual meeting of stalwarts and leading mathematicians to converse about leading discoveries in a way that motivates
+          young minds. 
+        </div>
+      </div>
+      <div class="seminar-box">
+        <div class="seminar-title">Yukthibhasa Series</div>
+        <div class="seminar-theme">Honoring Kerala's legacy in mathematics through insightful talks and discussion.</div>
+      </div>
+    </div>
+
+
+
+
+  
+  
+
+        <!-- Page Content -->
+       
+        <div class="footer-ribbon">
+            <div class="footer-section">
+              <ul>
+                <li><a href="#">Main Website</a></li>
+                <li><a href="#">LMS/Moodle</a></li>
+                <li><a href="#">Library</a></li>
+                <li><a href="#">PG Admission</a></li>
+                <li><a href="#">Research Admission</a></li>
+              </ul>
+            </div>
+            <div class="footer-section">
+              <ul>
+                <li><a href="#">Telephone Directory</a></li>
+                <li><a href="#">Join Us</a></li>
+                <li><a href="#">Faculty Recruitment</a></li>
+                <li><a href="#">HPC</a></li>
+                <li><a href="#">How to Reach</a></li>
+              </ul>
+            </div>
+          
+            <div class="footer-section">
+              <ul>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">MathSciNet</a></li>
+                <li><a href="#">MRBS</a></li>
+                <li><a href="#">Academic Calander</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-section footer-map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5164.2107271389905!2d76.72634831168416!3d10.80481548930126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba869e43f0f473f%3A0x1a53e6dc39a95498!2sIndian%20Institute%20Of%20Technology%E2%80%93Palakkad%20(IIT%E2%80%93Palakkad)!5e1!3m2!1sen!2sin!4v1743101284375!5m2!1sen!2sin" 
+              width="600" 
+              height="450" 
+              style="border:0;"
+               allowfullscreen="" 
+               loading="lazy" 
+               referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+
+           
+
+          </div>
+
+        <!-- Footer -->
+        <footer>
+      All rights reserved. &copy; 2025 Department of Mathematics. <br> <br>
+      Last updated: March 25, 2025
+        </footer>
+    
+      </div>
+      <!-- Page Container Ends -->
+    
+      <!-- Toggle Script -->
+
+      <script>
+        // Global variables
+        let isPaused = false;
+        let isVideoSlide = false;
+        let interval = null;
+        let slideSpeed = 3000;
+        let ytPlayer = null;
+        let current = 0;
+        let slides, dots, iframe;
+      
+        // Toggle Play/Pause
+        function toggleSlideshow() {
+          const btn = document.getElementById('pauseBtn');
+          if (isPaused) {
+            isPaused = false;
+            btn.textContent = '⏸';
+            startSlideshow();
+          } else {
+            isPaused = true;
+            btn.textContent = '▶';
+            pauseSlideshow();
+          }
+        }
+      
+        // Start and pause functions
+        function startSlideshow() {
+          clearInterval(interval);
+          interval = setInterval(() => {
+            if (!isVideoSlide && !isPaused) nextSlide();
+          }, slideSpeed);
+        }
+      
+        function pauseSlideshow() {
+          clearInterval(interval);
+        }
+      
+        // Slide logic
+        function nextSlide() {
+          current = (current + 1) % slides.length;
+          showSlide(current);
+        }
+      
+        function showSlide(index) {
+          slides.forEach((slide, i) => {
+            slide.classList.toggle('active', i === index);
+          });
+      
+          const isImageSlide = slides[index].querySelector('img');
+          const reveal = slides[index].querySelector('.grid-reveal');
+      
+          if (isImageSlide && !reveal) {
+            const grid = document.createElement('div');
+            grid.className = 'grid-reveal';
+            for (let i = 0; i < 60; i++) {
+              const sq = document.createElement('span');
+              sq.style.animationDelay = `${Math.random() * 0.5}s`;
+              grid.appendChild(sq);
+            }
+            slides[index].appendChild(grid);
+            setTimeout(() => grid.remove(), 1000);
+          }
+      
+          isVideoSlide = slides[index].contains(iframe);
+          updateDots();
+      
+          if (isVideoSlide && ytPlayer) {
+            ytPlayer.seekTo(0);
+            ytPlayer.playVideo();
+          } else if (ytPlayer) {
+            ytPlayer.pauseVideo();
+          }
+        }
+      
+        function updateDots() {
+          dots.forEach((dot, i) => {
+            dot.classList.toggle('active', i === current);
+          });
+        }
+      
+        // YouTube API ready
+        window.onYouTubeIframeAPIReady = function () {
+          ytPlayer = new YT.Player('ytplayer', {
+            events: {
+              'onStateChange': function (event) {
+                if (event.data === YT.PlayerState.ENDED) {
+                  nextSlide();
+                  if (!isPaused) startSlideshow();
+                } else if (event.data === YT.PlayerState.PLAYING) {
+                  pauseSlideshow();
+                }
+              }
+            }
+          });
+        };
+      
+        // DOM Load
+        document.addEventListener('DOMContentLoaded', () => {
+          slides = document.querySelectorAll('.slide');
+          iframe = document.getElementById('ytplayer');
+          const slideDotsContainer = document.getElementById('slideDots');
+      
+          // Create dots
+          slides.forEach((_, index) => {
+            const dot = document.createElement('span');
+            dot.classList.add('slide-dot');
+            if (index === current) dot.classList.add('active');
+            dot.addEventListener('click', () => {
+              current = index;
+              showSlide(current);
+              pauseSlideshow();
+            });
+            slideDotsContainer.appendChild(dot);
+          });
+      
+          dots = document.querySelectorAll('.slide-dot');
+          showSlide(current);
+          startSlideshow();
+      
+          // Load YouTube API
+          const tag = document.createElement('script');
+          tag.src = 'https://www.youtube.com/iframe_api';
+          document.body.appendChild(tag);
+        });
+      </script>
+      
+
+<script>
+  const aboutBox = document.querySelector('.about-box');
+
+  function revealOnScroll() {
+    const rect = aboutBox.getBoundingClientRect();
+    if (rect.top < window.innerHeight - 100) {
+      aboutBox.classList.add('animate');
+      window.removeEventListener('scroll', revealOnScroll);
+    }
+  }
+
+  window.addEventListener('scroll', revealOnScroll);
+  revealOnScroll(); // trigger if already in view
+</script>
+
+
+
+    </body>
+    </html>
+    

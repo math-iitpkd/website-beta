@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Slideshow Test</title>
+  <style>
+    .slideshow-container {
+      width: 80%;
+      max-width: 800px;
+      margin: 50px auto;
+      position: relative;
+      aspect-ratio: 16 / 9;
+      background-color: #f1f1f1;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+
+    .slide {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transform: translateX(100%) scale(0.8);
+      transition: all 0.8s ease-in-out;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    .slide.active {
+      opacity: 1;
+      transform: translateX(0) scale(1);
+      z-index: 1;
+      pointer-events: auto;
+    }
+
+    .slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .slide-dots {
+      text-align: center;
+      position: absolute;
+      bottom: 15px;
+      width: 100%;
+      z-index: 3;
+    }
+
+    .slide-dot {
+      display: inline-block;
+      height: 12px;
+      width: 12px;
+      margin: 0 6px;
+      background-color: #ccc;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .slide-dot.active {
+      background-color: #a855f7 !important;
+    }
+  </style>
+</head>
+<body>
+  <div class="slideshow-container">
+    <div class="slide active">
+      <img src="https://via.placeholder.com/800x450/8e44ad/ffffff?text=Slide+1" alt="Slide 1" />
+    </div>
+    <div class="slide">
+      <img src="https://via.placeholder.com/800x450/3498db/ffffff?text=Slide+2" alt="Slide 2" />
+    </div>
+    <div class="slide">
+      <img src="https://via.placeholder.com/800x450/e67e22/ffffff?text=Slide+3" alt="Slide 3" />
+    </div>
+
+    <div id="slideDots" class="slide-dots"></div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const slides = document.querySelectorAll('.slide');
+      const slideDotsContainer = document.getElementById('slideDots');
+      const slideSpeed = 3000;
+      let current = 0;
+      let interval = null;
+      let isPaused = false;
+      let dots;
+
+      // Create dots
+      slides.forEach((_, index) => {
+        const dot = document.createElement('span');
+        dot.classList.add('slide-dot');
+        if (index === current) dot.classList.add('active');
+        dot.addEventListener('click', () => {
+          current = index;
+          showSlide(current);
+          pauseSlideshow();
+        });
+        slideDotsContainer.appendChild(dot);
+      });
+
+      dots = document.querySelectorAll('.slide-dot');
+
+      function updateDots() {
+        dots.forEach((dot, i) => {
+          dot.classList.toggle('active', i === current);
+        });
+      }
+
+      function showSlide(index) {
+        slides.forEach((slide, i) => {
+          slide.classList.toggle('active', i === index);
+        });
+        updateDots();
+      }
+
+      function nextSlide() {
+        current = (current + 1) % slides.length;
+        showSlide(current);
+      }
+
+      function startSlideshow() {
+        clearInterval(interval);
+        interval = setInterval(() => {
+          if (!isPaused) nextSlide();
+        }, slideSpeed);
+      }
+
+      function pauseSlideshow() {
+        clearInterval(interval);
+      }
+
+      showSlide(current);
+      startSlideshow();
+    });
+  </script>
+</body>
+</html>

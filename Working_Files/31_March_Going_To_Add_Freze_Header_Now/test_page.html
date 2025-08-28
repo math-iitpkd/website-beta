@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Page with Hamburger Menu</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    header {
+      background-color: #ffffff;
+      padding: 20px 0;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .banner {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+    }
+
+    .logo {
+      height: 80px;
+      width: 80px;
+      object-fit: contain;
+    }
+
+    .divider {
+      height: 50px;
+      width: 1px;
+      background-color: #ccc;
+      margin: 0 20px;
+    }
+
+    .title-group {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .main-title {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    .sub-title {
+      font-size: 1.1rem;
+      color: #666;
+      margin-top: 4px;
+    }
+
+    /* MENU BAR */
+    .menu-bar {
+      background-color: #0066cc;
+      margin-top: 25px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .menu-bar a {
+      color: white;
+      text-decoration: none;
+      padding: 15px 20px;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+      min-width: 120px;
+      text-align: center;
+    }
+
+    .menu-bar a:hover {
+      background-color: #004d99;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      text-decoration: underline;
+    }
+
+    /* HAMBURGER */
+    .hamburger {
+  display: none;
+  background-color: white;
+  border: 1px solid #ccc;
+  font-size: 1.5rem;
+  color: #0066cc;
+  padding: 10px 16px;
+  margin: 20px auto 0 auto; /* centers horizontally */
+  cursor: pointer;
+  border-radius: 6px;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.hamburger:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background-color: #f1f1f1;
+}
+
+    /* Hide menu on small screens initially */
+    @media (max-width: 768px) {
+      .banner {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .divider {
+        display: none;
+      }
+
+      .title-group {
+        margin-top: 10px;
+      }
+
+      .main-title {
+        font-size: 1.5rem;
+      }
+
+      .sub-title {
+        font-size: 1rem;
+      }
+
+      .menu-bar {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .menu-bar a {
+        width: 100%;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+      }
+
+      .hamburger {
+    display: block;
+  }
+
+      .menu-bar.show {
+        display: flex;
+      }
+    }
+
+    main {
+      padding: 20px 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px 0;
+      font-size: 0.9rem;
+      color: #666;
+      background-color: #eee;
+      margin-top: 40px;
+    }
+
+    .news-container {
+  display: flex;
+  align-items: center;
+  background-color: #ffe9c5; /* Adjustable background */
+  border-radius: 6px;
+  overflow: hidden;
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+
+.news-label {
+  background-color: #ff6600; /* Label box color */
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+.news-marquee {
+  flex: 1;
+  padding-left: 15px;
+  font-family: 'Verdana', sans-serif; /* Adjustable font */
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Responsive: Stack News label on top on small screens */
+@media (max-width: 700px) {
+  .news-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .news-label {
+    text-align: center;
+    width: 100%;
+    border-radius: 6px 6px 0 0;
+  }
+
+  .news-marquee {
+    padding: 10px;
+    font-size: 0.95rem;
+  }
+}
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- Header with Logo + Titles -->
+    <header>
+      <div class="banner">
+        <img src="https://via.placeholder.com/80" alt="Logo" class="logo" />
+        <div class="divider"></div>
+        <div class="title-group">
+          <div class="main-title">My Website Name</div>
+          <div class="sub-title">Department of Mathematics</div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hamburger Button -->
+    <button class="hamburger" onclick="toggleMenu()">☰</button>
+
+    <!-- Menu Bar -->
+    <nav class="menu-bar" id="menu">
+      <a href="#">Home</a>
+      <a href="#">Academic</a>
+      <a href="#">People</a>
+      <a href="#">Research</a>
+      <a href="#">Activities</a>
+      <a href="#">Contact</a>
+    </nav>
+
+    <div style="height: 20px;"></div>
+
+<!-- News Marquee Section -->
+<div class="news-container">
+  <div class="news-label">News</div>
+  <div class="news-marquee">
+    <marquee behavior="scroll" direction="left" scrollamount="5">
+      Workshop on Numerical Methods | Department Seminar on April 10 | Applications open for Summer Internship Program | New PhD scholars joining this semester!
+    </marquee>
+  </div>
+</div>
+
+    <!-- Content -->
+    <main>
+      <p>This is a responsive page with a beautiful expanding menu on smaller screens!</p>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      &copy; 2025 My Website. All rights reserved.
+    </footer>
+
+  </div>
+
+  <!-- Toggle Script -->
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById("menu");
+      menu.classList.toggle("show");
+    }
+  </script>
+
+</body>
+</html>

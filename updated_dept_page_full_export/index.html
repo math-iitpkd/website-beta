@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Mathematics</title>
+</head>
+<body>
+  <!-- Top Info Bar -->
+  <div class="top-info-bar gradient-bg">
+    <div class="info-container">
+      <div class="info-left">
+        <span class="info-item">📧 <a href="mailto:office_ma@iitpkd.ac.in">office_ma@iitpkd.ac.in</a></span>
+        <span class="info-item">📞 <a href="tel:+911234567890">+91-491-209-1400</a></span>
+      </div>
+      <div class="info-right">
+        <span class="info-item">🌐 <a href="https://www.iitpkd.ac.in" target="_blank">IIT Palakkad</a></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="animated-header gradient-bg">
+    <div class="banner fade-slide">
+      <img src="images/220px-Indian_Institute_of_Technology_Palakkad.webp" alt="Logo" class="logo" />
+      <div class="divider"></div>
+      <div class="title-group">
+        <div class="main-title">Department of Mathematics</div>
+        <div class="sub-title">Indian Institute of Technology Palakkad</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hamburger -->
+  <button class="hamburger themed" onclick="toggleMenu()">☰</button>
+
+  <!-- Menu Bar -->
+  <nav class="menu-bar gradient-bg" id="menu">
+    <a href="#">Home</a>
+    <!-- Other menu items -->
+  </nav>
+
+  <!-- Welcome Box with Slideshow -->
+  <div class="wel-box-wrapper">
+    <div class="wel-box-image slideshow">
+      <div class="wel-slide active"><img src="images/slideshow/saraswathi_main.jpg" alt="Slide 1"></div>
+      <div class="wel-slide"><img src="images/slideshow/image_old_people.jpg" alt="Slide 2"></div>
+      <div class="wel-slide"><video src="videos/sample.mp4" controls></video></div>
+      <div class="wel-slide"><iframe src="https://www.youtube.com/embed/BtN-goy9VOY?enablejsapi=1" allowfullscreen></iframe></div>
+      <button class="arrow left" onclick="prevWelSlide()"></button>
+      <button class="arrow right" onclick="nextWelSlide()"></button>
+      <div class="wel-dots"></div>
+      <button id="welPause" class="pause-btn" onclick="toggleWelPlay()">⏸</button>
+    </div>
+
+    <div class="wel-box-text">
+      <h2>Welcome to Maths@IIT Palakkad</h2>
+      <p>
+        Yatha shikha mayuranam...<br><br>
+        Like the crowning crest of a peacock... Mathematics is permanently positioned at the helm of all sciences.
+      </p>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script>
+    let currentWelSlide = 0;
+    let welSlides = document.querySelectorAll('.wel-slide');
+    let welInterval;
+    let isWelPaused = false;
+
+    function showWelSlide(index) {
+      welSlides.forEach((slide, i) => {
+        slide.classList.toggle('active', i === index);
+      });
+      updateWelDots();
+    }
+
+    function nextWelSlide() {
+      currentWelSlide = (currentWelSlide + 1) % welSlides.length;
+      showWelSlide(currentWelSlide);
+    }
+
+    function prevWelSlide() {
+      currentWelSlide = (currentWelSlide - 1 + welSlides.length) % welSlides.length;
+      showWelSlide(currentWelSlide);
+    }
+
+    function toggleWelPlay() {
+      const btn = document.getElementById('welPause');
+      isWelPaused = !isWelPaused;
+      btn.textContent = isWelPaused ? '▶' : '⏸';
+      if (isWelPaused) {
+        clearInterval(welInterval);
+      } else {
+        startWelSlideshow();
+      }
+    }
+
+    function updateWelDots() {
+      const dots = document.querySelectorAll('.wel-dot');
+      dots.forEach((dot, i) => {
+        dot.classList.toggle('active', i === currentWelSlide);
+      });
+    }
+
+    function startWelSlideshow() {
+      welInterval = setInterval(() => {
+        if (!isWelPaused) nextWelSlide();
+      }, 5000);
+    }
+
+    function setupWelDots() {
+      const dotContainer = document.querySelector('.wel-dots');
+      welSlides.forEach((_, index) => {
+        const dot = document.createElement('span');
+        dot.className = 'wel-dot';
+        dot.onclick = () => {
+          currentWelSlide = index;
+          showWelSlide(index);
+        };
+        dotContainer.appendChild(dot);
+      });
+      updateWelDots();
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+      welSlides = document.querySelectorAll('.wel-slide');
+      setupWelDots();
+      showWelSlide(currentWelSlide);
+      startWelSlideshow();
+
+      let lastScroll = 0;
+      window.addEventListener('scroll', () => {
+        const currentScroll = window.scrollY;
+        const header = document.querySelector('header');
+        if (currentScroll > lastScroll && currentScroll > 100) {
+          header.style.transform = 'translateY(-20px)';
+          header.style.opacity = '0.8';
+        } else {
+          header.style.transform = 'translateY(0)';
+          header.style.opacity = '1';
+        }
+        lastScroll = currentScroll;
+      });
+    });
+
+    function toggleMenu() {
+      document.getElementById("menu").classList.toggle("show");
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../CSS/style.css"/>
+  <link rel="stylesheet" href="../CSS/typography.css"/>
+  <link rel="stylesheet" href="../CSS/rarea.css"/>
+  <title>DRC</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Top Banner -->
+        <header>
+          <div class="banner">
+            <img src="../images/iit_pkd_mino_log.jpg" alt="Logo" class="logo" />
+            <div class="divider"></div>
+            <div class="title-group">
+              <div class="main-title">Department of Mathematics</div>
+              <div class="sub-title">Indian Institute of Technology Palakkad</div>
+            </div>
+          </div>
+        </header>
+
+        <button class="hamburger" onclick="toggleMenu()">☰</button>
+
+        <!-- Menu Bar -->
+        <nav class="menu-bar" id="menu">
+          <a href="../index.html">Home</a>
+          <div class="dropdown">
+            <button class="dropbtn">Academic</button>
+            <div class="dropdown-content">
+        
+              <div class="submenu">
+                <span>Courses ▸</span>
+                <div class="submenu-content">
+                  <a href="#">Course Catalogue</a>
+                  <a href="#">Current Semester</a>
+                </div>
+              </div>
+        
+              <div class="submenu">
+                <span>Programmes ▸</span>
+                <div class="submenu-content">
+        
+                  <div class="submenu">
+                    <span>Department ▸</span>
+                    <div class="submenu-content">
+                      <a href="#">MSc</a>
+                      <a href="#">MS by Research</a>
+                      <a href="#">PhD</a>
+                    </div>
+                  </div>
+        
+                  <div class="submenu">
+                    <span>Institute ▸</span>
+                    <div class="submenu-content">
+                      <a href="#">B.Tech</a>
+                    </div>
+                  </div>
+        
+                </div>
+              </div>
+        
+            </div>
+          </div>
+        
+          <!-- People Menu -->
+          <div class="dropdown">
+            <button class="dropbtn">People</button>
+            <div class="dropdown-content">
+              <a href="#">Faculty</a>
+              <a href="#">Post-docs</a>
+              <a href="#">PhD Scholars</a>
+              <a href="#">MS Scholars</a>
+              <a href="#">M.Sc. Students</a>
+              <a href="#">Staff</a>
+        
+              <div class="submenu">
+                <span>Past Members ▸</span>
+                <div class="submenu-content">
+                  <a href="#">Alumni</a>
+                  <a href="#">Faculty</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">Research</button>
+            <div class="dropdown-content">
+              <a href="research.html">Research Area</a>
+              <a href="#">Projects</a>
+              <a href="#">Awards and Recognitions</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">Activities</button>
+            <div class="dropdown-content">
+              <a href="seminar.html">Seminar</a>
+              <a href="#">STP 2025</a>
+              <a href="#">Symposium</a>
+              <a href="#">Workshops and Conferences</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">Committee</button>
+            <div class="dropdown-content">
+              <a href="grievance.html">Department Grievance Cell</a>
+              <a href="drc.html">Department Research Committee</a>
+            </div>
+          </div>
+          <a href="contact.html">Contact</a>
+        </nav>
+    
+        <div style="height: 20px;"></div>
+
+
+
+        <main style="margin-top: 40px;">
+          <h1 class="page-heading">Areas of Research</h1>  
+          
+        <p class="running-paragraph">
+            The Department of Mathematics at IIT Palakkad is strongly committed to excellence in research and teaching. 
+            We envisage a period of fast growth leading to a strong and diverse Mathematics community at IIT Palakkad.
+             The expertise of the present members of faculty spread across pure and applied mathematics.
+        </p>
+
+        <div class="faculty-area">
+            <h3>Algebraic Geometry</h3>
+            <div class="faculty-name"><a href="https://iitpkd.ac.in/people/rvarma">Dr. Rohit Verma</a></div>
+          </div>
+          
+          <div class="faculty-area">
+            <h3>Commutative Algebra</h3>
+            <div class="faculty-name"><a href="https://iitpkd.ac.in/people/parangama">Dr Parangama Sarkar</a></div>
+          </div>
+
+          <div class="faculty-area">
+            <h3>Differential Equations</h3>
+            <div class="faculty-name"><a href="https://iitpkd.ac.in/people/lakshmi">A/Prof Lakshmi Shankar</a></div>
+            <div class="faculty-name"><a href="https://iitpkd.ac.in/people/sarath">Dr Sarath Sasi</a></div>
+          </div>
+
+          <div class="faculty-area">
+            <h3>Functional Analysis</h3>
+            <div class="faculty-name"><a href="https://iitpkd.ac.in/people/crjayan">A/Prof C R Jayanarayanan (Head)</a></div>
+            <div class="faculty-name"><a href="https://iitpkd.ac.in/people/srijans">Dr Srijan Sarkar</a></div>
+          </div>
+
+          <div class="faculty-area">
+            <h3>Harmonic Analysis</h3>
+            <div class="faculty-name"><a href="https://iitpkd.ac.in/people/vmuruganandam">Prof Muruganandam V </a></div>
+          </div>
+
+          <div class="faculty-area">
+            <h3>Low-dimensional Topology</h3>
+            <div class="faculty-name"><a href="https://iitpkd.ac.in/people/arpaninto">Dr Arpan Kapiraj </a></div>
+            <div class="faculty-name"><a href="https://iitpkd.ac.in/people/subhankardey">Dr Subhankar Dey </a></div>
+          </div>
+
+          <div class="faculty-area">
+            <h3>Mathematical Statistics, Probability and Information Theory</h3>
+            <div class="faculty-name"><a href="https://iitpkd.ac.in/people/ashokm">A/Prof M Ashok Kumar</a></div>
+          </div>
+
+          <div class="faculty-area">
+            <h3>Numerical Analysis</h3>
+            <div class="faculty-name"><a href="https://iitpkd.ac.in/people/gopikrishnan">Dr Gopikrishnan C R</a></div>
+          </div>
+
+          <div class="faculty-area">
+            <h3>Several Complex Variables</h3>
+            <div class="faculty-name"><a href="https://iitpkd.ac.in/people/gpbalakumar">Dr G P Balakumar</a></div>
+            <div class="faculty-name"><a href="https://iitpkd.ac.in/people/jaikrishnan">Dr Jaikrishnan J</a></div>
+          </div>
+        </main>
+       
+        <div class="footer-ribbon">
+            <div class="footer-section">
+              <ul>
+                <li><a href="#">Main Website</a></li>
+                <li><a href="#">LMS/Moodle</a></li>
+                <li><a href="#">Library</a></li>
+                <li><a href="#">PG Admission</a></li>
+                <li><a href="#">Research Admission</a></li>
+              </ul>
+            </div>
+            <div class="footer-section">
+              <ul>
+                <li><a href="#">Telephone Directory</a></li>
+                <li><a href="#">Join Us</a></li>
+                <li><a href="#">Faculty Recruitment</a></li>
+                <li><a href="#">HPC</a></li>
+                <li><a href="#">How to Reach</a></li>
+              </ul>
+            </div>
+            <div class="footer-section address">
+              <p><strong>Address:</strong><br>
+              Indian Institute of Technology Palakkad<br>
+              Kanjikkode | Palakkad<br>
+              Kerala | Pin: 678623</p>
+            </div>
+          </div>
+
+        <!-- Footer -->
+        <footer>
+      All rights reserved. &copy; 2025 Department of Mathematics. <br> <br>
+      Last updated: March 25, 2025
+        </footer>
+    
+      </div>
+      <!-- Page Container Ends -->
+    
+      <!-- Toggle Script -->
+ 
+    </body>
+    </html>
+    
