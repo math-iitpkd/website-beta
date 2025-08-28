@@ -1,0 +1,306 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f9fc;
+    color: #002f4b;
+  }
+  
+  .course-section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 2rem;
+  }
+  
+  .catalogue-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #114477;
+  }
+  
+  .top-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(6px);
+    box-shadow: 0 8px 20px rgba(162, 196, 230, 0.2);
+    border: 1px solid rgba(162, 196, 230, 0.4);
+  }
+  
+  .program-select-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: bold;
+    color: #003366;
+  }
+  
+  #programSelect {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #eaf3fb;
+    color: #003d66;
+    cursor: pointer;
+  }
+  
+  .search-export {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+  }
+  
+  .search-export input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f8ff;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .search-export input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 122, 204, 0.4);
+  }
+  
+  .search-export button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #8ec3e3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .search-export button:hover {
+    background-color: #6aa8d4;
+  }
+  
+  .course-category {
+    margin-bottom: 2rem;
+  }
+  
+  .course-category h2 {
+    font-size: 1.25rem;
+    color: #003d66;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .course-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .course-list li {
+    background-color: white;
+    margin-bottom: 0.75rem;
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .course-list li:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(0, 122, 204, 0.2);
+  }
+  
+  .course-list input[type="checkbox"] {
+    margin-right: 0.75rem;
+  }
+  
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .modal-content {
+    background: linear-gradient(to bottom right, #f0faff, #d8e9f5);
+    margin: 5% auto;
+    padding: 2rem;
+    border: 1px solid #a2c4e6;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 12px;
+    position: relative;
+    animation: fadeIn 0.4s ease;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+    color: #002f4b;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.5rem;
+    color: #666;
+    cursor: pointer;
+  }
+  
+  .close-btn:hover {
+    color: #222;
+  }
+  
+  .modal-course-content h3 {
+    text-align: center;
+    font-size: 1.4rem;
+    color: #003f66;
+    margin-bottom: 0.5rem;
+  }
+  
+  .modal-course-content p strong {
+    font-weight: 600;
+    color: #003f66;
+  }
+  
+  .modal-course-content .ltpc-line {
+    text-align: center;
+    font-size: 1rem;
+    border-bottom: 1px solid #aacde8;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.2rem;
+  }
+
+.modal-course-content p:first-of-type {
+  font-size: 1rem;
+  padding-top: 5px;
+}
+  
+  .modal-course-content .modal-block {
+    margin-top: 1.25rem;
+    padding-left: 0.5rem;
+    border-left: 3px solid #a2c4e6;
+  }
+  
+  .modal-course-content .modal-block h4 {
+    margin: 0 0 0.5rem;
+    color: #005fa3;
+    font-size: 1.1rem;
+  }
+  
+  .modal-course-content p
+  {
+    margin: 0.25rem 0 0.5rem;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    line-height: 1;
+    color: #002f4b;
+    text-align: justify;
+  }
+
+  .modal-course-content ul {
+    margin: 0.25rem 0 0.5rem;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    line-height: 1;
+    color: #002f4b;
+    text-align: justify;
+  }
+
+  .pdf-container {
+    font-family: 'Georgia', serif;
+    color: #002244;
+  }
+  
+  /* ===== Title Page ===== */
+  .pdf-title-page {
+    text-align: center;
+    padding: 3rem 1rem;
+    page-break-after: always;
+  }
+  
+  .pdf-title-page img {
+    width: 60px;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .pdf-title-page h1 {
+    font-size: 28px;
+    margin-bottom: 0.3rem;
+  }
+  
+  .pdf-title-page h2 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 2rem;
+    color: #555;
+  }
+  
+  /* ===== Per Course Page ===== */
+  .pdf-page {
+    page-break-after: always;
+    break-inside: avoid;
+    padding: 0.5in 0; /* minimal internal spacing */
+    margin: 0 auto;
+  }
+  
+  .pdf-page h3 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0.5rem 0 1rem;
+  }
+  
+  /* LTPC center line */
+  .pdf-page .ltpc-line {
+    text-align: center;
+    font-weight: bold;
+    margin: 0 0 1rem;
+  }
+  
+  /* Paragraphs and list items */
+  .pdf-page p,
+  .pdf-page li {
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: justify;
+    margin: 0.5rem 0;
+  }
+  
+  /* Lists */
+  .pdf-page ul {
+    margin: 0.5rem 0 1rem 1.5rem;
+    padding-left: 0;
+  }
+  
+  /* Tight spacing between label and first bullet list */
+  .pdf-page p + ul {
+    margin-top: 0.2rem !important;
+  }
+  
+  /* Optional: Bold headings inside paragraphs (like "Syllabus:") */
+  .pdf-page p strong {
+    display: inline-block;
+    margin-bottom: 0.2rem;
+  }

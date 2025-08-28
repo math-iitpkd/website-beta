@@ -1,0 +1,110 @@
+/* rain-typography.css */
+/* 🌧️ Modular Typography Styling for Text-Heavy Pages */
+
+.typography-container {
+  max-width: 860px;
+  margin: 60px auto;
+  padding: 0 24px;
+  font-family: 'Segoe UI', Calibri, sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: #2c3e50;
+  animation: fadeIn 0.8s ease;
+}
+
+.typography-container p {
+  margin-bottom: 1.2em;
+  text-align: justify;
+  word-spacing: 0.05em;
+}
+
+.typography-container h1,
+.typography-container h2,
+.typography-container h3 {
+  color: #224477;
+  margin: 2em 0 1em;
+  line-height: 1.4;
+  animation: slideIn 0.5s ease;
+}
+
+.typography-container h1 {
+  font-size: 2rem;
+  border-bottom: 3px solid #cbe1f2;
+  padding-bottom: 8px;
+}
+
+.typography-container h2 {
+  font-size: 1.5rem;
+  border-left: 4px solid #6aa8d6;
+  padding-left: 10px;
+}
+
+.typography-container h3 {
+  font-size: 1.2rem;
+  color: #336699;
+  font-weight: 600;
+}
+
+.typography-container ul,
+.typography-container ol {
+  padding-left: 2em;
+  margin-bottom: 1.5em;
+}
+
+.typography-container li {
+  margin-bottom: 0.6em;
+  padding-left: 0.2em;
+}
+
+.typography-container a {
+  color: #3b7dc4;
+  text-decoration: none;
+  border-bottom: 1px dashed #6aa8d6;
+  transition: color 0.3s ease;
+}
+
+.typography-container a:hover {
+  color: #224477;
+  border-bottom: 1px solid #224477;
+}
+
+/* 🔹 Blockquotes */
+.typography-container blockquote {
+  border-left: 4px solid #6aa8d6;
+  background: #f3f9fc;
+  padding: 15px 20px;
+  font-style: italic;
+  color: #2c3e50;
+  margin: 1.5em 0;
+  position: relative;
+  animation: fadeIn 0.8s ease;
+}
+
+/* 📜 Code or Highlighted Text */
+.typography-container code {
+  background: #f0f8ff;
+  padding: 3px 6px;
+  border-radius: 4px;
+  font-family: 'Courier New', monospace;
+  font-size: 0.95rem;
+  color: #2c3e50;
+}
+
+/* ✨ Animation Keyframes */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(-20px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+/* 📱 Responsive Tweaks */
+@media (max-width: 600px) {
+  .typography-container {
+    padding: 0 16px;
+    font-size: 1rem;
+  }
+}

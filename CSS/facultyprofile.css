@@ -1,0 +1,134 @@
+/* faculty.css */
+
+.profile-card.faculty {
+  background: linear-gradient(to right, rgba(0, 50, 80, 0.7), rgba(20, 70, 100, 0.5));
+  border-left: 6px solid rgba(0, 49, 80, 0.836);
+  color: #eefaff;
+  box-shadow: 0 10px 20px rgba(0, 60, 120, 0.3);
+  backdrop-filter: blur(14px);
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  align-items: stretch;
+  height: 200px;
+  width: 530px; /* Fixed width for consistency */
+  margin: 20px auto; /* centers the card */
+  padding: 0;
+}
+
+.profile-card.faculty .profile-content {
+  display: flex;
+  width: 100%;
+}
+
+.profile-card.faculty .photo-wrapper {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 0;
+  padding-left: 6px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.profile-card.faculty .photo-wrapper img {
+  max-height: 100%;
+  width: auto;
+  object-fit: contain;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-card.faculty .photo-wrapper:hover img {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.profile-card.faculty .profile-details {
+  padding: 20px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile-card.faculty h3 {
+  color: #cceaff;
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.profile-card.faculty p {
+  color: #def1ff;
+  margin: 4px 0;
+  font-size: 0.95em;
+}
+
+.profile-card.faculty .research-link {
+  display: inline-block;
+  color: #89cfff;
+  font-weight: bold;
+  margin-top: 8px;
+  text-decoration: none;
+}
+
+.profile-card.faculty .research-link:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.hidden-card {
+  display: none !important;
+}
+
+/* Responsive: maintain consistent width with horizontal scroll on very small screens */
+@media (max-width: 900px) {
+  .profile-card.faculty {
+    width: 95%;
+    flex-direction: column;
+    height: auto;
+    padding: 16px 12px;
+  }
+
+  .profile-card.faculty .profile-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile-card.faculty .photo-wrapper {
+    width: 100%;
+    max-width: 120px; /* Reduced image size */
+    padding: 8px 0;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .profile-card.faculty .photo-wrapper img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+  }
+
+  .profile-card.faculty .profile-details {
+    padding: 12px 8px;
+    width: 100%;
+  }
+
+  .profile-card.faculty h3 {
+    font-size: 1.1em;
+  }
+
+  .profile-card.faculty p {
+    font-size: 0.9em;
+  }
+
+  .profile-card.faculty .research-link {
+    font-size: 0.9em;
+    margin-top: 6px;
+  }
+}
+
+

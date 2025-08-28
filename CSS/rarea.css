@@ -1,0 +1,50 @@
+.faculty-area {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 4px 10px 8px;
+    margin-bottom: 15px;
+    font-family: Arial, sans-serif;
+  }
+
+  .faculty-area h3 {
+    font-size: 1.2rem;
+    color: #0057a4;
+    margin-bottom: 8px;
+    margin-top: 4px;
+  }
+
+  .faculty-area .faculty-name {
+    display: inline-block;
+    margin-right: 12px;
+    font-size: 1rem;
+    padding-left: 30px;  
+  }
+
+  .faculty-area .faculty-name a {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px dotted #0057a4;
+    transition: all 0.3s ease;
+  }
+
+  .faculty-area .faculty-name a:hover {
+    color: #0057a4;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  }
+
+  @media (max-width: 700px) {
+    .faculty-area {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .faculty-area h3 {
+      font-size: 1.1rem;
+    }
+
+    .faculty-area .faculty-name {
+      margin-right: 0;
+    }
+  }

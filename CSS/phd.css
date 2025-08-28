@@ -1,0 +1,141 @@
+/* phd.css */
+
+.profile-card.phd {
+  background: linear-gradient(to right, rgba(40, 90, 120, 0.7), rgba(60, 150, 190, 0.5));
+  border-left: 6px solid rgba(100, 200, 255, 0.4);
+  color: #f0faff;
+  box-shadow: 0 10px 20px rgba(40, 100, 140, 0.3);
+  backdrop-filter: blur(14px);
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  align-items: stretch;
+  height: 200px;
+  width: 550px; /* Fixed width for consistency */
+  margin: 20px auto;
+  padding: 0;
+}
+
+/* Content layout: image left, text right */
+.profile-card.phd .profile-content {
+  display: flex;
+  width: 100%;
+}
+
+.profile-card.phd .advisor {
+  color: #bde6fa;
+  font-style: italic;
+  margin: 4px 0;
+  font-size: 0.9em;
+}
+
+.profile-card.phd .photo-wrapper {
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 0;
+  padding-left: 6px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.profile-card.phd .photo-wrapper img {
+  max-height: 100%;
+  width: auto;
+  object-fit: contain;
+  border-radius: 10px;
+  border: 2px solid rgba(80, 170, 230, 0.3);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-left: 10px;
+}
+
+.profile-card.phd .photo-wrapper:hover img {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.profile-card.phd .profile-details {
+  padding: 20px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile-card.phd h3 {
+  color: #e0f6ff;
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.profile-card.phd p {
+  color: #d4ecf7;
+  margin: 4px 0;
+  font-size: 0.95em;
+}
+
+.profile-card.phd .research-link {
+  display: inline-block;
+  color: #b3e5ff;
+  font-weight: bold;
+  margin-top: 10px;
+  text-decoration: none;
+  position: relative;
+}
+
+.profile-card.phd .research-link:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* Responsive for mobile and small tablets */
+@media (max-width: 900px) {
+  .profile-card.phd {
+    width: 95%;
+    flex-direction: column;
+    height: auto;
+    padding: 16px 12px;
+  }
+
+  .profile-card.phd .profile-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile-card.phd .photo-wrapper {
+    width: 100%;
+    max-width: 120px; /* Reduced image size */
+    padding: 8px 0;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .profile-card.phd .photo-wrapper img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+  }
+
+  .profile-card.phd .profile-details {
+    padding: 12px 8px;
+    width: 100%;
+  }
+
+  .profile-card.phd h3 {
+    font-size: 1.1em;
+  }
+
+  .profile-card.phd p {
+    font-size: 0.9em;
+  }
+
+  .profile-card.phd .research-link {
+    font-size: 0.9em;
+    margin-top: 6px;
+  }
+}

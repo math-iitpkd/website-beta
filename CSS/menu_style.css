@@ -1,0 +1,188 @@
+.menu-bar {
+  background: #355d84;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .menu-bar a {
+    color: rgb(231, 231, 240);
+    font-family: Calibri;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 1.3rem;
+    transition: all 0.3s ease;
+    min-width: 120px;
+    text-align: center;
+  }
+  
+  .menu-bar a:hover {
+    color: rgb(255, 255, 255);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.377);
+    font-weight: bold;
+  }
+  
+  /* HAMBURGER */
+  .hamburger {
+  display: none;
+  background-color: white;
+  border: 1px solid #ccc;
+  font-size: 1.5rem;
+  color: #25be65;
+  padding: 10px 16px;
+  margin: 20px auto 0 auto; /* centers horizontally */
+  cursor: pointer;
+  border-radius: 6px;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .hamburger:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background-color: #f1f1f1;
+  }
+  
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Button that shows the dropdown */
+  .dropbtn {
+    background: none;
+    border: none;
+    color: rgb(226, 226, 235);
+    padding: 15px 20px;
+    font-size: 1.3rem;
+    font-family: Calibri;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover {
+      color: rgb(255, 255, 255);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.377);
+      font-weight: bold;
+  }
+  
+  /* Main dropdown content */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #8d7733;
+    min-width: 220px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1000;
+    text-align: left;
+  }
+  
+  
+  /* Show dropdown on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+    text-decoration: none;
+  }
+  
+  /* Submenu item styling */
+  .dropdown-content .submenu {
+    position: relative;
+  }
+  
+  .dropdown-content a
+  {
+    display: block;
+    padding: 10px 15px;
+    color: #333;
+    font-size: 1.2rem;
+    font-family: Calibri;
+    background-color: #f9f9f9;
+    text-decoration: none;
+    cursor: pointer;
+    white-space: nowrap;
+    text-decoration: none;
+    text-align: left;
+    left: 0;
+  }
+  
+  .dropdown-content a:hover
+  {
+    color: #0057a4;
+  background-color: #eaeaea;
+  font-weight: bold;
+  text-decoration: none;
+  }
+  
+  .dropdown-content .submenu > span {
+    display: block;
+    padding: 10px 15px;
+    color: #333;
+    font-size: 1.2rem;
+    font-family: Calibri;
+    background-color: #f9f9f9;
+    text-decoration: none;
+    cursor: pointer;
+    white-space: nowrap;
+    text-decoration: none;
+  }
+  
+  .dropdown-content .submenu > span:hover {
+    background-color: #ffe188;
+    text-decoration: none;
+  }
+  
+  /* Sub-submenu content */
+  .submenu-content {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: #f1f1f1;
+    min-width: 200px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    z-index: 1000;
+  }
+  
+  .submenu:hover > .submenu-content {
+    display: block;
+    text-decoration: none;
+  }
+  
+  /* Submenu links */
+  .submenu-content a {
+    font-size: 1.2rem;
+    font-family: Calibri;
+    color: #333;
+    display: block;
+    padding: 10px 15px;
+  }
+  
+  .submenu-content a:hover {
+    color: #0057a4;
+  background-color: #eaeaea;
+  font-weight: bold;
+  text-decoration: none;
+  }
+
+
+@media (max-width: 700px) {
+    .menu-bar {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+      }
+  
+     .menu-bar a {
+        width: 100%;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+      }
+  
+      .hamburger {
+         display: block;
+     }
+  
+     .menu-bar.show {
+        display: flex;
+      }
+  }
+  
+  

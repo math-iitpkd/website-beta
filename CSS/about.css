@@ -1,0 +1,130 @@
+ .section-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .section-inner {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    max-width: 100%;
+    /* ✅ Controls total width of both boxes */
+    width: 100%;
+  }
+  
+  /* About Box */
+  .about-box {
+    width: 80%;
+    max-width: 1000px;
+    /* Optional: cap width if you want */
+    /*margin-left: auto; /* Align right */
+    /*margin-right: 20px;*/
+    margin: 0 auto;
+    flex: 1;
+    min-width: 300px;
+    border-radius: 12px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.25);
+    /* Foggy translucent */
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden;
+    transition: opacity 1s ease, transform 1s ease;
+  
+    /* Initial state (before scroll) */
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  
+  /* When visible on scroll */
+  .about-box.animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Optional subtle hover effect */
+  .about-box:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .about-title {
+    background-color: #6922b5dc;
+    /* Violet sash */
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: Calibri, sans-serif;
+    padding: 16px 24px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  
+    /* Make it stretch fully */
+    width: 100%;
+    box-sizing: border-box;
+  
+    /* Hover animation */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* White vertical line */
+  .about-title::before {
+    content: "";
+    width: 4px;
+    height: 28px;
+    background-color: white;
+    border-radius: 2px;
+  }
+  
+  /* Hover: soft lift */
+  .about-title:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+  }
+  
+  .about-content {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: justify;
+    color: #242222;
+    font-family: Calibri;
+  }
+  
+  @media (max-width: 700px) {
+ .section-wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .about-box,
+    .slideshow-container {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+  
+  

@@ -1,0 +1,89 @@
+.table-wrapper {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.rain-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #f8fbfe;
+  box-shadow: 0 4px 20px rgba(106, 168, 214, 0.15);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table-section-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #336699;
+  font-family: 'Segoe UI', Calibri, sans-serif;
+  margin-bottom: 30px;
+}
+
+.rain-table th,
+.rain-table td {
+  padding: 14px 20px;
+  text-align: left;
+  border-bottom: 1px solid #d4e6f5;
+  color: #224466;
+}
+
+.rain-table thead {
+  background-color: #e1effa;
+}
+
+.rain-table th {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.rain-table tbody tr:hover {
+  background-color: #f0f8ff;
+}
+
+/* 🌧️ Mobile View: Transform rows to cards */
+@media (max-width: 700px) {
+  .rain-table,
+  .rain-table thead,
+  .rain-table tbody,
+  .rain-table th,
+  .rain-table td,
+  .rain-table tr {
+    display: block;
+  }
+
+  .rain-table thead {
+    display: none;
+  }
+
+  .rain-table tbody tr {
+    background: #f8fbfe;
+    margin-bottom: 16px;
+    border: 1px solid #cbe1f2;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(106, 168, 214, 0.1);
+    padding: 14px;
+  }
+
+  .rain-table td {
+    position: relative;
+    padding-left: 50%;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid #e6eef5;
+  }
+
+  .rain-table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 20px;
+    top: 12px;
+    font-weight: bold;
+    color: #336699;
+  }
+
+  .rain-table td:last-child {
+    border-bottom: none;
+  }
+}

@@ -1,0 +1,140 @@
+/* ms.css */
+
+.profile-card.ms {
+  background: linear-gradient(to right, rgba(60, 100, 120, 0.65), rgba(150, 180, 200, 0.4));
+  border-left: 6px solid rgba(180, 200, 230, 0.6);
+  color: #f0faff;
+  box-shadow: 0 10px 20px rgba(60, 110, 140, 0.3);
+  backdrop-filter: blur(14px);
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  align-items: stretch;
+  height: 200px;
+  width: 550px;
+  margin: 20px auto;
+  padding: 0;
+}
+
+/* Inner layout: image left, text right */
+.profile-card.ms .profile-content {
+  display: flex;
+  width: 100%;
+}
+
+.profile-card.ms .photo-wrapper {
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 0;
+  padding-left: 6px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.profile-card.ms .photo-wrapper img {
+  max-height: 100%;
+  width: auto;
+  object-fit: contain;
+  border-radius: 10px;
+  border: 2px solid rgba(180, 200, 230, 0.3);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-card.ms .photo-wrapper:hover img {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.profile-card.ms .profile-details {
+  padding: 20px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile-card.ms h3 {
+  color: #e4f6ff;
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.profile-card.ms p {
+  color: #d9ecf7;
+  margin: 4px 0;
+  font-size: 0.95em;
+}
+
+.profile-card.ms .advisor {
+  color: #bcdff5;
+  font-style: italic;
+  font-size: 0.9em;
+  margin: 4px 0;
+}
+
+.profile-card.ms .research-link {
+  display: inline-block;
+  color: #d0eaff;
+  font-weight: bold;
+  margin-top: 10px;
+  text-decoration: none;
+  position: relative;
+}
+
+.profile-card.ms .research-link:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* Responsive styles */
+@media (max-width: 900px) {
+  .profile-card.ms {
+    width: 95%;
+    flex-direction: column;
+    height: auto;
+    padding: 16px 12px;
+  }
+
+  .profile-card.ms .profile-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile-card.ms .photo-wrapper {
+    width: 100%;
+    max-width: 120px;
+    padding: 8px 0;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .profile-card.ms .photo-wrapper img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+  }
+
+  .profile-card.ms .profile-details {
+    padding: 12px 8px;
+    width: 100%;
+  }
+
+  .profile-card.ms h3 {
+    font-size: 1.1em;
+  }
+
+  .profile-card.ms p {
+    font-size: 0.9em;
+  }
+
+  .profile-card.ms .research-link {
+    font-size: 0.9em;
+    margin-top: 6px;
+  }
+}

@@ -1,0 +1,251 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e3e7eb;
+  color: #2e2e2e;
+}
+
+.container {
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container-sub {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background-color: #3c4a60;
+  padding: 20px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.logo {
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+}
+
+.divider {
+  height: 200px;
+  width: 3px;
+  background-color: #ccc;
+  margin: 0 20px;
+}
+
+.title-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: white;
+  font-family: Calibri;
+}
+
+.sub-title {
+  font-size: 1.2rem;
+  color: #90b4b1;
+  font-weight: bold;
+  margin-top: 20px;
+  font-family: Calibri;
+}
+
+.menu-bar {
+  background-color: #3c4a60;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.menu-bar a {
+  color: #e6ecf1;
+  font-family: Calibri;
+  text-decoration: none;
+  padding: 15px 20px;
+  font-size: 1.3rem;
+  transition: all 0.3s ease;
+  min-width: 120px;
+  text-align: center;
+}
+
+.menu-bar a:hover {
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.377);
+  font-weight: bold;
+}
+
+.hamburger {
+  display: none;
+  background-color: white;
+  border: 1px solid #ccc;
+  font-size: 1.5rem;
+  color: #25be65;
+  padding: 10px 16px;
+  margin: 20px auto 0 auto;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.hamburger:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background-color: #f1f1f1;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background: none;
+  border: none;
+  color: #e6ecf1;
+  padding: 15px 20px;
+  font-size: 1.3rem;
+  font-family: Calibri;
+  cursor: pointer;
+}
+
+.dropbtn:hover {
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.377);
+  font-weight: bold;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #dde3e7;
+  min-width: 220px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1000;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  text-decoration: none;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 10px 15px;
+  color: #2e2e2e;
+  font-size: 1.2rem;
+  font-family: Calibri;
+  background-color: #f9f9f9;
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  color: #2e2e2e;
+  background-color: #d3dee7;
+  font-weight: bold;
+}
+
+.dropdown-content .submenu > span {
+  display: block;
+  padding: 10px 15px;
+  color: #2e2e2e;
+  font-size: 1.2rem;
+  font-family: Calibri;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.dropdown-content .submenu > span:hover {
+  background-color: #dde3e7;
+}
+
+.submenu-content {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background-color: #dde3e7;
+  min-width: 200px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+.submenu:hover > .submenu-content {
+  display: block;
+}
+
+.submenu-content a {
+  font-size: 1.2rem;
+  font-family: Calibri;
+  color: #2e2e2e;
+  display: block;
+  padding: 10px 15px;
+}
+
+.submenu-content a:hover {
+  color: #2e2e2e;
+  background-color: #d3dee7;
+  font-weight: bold;
+}
+
+.news-label {
+  background-color: #4d5b6c;
+  color: white;
+}
+
+.news-label::after {
+  border-left: 15px solid #4d5b6c;
+}
+
+.about-title {
+  background-color: #3c4a60;
+}
+
+.about-content {
+  color: #2e2e2e;
+}
+
+.slide-dot.active {
+  background-color: #6f96a6 !important;
+}
+
+.top-info-bar {
+  background: #3c4a60;
+  color: #f0f3f7;
+}
+
+.footer-ribbon {
+  background: rgba(240, 245, 248, 0.5);
+  backdrop-filter: blur(10px);
+  color: #2e2e2e;
+}
+
+.footer-section a {
+  color: #3c4a60;
+}
+
+.footer-section a:hover {
+  color: #6f96a6;
+}
