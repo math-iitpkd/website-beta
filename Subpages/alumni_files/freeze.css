@@ -1,0 +1,29 @@
+.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: all 0.4s ease-in-out;
+    background: white;
+  }
+  
+  .top-info-bar,
+  header,
+  .banner .logo {
+    transition: all 0.4s ease-in-out;
+  }
+  
+  body.scrolled .top-info-bar {
+    height: 0 !important;
+    opacity: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+  }
+  
+  body.scrolled header {
+    padding: 8px 0 !important;
+    transform: scaleY(0.94);
+  }
+  
+  body.scrolled .banner .logo {
+    max-height: 40px;
+  }

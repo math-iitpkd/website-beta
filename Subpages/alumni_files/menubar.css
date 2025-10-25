@@ -1,0 +1,238 @@
+/* MENU BAR */
+.menu-bar {
+    background: linear-gradient(to bottom, #ffffff, #f4f7fa);
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: 0 6px 18px rgba(106, 168, 214, 0.3);
+    border-bottom: 1px solid #dce6f1;
+    z-index: 99;
+}
+
+.menu-bar a {
+    color: #336699;
+    font-family: 'Kohinoor-Book';
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 1.3rem;
+    transition: all 0.3s ease;
+    min-width: 120px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.menu-bar a:hover {
+    color: #224466;
+    background-color: #e9f1f9;
+    font-weight: 600;
+    box-shadow: 0 2px 6px rgba(106, 168, 214, 0.2);
+}
+
+/* HAMBURGER */
+.hamburger {
+    display: none;
+    background-color: #ffffff;
+    border: 1px solid #cbd8e3;
+    font-size: 1.5rem;
+    color: #336699;
+    padding: 10px 16px;
+    margin: 20px auto 0 auto;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.hamburger:hover {
+    box-shadow: 0 4px 12px rgba(106, 168, 214, 0.2);
+    background-color: #f4f7fa;
+}
+
+/* DROPDOWN BASE STYLES */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background: none;
+    border: none;
+    color: #336699;
+    padding: 15px 20px;
+    font-size: 1.3rem;
+    font-family: 'Kohinoor-Book';
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.dropbtn:hover {
+    color: #224466;
+    background-color: #e9f1f9;
+    font-weight: bold;
+}
+
+/* MAIN DROPDOWN CONTENT */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ffffff;
+    min-width: 220px;
+    box-shadow: 0px 8px 16px rgba(106, 168, 214, 0.2);
+    z-index: 1000;
+    text-align: left;
+    border: 1px solid #dce6f1;
+}
+
+/* SHOW ON HOVER */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* DROPDOWN LINKS */
+.dropdown-content a {
+    display: block;
+    padding: 10px 15px;
+    color: #334f67;
+    font-family: 'Kohinoor-Book';
+    font-size: 1.2rem;
+    background-color: #f9fbfd;
+    text-decoration: none;
+    cursor: pointer;
+    white-space: nowrap;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    color: #224466;
+    background-color: #e4eef7;
+    font-weight: bold;
+}
+
+/* SUBMENU */
+.dropdown-content .submenu {
+    position: relative;
+}
+
+.dropdown-content .submenu > span {
+    display: block;
+    padding: 10px 15px;
+    color: #334f67;
+    font-family: 'Kohinoor-Book';
+    font-size: 1.2rem;
+    background-color: #f9fbfd;
+    cursor: pointer;
+    text-align: left;
+}
+
+.dropdown-content .submenu > span:hover {
+    background-color: #e4eef7;
+}
+
+/* SUB-SUBMENU */
+.submenu-content {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: #ffffff;
+    min-width: 200px;
+    box-shadow: 0 8px 16px rgba(106, 168, 214, 0.1);
+    border: 1px solid #dce6f1;
+    z-index: 1000;
+}
+
+.submenu:hover > .submenu-content {
+    display: block;
+}
+
+.submenu-content a {
+    font-size: 1.2rem;
+    color: #334f67;
+    display: block;
+    padding: 10px 15px;
+    background-color: #f9fbfd;
+    text-align: left;
+}
+
+.submenu-content a:hover {
+    color: #224466;
+    background-color: #e4eef7;
+    font-weight: bold;
+}
+
+/* MOBILE VIEW STYLING */
+@media (max-width: 700px) {
+    .menu-bar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: linear-gradient(to bottom, #ffffff, #e8f2f9);
+        box-shadow: 0 4px 12px rgba(106, 168, 214, 0.2);
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.4s ease-in-out;
+    }
+
+    .menu-bar.show {
+        max-height: 1000px;
+    }
+
+    .menu-bar a {
+        width: 100%;
+        border-top: 1px solid rgba(150, 200, 240, 0.3);
+    }
+
+    .hamburger {
+        display: block;
+        font-size: 1.7rem;
+        padding: 10px 16px;
+        background-color: #f7fafe;
+        color: #336699;
+        border: 1px solid #d6e6f3;
+        border-radius: 8px;
+        margin-top: 12px;
+        box-shadow: 0 2px 6px rgba(106, 168, 214, 0.2);
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .hamburger:hover {
+        background-color: #e2edf5;
+        box-shadow: 0 4px 12px rgba(106, 168, 214, 0.3);
+    }
+
+    .dropdown-content,
+    .submenu-content {
+        position: static;
+        box-shadow: none;
+        min-width: 100%;
+        border: none;
+    }
+
+    .submenu-content {
+        display: none;
+        padding-left: 16px;
+        background-color: #f5f9fc;
+    }
+
+    .submenu:hover > .submenu-content {
+        display: block;
+    }
+
+    .submenu > span::after {
+        content: ' ▼';
+        font-size: 0.8rem;
+        color: #888;
+        margin-left: 6px;
+    }
+}
+
+@media (min-width: 701px) {
+    .submenu > span::after {
+        content: ' ▶';
+        font-size: 0.8rem;
+        color: #666;
+        margin-left: 6px;
+    }
+}
