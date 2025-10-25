@@ -1,0 +1,95 @@
+{
+  "code": "MA6012",
+  "title": "Harmonic analysis on Compact Lie groups",
+  "ltpc": "3-0-0-3",
+  "category": "Elective",
+  "program": "MSc",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "3",
+      "details": "Double cover of SO(n)."
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "2",
+      "details": "Computation of Haar measure on some simple matrix groups."
+    },
+    {
+      "unit": "Module 3",
+      "lectures": "2",
+      "details": "Recalling Peter-Weyl Theory for compact groups."
+    },
+    {
+      "unit": "Module 4",
+      "lectures": "3",
+      "details": "Computation of unitary dual of SU(2) and SO(3)."
+    },
+    {
+      "unit": "Module 5",
+      "lectures": "6",
+      "details": "Laplace operator on SU(2)."
+    },
+    {
+      "unit": "Module 6",
+      "lectures": "10",
+      "details": "Heat equation on SU(2) and SO(2)."
+    },
+    {
+      "unit": "Module 7",
+      "lectures": "4",
+      "details": "Spherical harmonics."
+    },
+    {
+      "unit": "Module 8",
+      "lectures": "3",
+      "details": "Dirichlet problem and Poisson kernel."
+    },
+    {
+      "unit": "Module 9",
+      "lectures": "3",
+      "details": "Radial part of the Laplace operator"
+    },
+    {
+      "unit": "Module 10",
+      "lectures": "3",
+      "details": "Heat equation and orbital integrals"
+    },
+    {
+      "unit": "Module 11",
+      "lectures": "3",
+      "details": "Analysis on space of symmetric and hermitian matrices"
+    },
+    {
+      "unit": "Module 12",
+      "lectures": "3",
+      "details": "Highest Weight theorem"
+    },
+    {
+      "unit": "Module 13",
+      "lectures": "3",
+      "details": "Weyl integration and character formula"
+    },
+    {
+      "unit": "Module 14",
+      "lectures": "3",
+      "details": "Holomorphic representations"
+    },
+    {
+      "unit": "Module 15",
+      "lectures": "3",
+      "details": "Unitary dual of U(n)"
+    }
+  ],
+  "textbooks": [
+    "J. Faraut:Analysis on Lie groups Cambridge studies in advanced Mathematics 110.2008-ISBN-13:978-0-521-71930-8"
+  ],
+  "references": [
+    "L. Clerc, Les repr ́esentatios des groupes compacts, Analyse harmonique (J.L.Clercet al., ed.), C.I.M.P.A., 1982",
+    "Knapp.A, Lie groups beyond introduction, 140, Birkauser, 2002, ISBN-13: 978-1-4757-2453-0",
+    "M.R. Sepanski, Compact lie groups, Springer, 2007, ISBN-13: 978-0-387-30263-8",
+    "B. Simon, Representations of finite and compact Lie groups, American Mathematical Society, 1996, ISBN-13: 978-0-8218-0453-7",
+    "Zelobenko.D, Compact lie groups & their representations, ams series ed., 10, Springer,1973, ISBN-13: 0-8218-1590-3"
+  ]
+}
+

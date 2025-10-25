@@ -1,0 +1,29 @@
+{
+  "code": "MA6003",
+  "title": "Introduction to Algebraic Geometry",
+  "ltpc": "3-0-0-3",
+  "category": "Elective",
+  "program": "MSc",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "14",
+      "details": "Polynomial rings over fields, Hilbert basis theorem, Maximal ideals in polynomial rings over algebraically closed fields and Hilbert’s Nullstellensatz, affine algebraic sets, affine algebraic varieties, projective varieties."
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "14",
+      "details": "Sheaves, locally ringed spaces, schemes,morphisms of schemes."
+     }
+  ],
+  "textbooks": [
+    "Robin Hartshorne, Algebraic Geometry, Graduate Texts in Mathematics : 52, Springer,ISBN 978-1-4419-2807-8, ISBN 978-1-4757-3849-0 (eBook)",
+    "Joe Harris, Algebraic Geometry : a first course, Graduate texts in Mathematics : 133,Springer, ISBN 978-1-4419-3099-6, ISBN 978-1-4757-2189-8(eBook)"
+   ],
+  "references": [
+    "Qing Liu, Algebraic Geometry and Arithmetic curves, OUP Oxford, 2006, ISBN 0-19-850284-2,ISBN 978-0-19-850284-5",
+    "Kenji Ueno, An introduction to algebraic geometry, American Mathematical Society, ISBN 0-8218-0589-4, ISBN 978-0-8218-1144-3",
+    "David Mumford, The Red Book of Varieties and Schemes, Lecture Notes in Mathematics 1358, Springer-Verlag, ISBN 978-3-540-50497-9, ISBN 978-3-662-21581-4 (eBook)"
+  ]
+}
+

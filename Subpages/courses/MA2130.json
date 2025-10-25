@@ -1,0 +1,50 @@
+{
+  "code": "MA2130",
+  "title": "Graph Theory",
+  "ltpc": "3-0-0-3",
+  "category": "Elective",
+  "program": "BTech",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "",
+      "details": "Basics: Graphs, subgraphs, isomorphism, representation of graphs, degrees and graphical sequences, walks, trails, paths, cycles, connectivity, bipartite graphs."
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "",
+      "details": "Trees and connectivity: Characterizations of trees, minimum-spanning-trees, number of trees, Cayley's formula, shortest path algorithms, cut-sets, characterization of blocks."
+    },
+    {
+      "unit": "Module 3",
+      "lectures": "",
+      "details": "Eulerian and Hamiltonian graphs: Characterizations, necessary/sufficient conditions."
+    },
+    {
+      "unit": "Module 4",
+      "lectures": "",
+      "details": "Coverings and independent sets: Basic relations, matchings in bipartite graphs, Tutte's Perfect Matching Theorem and consequences."
+    },
+    {
+      "unit": "Module 5",
+      "lectures": "",
+      "details": "Colorings: Edge-colorings of bipartite graphs, Gupta-Vizing's Theorem, greedy algorithm for vertex-colorings, Brooks' Theorem, clique-number and vertex chromatic number."
+    },
+    {
+      "unit": "Module 6",
+      "lectures": "",
+      "details": "Planar graphs: Euler's formula and its consequences, Kuratowski's characterization."
+    },
+    {
+      "unit": "Module 7",
+      "lectures": "",
+      "details": "Directed graphs: Basics, various connectivities and tournaments."
+    }
+  ],
+  "textbooks": [
+    "J.A. Bondy and U.S.R. Murthy, Graph Theory with Applications, Macmillan, 1976"
+  ],
+  "references": [
+    "D.B. West, Introduction to Graph Theory, PHI, 1999"
+  ]
+}

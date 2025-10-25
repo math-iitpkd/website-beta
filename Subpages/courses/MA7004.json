@@ -1,0 +1,51 @@
+{
+  "code": "MA7004",
+  "title": "Complex Analysis",
+  "ltpc": "3-0-0-3",
+  "category": "Elective",
+  "program": "PhD",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "6",
+      "details": "Various equivalent definitions of holomorphic functions of one complex variable. Cauchy-Riemann equations and Laplace equation. Harmonic conjugates of holomorphic functions. Dirichlet problem on discs and Poisson integral representation of harmonic functions."
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "6",
+      "details": "Cauchy integral theorem for simply connected domains. Cauchy’s integral formula. Taylor series expandability of holomorphic and harmonic functions. Liouville’s theorem and Fundamental theorem of Algebra."
+    },
+    {
+      "unit": "Module 3",
+      "lectures": "5",
+      "details": "Local properties of holomorphic functions: inverse function theorem, open mapping theorem, maximum modulus principle, the principle of analytic continuation. Convergence properties of sequences of holomorphic functions; deduce Morera’s theorem as a corollary."
+     },
+     {
+       "unit": "Module 4",
+       "lectures": "5",
+      "details": "Laurent series expansions of holomorphic functions on Annulii, Laurent series and the classification of isolated singularities. The connection between Laurent series expansion and Fourier series expansions of functions on the circle-group. Argument principle and application to deducing Hurwitz’s theorem. Residue theorem and its applications."
+     },
+     {
+       "unit": "Module 5",
+      "lectures": "9",
+      "details": "Normal families. Schwarz’s lemma. Riemann mapping theorem. Conformal Mappings. Mobius transformations as conformal self-maps of the Riemann sphere. Analytic Continuation and the Monodromy theorem."
+     },
+     {
+       "unit": "Module 6",
+      "lectures": "7",
+      "details": "Runge’s theorem and various equivalent characterizations of simply connected domains in the plane.Inhomogeneous Cauchy-Riemann equations and the Mittag-Leffler theorem."
+      }
+  ],
+  "textbooks": [
+    "Walter Rudin,Real and Complex Analysis,Tata McGraw-Hill Education,(2006 Indian reprint), ISBN: 0070619875, 9780070619876.",
+    "Serge Lang,Complex Analysis,Springer,ISBN: 1475730837, 9781475730838.",
+    "J. Bruna,J. Cufi,Complex Analysis, Hindustan Book Agency,ISBN: 978-93-80250-73-1."
+  ],
+  "references": [
+    "Elias M. Stein, Rami Shakarchi,Complex Analysis, Volume 2 of Priceton lectures in analysis,Priceton University Press,ISBN: 1400831156, 9781400831159.",
+    "J. B. Conway,Functions of one Complex variable,Springer,ISBN: 1461599725, 9781461599722.",
+    "Gamelin T.,Complex Analysis,Springer,ISBN: 0387216073, 9780387216072."
+  ]
+}
+
+

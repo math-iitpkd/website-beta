@@ -1,0 +1,38 @@
+{
+  "code": "MA5501",
+  "title": "Information Theory and Statistics",
+  "ltpc": "3-0-0-3",
+  "category": "Elective",
+  "program": "MSc",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "10",
+      "details": "Source Coding, Hypothesis Testing and Information Measures:Typical sequences, assymptotic equipartition property, and source coding theorem. Connection between source coding theorem and a simple hypothesis testing problem. Definitions and interpretations of entropy, mutual information, inequalities on information and divergence measures."
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "6",
+      "details": "Non-Block Coding and the Noiseless Coding Theorem: Kraft-McMillan inequality, uniquely decodable codes, and Shannon’s noiseless coding theorem."
+    },
+    {
+      "unit": "Module 3",
+      "lectures": "12",
+      "details": "Method of Types, Composite Hypothesis Testing and Large Deviations:Properties of types, Sanov’s theorem, composite hypothesis tests, Stien’s lemma, likelihood ratio tests and error exponents."
+    },
+    {
+      "unit": "Module 4",
+      "lectures": "14",
+      "details": "Information Projection, Maximum Likelihood and the Geometry of Statistical Models: Minimization problems conerning information divergence, maximum likelihood estimation,exponential and linear families of probability distributions and the geometry associated with them. Cramer-Rao bound, Fisher information. Application to regression problems."
+    }
+  ],
+  "textbooks": [
+    "I. Csiszar and J. Korner, Information Theory: Coding Theorems for Discrete Memoryless Systems, Cambridge University Press, ISBN 978-1-107-56504-3",
+    "I. Csiszar and P. C. Shields, Information Theory and Statistics: A Tutorial, NOW Publishers,ISBN-13: 978-1933019055"
+  ],
+  "references": [
+    "Thomas M. Cover, Joy A. Thomas, Elements of Information Theory, John Wiley & Sons, ISBN-13:978-0471241959",
+    "S. Kullback, Information Theory and Statistics, Dover Publications"
+  ]
+}
+

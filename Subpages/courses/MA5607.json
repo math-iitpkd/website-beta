@@ -1,0 +1,87 @@
+{
+  "code": "MA5607",
+  "title": "Fourier Analysis",
+  "ltpc": "3-0-0-3",
+  "category": "Elective",
+  "program": "MSc",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "3",
+      "details": "Fourier transform of functions over T, the unit disk.Fourier series."
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "3",
+      "details": "The classical kernels. Fejer’s, Poisson’s and Dirichlet’s summability kernels."
+    },
+    {
+      "unit": "Module 3",
+      "lectures": "3",
+      "details": "The convergence of Fourier series in norm and point wise."
+    },
+    {
+      "unit": "Module 4",
+      "lectures": "2",
+      "details": "Fourier series of square summable functions."
+    },
+    {
+      "unit": "Module 5",
+      "lectures": "3",
+      "details": "Fourier transform of functions on R and their properties."
+    },
+    {
+      "unit": "Module 6",
+      "lectures": "3",
+      "details": "Space of rapidly decreasing functions & their properties."
+    },
+    {
+      "unit": "Module 7",
+      "lectures": "4",
+      "details": "Convolutions - The Banach algebra L1(R)."
+    },
+    {
+      "unit": "Module 8",
+      "lectures": "3",
+      "details": "Approximate identities. - The classical kernels."
+    },
+    {
+      "unit": "Module 9",
+      "lectures": "4",
+      "details": "Fourier Inversion and Plancherel theorem."
+    },
+    {
+      "unit": "Module 10",
+      "lectures": "3",
+      "details": "Fourier analysis on Lp spaces."
+    },
+    {
+      "unit": "Module 11",
+      "lectures": "4",
+      "details": "Paley-Wiener Theorems."
+    },
+    {
+      "unit": "Module 12",
+      "lectures": "4",
+      "details": "Poisson summation formula, Heisenberg uncertainty Principle,Wiener’s Tauberian theorem."
+    },
+    {
+      "unit": "Module 13",
+      "lectures": "3",
+      "details": "Kronecker’s theorem, isoperimetric inequality as applications."
+    }
+  ],
+  "textbooks": [
+    "Y. Katznelson, An introduction to harmonic analysis. Dover Publications, Inc., NewYork,1976. ISBN-10 : 0521543592, ISBN -13 : 978-0521543590",
+    "H. Helson, Harmonic analysis 2nd Edition. Trim Series, Hindustan Book Agency,1995. ISBN 978-9380250052",
+    "Stein and Shakarchi, Fourier Analysis- An introduction Princeton Lectures in Analysis. ISBN-10 : 069111384X, ISBN-13 : 978-0691113845"
+  ],
+  "references": [
+    "H. Dym and H. P. McKean, Fourier series and integrals, Probability and Mathematical Statistics, No. 14, Academic Press, New York-London, 1972, ISBN-10:0122264517,ISBN-13: 970122264511",
+    "G. Folland, A course in abstarct harmonic analysis, CRC Press, 1994, ISBN-10:1498727131, ISBN-13: 978-1498727136",
+    "L.H. Loomis, An introduction to abstract harmonic analysis, Van Nostrand, New York,1953, ISBN-10: 1296027775, ISBN-13: 9781296027773",
+    "W. Rudin, Real and complex analysis, 2nd ed., TMH Edition, 1962, ISBN-10:0070619875, ISBN-13: 978-0070619876",
+    "Stein & Weiss, An introduction to fourier analysis on euclidean spaces, Princeton Mathematical Series -32, 1971, ISBN-13: 9780691080789"
+  ]
+}
+

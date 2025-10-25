@@ -1,0 +1,67 @@
+{
+  "code": "MA5602",
+  "title": "Algebraic Topology",
+  "ltpc": "3-0-0-3",
+  "category": "Elective",
+  "program": "MSc",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "4",
+      "details": "Homotopic maps, Homotopy equivalence and Homotopy type, Paths and Homotopy, Fundamental Group of the Circle, Induced Homomorphisms."
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "4",
+      "details": "Free Products of Groups, Seifert–van Kampen theorem."
+    },
+    {
+      "unit": "Module 3",
+      "lectures": "6",
+      "details": "Covering spaces and Lifting Properties, Classification of Covering Spaces, Deck Transformations and Group Actions."
+    },
+    {
+      "unit": "Module 4",
+      "lectures": "4",
+      "details": "Simplices, Simplicial Complexes and Simplicial Maps, Abstract Simplicial Complexes, Simplicial Homology."
+    },
+    {
+      "unit": "Module 5",
+      "lectures": "6",
+      "details": "Singular Homology, Homotopy Invariance of Homology, Exact Sequences and Excision, Relative Homology Groups."
+    },
+    {
+      "unit": "Module 6",
+      "lectures": "6",
+      "details": "Mayer-Vietoris Sequences, Homology with Coefficients, Axioms for Homology."
+    },
+    {
+      "unit": "Module 7",
+      "lectures": "4",
+      "details": "Cohomology Groups, Universal Coefficient Theorem, Cohomology of Spaces."
+    },
+    {
+      "unit": "Module 8",
+      "lectures": "4",
+      "details": "Cup Product, Cohomology Ring, Kunneth Formula."
+    },
+    {
+      "unit": "Module 9",
+      "lectures": "4",
+      "details": "Poincare Duality, Orientations and Homology."
+    }
+  ],
+  "textbooks": [
+    "James R. Munkres, Elements of Algebraic Topology, CRC Press, 2018. ISBN:9780429962462, 0429962460",
+    "Allen Hatcher, Algebraic Topology, Cambridge University Press, 2002. ISBN:9780521795401, 0521795400",
+    "William Fulton, Algebraic Topology: a First Course, Springer New York, 2013. ISBN: 9781461241805, 1461241804"
+  ],
+  "references": [
+    "Tammo tom Dieck, Algebraic Topology, European Mathematical Society, 2008. ISBN: 9783037190487, 3037190485",
+    "William S. Massey, Algebraic Topology, an Introduction, Springer-Verlag. ISBN: 9780387902715, 0387902716",
+    "Samuel Eilenberg, Norman Steenrod, Foundations of Algebraic Topology, Princeton University Press. ISBN: 9781400877492, 1400877490",
+    "John Harper, Marvin Greenberg, Algebraic Topology: a First Course, CRC Press. ISBN: 9780429970955, 0429970951",
+    "John M. Lee, Introduction to Topological Manifolds, Springer New York. ISBN: 9781441979407, 1441979409"
+  ]
+}
+

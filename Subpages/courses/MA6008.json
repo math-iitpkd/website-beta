@@ -1,0 +1,28 @@
+{
+  "code": "MA6009",
+  "title": "Representation Theory of Linear Lie groups",
+  "ltpc": "3-0-0-3",
+  "category": "Elective",
+  "program": "PhD",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "3",
+      "details": "Recalling Diﬀerentiable manifolds & Topological groups. Lie groups and their properties. Matrix groups as examples. Cosets, group actions on manifolds, homogeneous spaces. Lie algebra of a Lie group. Lie algebra of a Lie group including Lie-Trotters formula. Cartan’s theorem and applications. Adjoint representation and their properties. Uniqueness of Diﬀerential structure. Derived representation and their properties. Solvable and nilpotent Lie algebras (with Lie/Engel theorems), Reductive algebras, Killing form, Cartan criteria Jordan decomposition, complex semisimple Lie algebras, complex semisimple Lie algebras, Nilpotent & solvable Lie groups."
+    }
+  ],
+  "textbooks": [
+    "Hilgert & NeebStructure and Geometry of Lie groupsSpringer, 2010",
+    "J. Faraut: Analysis on Lie groupsCambridge studies in Advanced mathematics 110, 2008"
+  ],
+  "references": [
+    "D. Bump, Lie groups, Springer, 2004",
+    "Brian C. Hall, Lie groups, lie algebras, and representations: An elementary introduction.",
+    "W. Fulton & J. Harris, Representation theory: A first course, Springer - Verlag, 1991.",
+    "J. E. Humpreys, Introduction to lie algebras and representation theory, Springer, 1972.",
+    "V.S. Varadharajan, Lie groups, lie algebras, and their representations, Springer, 1984.",
+    "F. Warner, Foundations of diﬀerentiable manifolds and lie groups, Springer, 1984."
+  ]
+}
+
+

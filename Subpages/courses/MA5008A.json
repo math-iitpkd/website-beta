@@ -1,0 +1,48 @@
+{
+  "code": "MA5008A",
+  "title": "Topology",
+  "ltpc": "3-0-0-3",
+  "category": "Core",
+  "program": "MSc",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "11",
+      "details": "Definition of Topological spaces, examples of topological spaces such as metric spaces,Continuous functions, Subspace topology, Product topology, Quotient topology."
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "6",
+      "details": "Compactness, Locally compact spaces, Tychonoff’s theorem, Compactifications."
+    },
+    {
+      "unit": "Module 3",
+      "lectures": "6",
+      "details": "Connectedness and path-connectedness."
+     },
+     {
+      "unit": "Module 4",
+      "lectures": "13",
+      "details": "Countability axioms, Separation axioms, Uryshon’s lemma and Tietze Extension Theorem."
+     },
+     {
+      "unit": "Module 5",
+      "lectures": "6",
+      "details": "Metrizability, topologies on function spaces."
+     }
+  ],
+  "textbooks": [
+    "J. R.Munkres, Topology, Pearson Education India; 2 edition (2000), ISBN-10: 9789332549531,ISBN-13: 978-9332549531",
+    "M. A. Armstrong, Basic Topology, Undergraduate Texts in Mathematics, Springer-Verlag, 1983, ISBN-10: 0387908390, ISBN-13: 978-0387908397"
+   ],
+  "references": [
+    "T. W. Gamelin and Robert E. Greene, Introduction to Topology, Dover Publications Inc (1999), ISBN-10: 0486406806, ISBN-13: 978-0486406800",
+    "I. M. Singer and J. A. Thorpe, Lecture notes on elementary topology and geometry,Springer-Verlag, New York-Heidelberg, 1976, Reprint of the 1967 edition, Undergraduate Texts in Mathematics, ISBN-10: 1461573491, ISBN-13: 978-1461573494",
+    "J Milnor. Topology from the Dif erentiable Viewpoint rev. ed., Princeton University Press, 1997, ISBN-10: 0691048339, ISBN-13: 978-0691048338",
+    "V V Prasolov. Intuitive Topology, American Mathematical Society, 1995, ISBN-10: 0821803565, ISBN-13: 978-0821803561",
+    "J R Weeks. The Shape of Space,. 2nd ed. CRC Press, 2002, ISBN-10: 0824707095, ISBN-13: 978-082470709",
+    "K D Joshi, Introduction to General Topology, 2nd Edition, New Age International Publishers, ISBN-13: 978-8122436037"
+  ]
+}
+
+

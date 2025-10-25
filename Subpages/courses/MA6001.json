@@ -1,0 +1,29 @@
+{
+  "code": "MA6001",
+  "title": "Probability Theory",
+  "ltpc": "3-0-0-3",
+  "category": "Elective",
+  "program": "MSc",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "12 hours",
+      "details": "Review of measure theory: sigma fields, pi-lambda theorem, construction of Lebesgue measure on the real line, various notions of convergence of sequence of functions, convergence theorems,product measures and Fubini’s theorem."
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "30 hours",
+      "details": "Probability space, random variables, Kolmogorov consistency theorem, independence and BorelCantelli lemmas, weak and strong laws of large numbers, characteristic function, L ́evy inversion formula, L ́evy continuity theorem, various versions of central limit theorem, series of independent random variables and series theorems."
+    }
+  ],
+  "textbooks": [
+    "Albert N. Shiryaev, Probability-1, Springer, 2016, ISBN: 978-0387722054.",
+    "Albert N. Shiryaev, Probability-2, Springer, 2018, ISBN: 978-0387722078."
+  ],
+  "references": [
+    "K. B. Athreya and S. Lahiri, Measure Theory and Probability Theory, Springer, 2006, ISBN: 978-0387329031",
+    "P. Billingsley, Probability and Measure, Wiley India Pvt Ltd; Third edition, 2008, ISBN: 9788126517718",
+    "O. Kallenberg, Foundations of Modern Probability, Springer-Verlag, Second edition, 2002, ISBN: 978-0387953137"
+  ]
+}
+

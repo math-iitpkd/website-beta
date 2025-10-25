@@ -1,0 +1,48 @@
+{
+  "code": "MA7001",
+  "title": "Banach Space Theory",
+  "ltpc": "3-0-0-3",
+  "category": "Elective",
+  "program": "PhD",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "",
+      "details": "Bases in Banach spaces: Schauder bases, Schur property, The Banach-Mazur Theorem and The Eberlein-Smulian Theorem."
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "",
+      "details": "Classical Banach spaces and their properties:"
+    },
+    {
+      "unit": "Module 3",
+      "lectures": "",
+      "details": "The Classical Sequence Spaces: The isomorphic structure of the lp-spaces and c0, Pitts Theorem, and complemented subspaces of lp and c0."
+    },
+    {
+      "unit": "Module 4",
+      "lectures": "",
+      "details": "Banach Spaces of Continuous Functions: Basic properties, The Dunford-Pettis property and characterization of real C(K)-spaces."
+    },
+    {
+      "unit": "Module 5",
+      "lectures": "",
+      "details": "The Lp-spaces: The Haar system in Lp spaces (1 < p < 1) and Khintchine's Inequality."
+    },
+    {
+      "unit": "Module 6",
+      "lectures": "",
+      "details": "M-ideals in Banach spaces: Definition and basic properties."
+    }
+  ],
+  "textbooks": [
+    "F. Albiac and N. J. Kalton, Topics in Banach Space Theory, Springer,2006, ISBN-13: 978- 441920997.",
+    "P. Harmand, D. Werner and W. Werner, M-Ideals in Banach Spaces and Banach Algebras, Lecture Notes in Mathematics, vol. 1547, Springer-Verlag, Berlin, 1993, ISBN: 978-3540568148."
+  ],
+  "references": [
+    "J. Diestel, Sequences and Series in Banach Spaces, Graduate Texts in Mathematics, Springer, 1984, ISBN: 978-1-4612-9734-5. Date: January 5, 2018.",
+    "J. Lindenstrauss and L. Tzafriri, Classical Banach Spaces I and II, Classics in Mathematics, Springer, 1996, ISBN: 978-3540606284.",
+    "N. L. Carothers, A Short Course on Banach Space Theory, London Mathematical Society Student Texts, Cambridge University Press, 2004, ISBN-13: 978-0521842839."
+  ]
+}

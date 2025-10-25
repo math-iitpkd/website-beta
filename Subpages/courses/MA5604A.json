@@ -1,0 +1,58 @@
+{
+  "code": "MA5604A",
+  "title": "Introduction to Differentiable Manifolds",
+  "ltpc": "4-0-0-4",
+  "category": "Elective",
+  "program": "MSc",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "4",
+      "details": "Review of multivariable calculus: Differentiability of functions of several variables, Jacobian, inverse function theorem, implicit function theorem."
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "6",
+      "details": "Topological manifolds, differentiable manifolds,examples of differentiable manifolds, manifolds with boundary."
+    },
+    {
+      "unit": "Module 3",
+      "lectures": "8",
+      "details": "Differentiable functions on manifolds, partition of unity, tangent vectors and tangent space, differential of a smooth map."
+    },
+    {
+      "unit": "Module 4",
+      "lectures": "8",
+      "details": "Rank of differentiable functions, immersion,submersion, embedding, submanifolds."
+    },
+    {
+      "unit": "Module 5",
+      "lectures": "10",
+      "details": "Vector fields, flows, exponential maps, Lie groups,Lie algebras."
+    },
+    {
+      "unit": "Module 6",
+      "lectures": "10",
+      "details": "Multilinear algebra, symmetric and alternating tensors,tensors and tensor fields on manifolds, the exterior derivative, Lie derivatives."
+    },
+    {
+      "unit": "Module 7",
+      "lectures": "10",
+      "details": "Orientations of manifolds, the geometry of volume measurement,integration of differential forms, Stoke's theorem."
+    }
+  ],
+  "textbooks": [
+    "John M Lee, Introduction to Smooth Manifolds. Springer, New York, NY, 2013. 1-31.ISBN:9780387217529, 0387217525",
+    "William M. Boothby, An Introduction to Differentiable Manifolds and Riemannian Geometry.Academic press, 1986, ISBN:9780080874395, 0080874398",
+    "S. Kumaresan, A Course in Differential Geometry and Lie Groups. Vol. 22. Springer, 2002.ISBN:9789386279088, 9386279088"
+  ],
+  "references": [
+    "Michael Spivak, A Comprehensive Introduction to Differential Geometry, Vol. 1, Publish or perish, 1970. ISBN:9780914098706, 0914098705",
+    "Loring W. Tu, An Introduction to Manifolds, Springer New York, 2010. ISBN:9781441974006, 1441974008",
+    "J. A. Thorpe, Elementary Topics in Differential Geometry, Springer New York, 2012.ISBN: 9781461261537, 1461261538",
+    "Jeffrey Lee, Manifolds and Differential Geometry, American Mathematical Society, 2009.ISBN: 9780821848159, 0821848151",
+    "Ralph Abraham, Jerrold E. Marsden, Tudor Ratiu, Manifolds, Tensor Analysis, and Applications, Springer New York, 1988, ISBN: 9781461210290, 1461210291",
+    "Jon Pierre Fortney, A Visual Introduction to Differential Forms and Calculus on Manifolds, Springer International Publishing, 2018, ISBN: 9783319969923, 3319969927"
+  ]
+}
+

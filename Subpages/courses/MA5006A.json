@@ -1,0 +1,39 @@
+{
+  "code": "MA5006A",
+  "title": "Fields and Modules",
+  "ltpc": "3-0-0-3",
+  "category": "Core",
+  "program": "MSc",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "11",
+      "details": "Definition of field, extensions of fields, algebraic extensions, existence of algebraic closure,normal extensions, separable extensions"
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "10",
+      "details": "Galois extensions and Galois theory of finite Galois extensions"
+    },
+    {
+      "unit": "Module 3",
+      "lectures": "15",
+      "details": "Modules, Noetherian rings, Hilbert basis theorem"
+    },
+    {
+      "unit": "Module 4",
+      "lectures": "6",
+      "details": "Structure theorem for finitely generated modules over PID"
+    }
+  ],
+  "textbooks": [
+    "Michael Artin, Algebra, Pearson India Education Services Pvt.Ltd, ISBN: 978-93-325-4983-8",
+    "IN Herstein, Topics in Algebra, Wiley India Pvt.Ltd, ISBN: 978-81-265-1018-4"
+  ],
+  "references": [
+    "Thomas W. Hungerford, Algebra, Graduate Texts in Mathematics: 73, Springer-Verlag,ISBN:978-0-387-90518-1, ISBN: 978-1-4612-6103-2",
+    "N. Jacobson, Basic Algebra I, Dover publications, ISBN-10: 9780486471891",
+    "David S. Dummit, Richard M. Foote: Abstract Algebra, second edition, John Wiley and Sons,Inc., ISBN-13: 978-0471368571"
+  ]
+}
+

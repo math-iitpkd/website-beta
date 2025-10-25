@@ -1,0 +1,46 @@
+{
+  "code": "MA5606A",
+  "title": "Riemann Surfaces",
+  "ltpc": "4-0-0-4",
+  "category": "Elective",
+  "program": "MSc",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "16",
+      "details": "The motivation for studying Riemann surfaces: Branches of the logarithm and the square root. Analytic continuation and the Monodromy theorem. Definition and basic examples of Riemann surfaces. Complex tori. The Riemann surface of an algebraic function. Riemann’s existence theorem."
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "10",
+      "details": "Calculus on Riemann surfaces: Differential forms. deRham cohomology. Poincare duality. Laplace operator and harmonic functions. The Dirichlet norm."
+    },
+    {
+      "unit": "Module 3",
+      "lectures": "6",
+      "details": "The Euler Characteristic: Meromorphic forms. The Riemann--Hurwitz formula."
+     },
+     {
+      "unit": "Module 4",
+      "lectures": "24",
+      "details": "Some major theorems on Riemann surfaces: Existence of meromorphic and holomorphic functions on Riemann surfaces.The Riemann--Roch theorem. The uniformisation theorem."
+     }
+  ],
+  "textbooks": [
+    "Simon Donaldson, Riemann Surfaces, Oxford university Press (2011), ISBN: 0191545848, 9780191545849",
+    "Otto Forster, Lectures on Riemann Surfaces, Springer (2012), ISBN: 1461259614,9781461259619",
+    "Wilhelm Schlag, A Course in Complex Analysis and Riemann Surfaces, American Mathematical Society (2014), ISBN: 0821898477, 9780821898475"
+   ],
+  "references": [
+    "R. Narasimhan, Compact Riemann Surfaces, Springer/Birkhäuser (2012), ISBN:3034886179, 9783034886178",
+    "A. F. Beardon, A Primer on Riemann Surfaces, London Mathematical Society, Cambridge University Press (1984), ISBN: 0521271045, 9780521271042",
+    "Gareth A. Jones, David Singerman, Complex Functions: An Algebraic and Geometric Viewpoint, Cambridge University Press (1987), ISBN: 052131366X, 9780521313667",
+    "T. Napier, M. Ramachandran, An Introduction to Riemann Surfaces, Springer (2011), ISBN:0817646930, 9780817646936",
+    "G. Springer, Introduction to Riemann Surfaces, American Mathematical Society (2002), ISBN:0821831569, 9780821831564",
+    "Eberhard Freitag, Complex Analysis 2: Riemann Surfaces, Several Complex Variables, Abelian Functions, Higher Modular Functions, Springer (2011), ISBN: 3642205542, 9783642205545",
+    "R. Miranda, Algebraic Curves and Riemann Surfaces, American Mathematical Society (1997),ISBN: 0821802682, 9780821802687",
+    "Dror Varolin, Riemann Surfaces by Way of Complex Analytic Geometry (Volume 125 of Graduate studies in mathematics), American Mathematical Society, 2011, ISBN: 0821853694,9780821853696"
+  ]
+}
+
+

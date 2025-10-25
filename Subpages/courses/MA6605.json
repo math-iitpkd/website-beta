@@ -1,0 +1,48 @@
+{
+  "code": "MA6605",
+  "title": "Operator Theory",
+  "ltpc": "3-0-0-3",
+  "category": "Elective",
+  "program": "PhD",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "7",
+      "details": "Operators on Hilbert spaces: self-adjoint, normal, unitary, isometry, partial isometry, projections, positive operators."
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "12",
+      "details": "Spectrum of operators: spectral radius formula, spectral mapping theorem."
+    },
+    {
+      "unit": "Module 3",
+      "lectures": "12",
+      "details": "Compact operators: Spectrum of compact operators; spectral theorem for compact self-adjoint and compact normal operators; singular value decomposition of compact operators; Trace class & Hilbert Schmidt operators."
+    },
+    {
+      "unit": "Module 4",
+      "lectures": "11",
+      "details": "Statement of Spectral Theorem for self adjoint and normal operators, Polar decomposition, Continuous functional calculus."
+    }
+  ],
+  "textbooks": [
+    "J. B. Conway, A course in functional analysis, GTM (96), Springer, 2007, ISBN:978-0-387-97245-9",
+    "M. Reed and B. Simon, Methods of Modern Mathematical Physics, Vol. I: Functional Analysis,Academic Press, New York, 1981, ISBN-13: 978-0125850506",
+    "B. V. Limaye, Functional Analysis, 3rd Ed., New Age International Publishers, 2014, ISBN-13: 9788122436129"
+  ],
+  "references": [
+    "C.D. Kubrusly, Elements of Operator Theory, Birkhauser, 2001, ISBN 3-7643-4174-2",
+    "V. S. Sunder, Operators on Hilbert Space, Springer, 2016, ISBN-978-981-10-1816-9",
+    "W. Rudin, Functional Analysis, 2nd edn, McGraw Hill Education, 2017, ISBN-13: 978-0070619883",
+    "C. W. Groetsch: Elements of applicable functional analysis, 2nd edition, M. Dekker, 1980,ISBN-13 :978-0824769864",
+    "Rajendra Bhatia, Notes on Functional Analysis, Hindustan Book Agency, 2015, ISBN-13: 978- 9380250793",
+    "N. Dunford and J. T. Schwartz, Linear operators- I: General theory, Wiley-Interscience, New York,1988, ISBN-13 : 978-0471608486",
+    "N. Dunford and J. T. Schwartz, Linear operators- II: Spectral Theory, Self Adjoint Operators in Hilbert Space, Wiley-Interscience, New York, 1988, ISBN-13 : 978-0471608479",
+    "N. Dunford and J. T. Schwartz, Linear operators- III: Spectral Operators, Wiley-Interscience, NewYork, 1988, ISBN-13: 978-0471608462",
+    "B. MacCluer, Elementary Functional Analysis, Springer-Verlag New York, 2009, ISBN-978-1-4419-2753-8",
+    "K. Yoshida, Functional Analysis, 6th edn, Springer, 1995, ISBN-13: 978-3540586548"
+  ]
+}
+
+

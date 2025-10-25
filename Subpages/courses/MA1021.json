@@ -1,0 +1,55 @@
+{
+    "code": "MA1021",
+    "title": "Multivariable Calculus",
+    "ltpc": "3-1-0-4",
+    "category": "Elective",
+    "program": "BTech",
+    "syllabus": [
+      {
+        "unit": "Module 1",
+        "lectures": "",
+        "details": "Limits and continuity of functions defined on open subsets of $\\mathbb{R}^n$. Extreme value theorem for real-valued continuous functions on closed, bounded subsets of $\\mathbb{R}^n$."
+      },
+      {
+        "unit": "Module 2",
+        "lectures": "",
+        "details": "Partial derivatives of real-valued functions of several variables; total derivative and directional derivative. Level sets, gradient and its geometric interpretation."
+      },
+      {
+        "unit": "Module 3",
+        "lectures": "",
+        "details": "Derivatives of functions from intervals to $\\mathbb{R}^n$: differentiable curves; tangent vector. Curvature of curves."
+      },
+      {
+        "unit": "Module 4",
+        "lectures": "",
+        "details": "Differentiability of functions from open sets in $\\mathbb{R}^n$ to $\\mathbb{R}^m$; derivative as a linear approximation of a map and the linear map associated to the derivative. Chain rule."
+      },
+      {
+        "unit": "Module 5",
+        "lectures": "",
+        "details": "Taylor’s theorem for functions of several variables; tests for local maxima/minima. Lagrange multiplier method for constrained optimization problems."
+      },
+      {
+        "unit": "Module 6",
+        "lectures": "",
+        "details": "Double and triple integrals. Change-of-variables formula. Applications of integration to computations of area and volume."
+      },
+      {
+        "unit": "Module 7",
+        "lectures": "",
+        "details": "Curves: parametrization, arc-length and its invariance. Line integrals of scalar and vector fields along curves. Curl, divergence; conservative vector fields. Green’s theorem. Surface integrals & Stokes’ theorem, Divergence theorem and their applications."
+      }
+    ],
+    "textbooks": [
+      "S. J. Colley, Vector Calculus, Pearson (2012)",
+      "G. B. Thomas Jr., M.D. Weir and J.R. Hass, Thomas Calculus, Pearson Education (2009)",
+      "Jerrold E. Marsden, Anthony Tromba, Alan Weinstein, Basic Multivariable Calculus, Springer India"
+    ],
+    "references": [
+      "E. Kreyszig, Advanced Engineering Mathematics, 10th Edition, John Wiley & Sons (2011)",
+      "S. R. Ghorpade, B. V. Limaye, A Course in Multivariable Calculus and Analysis, Springer (2010)",
+      "Tom M. Apostol, Calculus, Volume II: Multi-variable Calculus and Linear Algebra, with Applications to Differential Equations and Probability, 2nd Ed, John Wiley & Sons (2007)"
+    ]
+  }
+  

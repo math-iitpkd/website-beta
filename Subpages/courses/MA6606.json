@@ -1,0 +1,53 @@
+{
+  "code": "MA6606",
+  "title": "Advanced Functional Analysis",
+  "ltpc": "4-0-0-4",
+  "category": "Elective",
+  "program": "MSc",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "12",
+      "details": "Topological vector spaces: Introduction to topological vector spaces,Metrizability, Seminorms and locally convex topological vector spaces."
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "5",
+      "details": "Uniform Boundedness Principle, Open Mapping Theorem, Closed Graph Theorem."
+    },
+    {
+      "unit": "Module 3",
+      "lectures": "10",
+      "details": "Convexity: Geometric Hahn-Banach theorem and applications,Weak and weak* topologies, Banach-Alaoglu theorem, Extreme points and Krein-Milman theorem, closed range theorem."
+    },
+    {
+      "unit": "Module 4",
+      "lectures": "14",
+      "details": "Banach algebra, Complex homomorphisms, spectrum, spectral radius formula, Gelfand - Mazur theorem, Maximal ideal space, Gelfand transform."
+    },
+    {
+      "unit": "Module 5",
+      "lectures": "15",
+      "details": "C*-algebras, commutative C*-algebras, Gelfand_Naimark theorem,continuous functional calculus, polar decomposition; positive linear functional and states; The GNS Construction(without proof)."
+    }
+  ],
+  "textbooks": [
+    "W. Rudin, Functional Analysis, 2nd edn, McGraw Hill Education, 2017, ISBN-13:978-0070619883",
+    "V. S. Sunder Functional Analysis: Spectral Theory, Birkhäuser, 1998, ISBN-13:978-3764358921"
+  ],
+  "references": [
+    "J. B. Conway, A course in functional analysis, GTM (96), Springer, 2007,ISBN: 978-0-387-97245-9",
+    "A. P. Robertson and W. J. Robertson, Topological Vector Spaces, Cambridge University Press,1973, ISBN-13 : 978-0521201247",
+    "R. B. Holmes, Geometric Functional Analysis and its applications, Springer, 2012,ISBN-13 : 978-1468493719",
+    "M. Fabian P. Habala, P. Hajek and V. M. Santalucia, Functional Analysis and infinite dimensional Geometry, Springer, 2001, ISBN-13 : 978-0387952192",
+    "Kehe Zhu, An Introduction to Operator Algebras, Studies in Advanced Mathematics, CRC Press, 1993, ISBN-13: 978-0849378751",
+    "G.J. Murphy, C*-Algebras and Operator Theory, Academic Press Inc., 1990,ISBN-13: 978-0125113601",
+    "R. G. Douglas, Banach Algebra Techniques in Operator Theory, Springer, 1998,ISBN-13: 978-0387983776",
+    "Davidson, C*-algebras by examples, American Mathematical Society, 1996,ISBN-13: 978-0821805992",
+    "M. Takesaki, Theory of Operator Algebras I, Springer New York, 1979,ISBN-13: 978-0387903910",
+    "R. V. Kadison and J. R. Ringrose, Fundamentals of the Theory of Operator Algebras.Volume I: Elementary Theory, American Mathematical Society, 1997,ISBN-13 : 978-0821808191"
+  ]
+}
+
+
+

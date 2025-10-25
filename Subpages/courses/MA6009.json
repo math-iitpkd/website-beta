@@ -1,0 +1,108 @@
+{
+  "code": "MA6009",
+  "title": "Representation Theory of Linear Lie groups",
+  "ltpc": "3-0-0-3",
+  "category": "Elective",
+  "program": "PhD",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "3",
+      "details": "Topological groups and their basic properties."
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "2",
+      "details": "Connected groups."
+    },
+    {
+      "unit": "Module 3",
+      "lectures": "2",
+      "details": "Haar measure on locally compact group(without proof)."
+    },
+    {
+      "unit": "Module 4",
+      "lectures": "2",
+      "details": "Computation of Haar measure for classical groups."
+    },
+    {
+      "unit": "Module 5",
+      "lectures": "2",
+      "details": "Linear Lie groups and their properties."
+    },
+    {
+      "unit": "Module 6",
+      "lectures": "2",
+      "details": "Exponential map."
+    },
+    {
+      "unit": "Module 7",
+      "lectures": "2",
+      "details": "Lie algebra of a Linear Lie groups & examples."
+    },
+    {
+      "unit": "Module 8",
+      "lectures": "2",
+      "details": "Finite dimensional representations, and its derivations."
+    },
+    {
+      "unit": "Module 9",
+      "lectures": "3",
+      "details": "Adjoint representation and its properties."
+    },
+    {
+      "unit": "Module 10",
+      "lectures": "2",
+      "details": "Representation theory of locally compact groups-Generalities."
+    },
+    {
+      "unit": "Module 11",
+      "lectures": "2",
+      "details": "Convolutions, Group algebra."
+    },
+    {
+      "unit": "Module 12",
+      "lectures": "2",
+      "details": "Integral form of the representations."
+    },
+    {
+      "unit": "Module 13",
+      "lectures": "3",
+      "details": "Schur’s orthogonality theorem for compact groups."
+    },
+    {
+      "unit": "Module 14",
+      "lectures": "4",
+      "details": "Peter-Weyl Theory."
+    },
+    {
+      "unit": "Module 15",
+      "lectures": "3",
+      "details": "Unitary dual of SU(2) and SO(3)."
+    },
+    {
+      "unit": "Module 16",
+      "lectures": "3",
+      "details": "Laplace operator on SU(2)."
+    },
+    {
+      "unit": "Module 17",
+      "lectures": "3",
+      "details": "Heat equation on SU(2)."
+    }
+  ],
+  "textbooks": [
+    "J. Faraut, Analysis on Lie groups - An introduction, Cambridge studies in advanced mathematics, 110.2008, ISBN: 9780521719308"
+  ],
+  "references": [
+    "T. Brocker and T. Dieck, Representations of compact Lie groups, Springer-Verlag,, 1985, ISBN-13: 978-3-662-12918-0",
+    "G. Folland, A course in abstarct harmonic analysis, CRC Press, 1994, ISBN-10: 1498727131, ISBN-13: 978-1498727136",
+    "Brian C. Hall, Lie groups, lie algebras, and representations: An elementary introduction, ISBN-10: 0387401229, ISBN-13: 978-0387401225",
+    "L.H. Loomis, An introduction to abstract harmonic analysis, Van Nostrand, New York,1953, ISBN-10: 1296027775, ISBN-13: 9781296027773",
+    "E. Hewitt & K.A. Ross, Abstract harmonic analysis, vol. I, Springer-Verlag, 1963,ISBN-13: 978-1-4419-8638-2",
+    "B. Simon, Representations of finite and compact Lie groups, American Mathematical Society, 1996, ISBN-13: 978-0-8218-0453-7",
+    "M. Sugiura, Unitary representations and harmonic analysis - an introduction, John-Wiley, New York-London-Sydney, 1975, ISBN-13: 978-0387900537"
+  ]
+}
+
+

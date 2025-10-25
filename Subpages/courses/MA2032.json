@@ -1,0 +1,51 @@
+{
+  "code": "MA2032",
+  "title": "Numerical Analysis",
+  "ltpc": "3-0-0-3",
+  "category": "Elective",
+  "program": "BTech",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "",
+      "details": "Linear functional, interpolation by polynomial, error estimation, numerical differentiation and integration."
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "",
+      "details": "Solution of a system of linear equations: Gaussian elimination, solution by iteration, pivoting strategy, triangular factorization, ill-conditioning, norms."
+    },
+    {
+      "unit": "Module 3",
+      "lectures": "",
+      "details": "Eigenvalue problem: power method, QR method."
+    },
+    {
+      "unit": "Module 4",
+      "lectures": "",
+      "details": "Solution of a nonlinear equation by iterative methods like bisection, secant methods and Newton-Raphson method."
+    },
+    {
+      "unit": "Module 5",
+      "lectures": "",
+      "details": "Newton’s method, rate of convergence, solution of a system of nonlinear equations."
+    },
+    {
+      "unit": "Module 6",
+      "lectures": "",
+      "details": "Numerical solution of ordinary differential equations: Euler and Runge-Kutta methods, multi-step methods, predictor-corrector methods, order of convergence, finite difference methods, numerical solutions of elliptic, parabolic, and hyperbolic partial differential equations."
+    },
+    {
+      "unit": "Module 7",
+      "lectures": "",
+      "details": "Exposure to software packages like IMSL subroutines, MATLAB."
+    }
+  ],
+  "textbooks": [
+    "S. D. Conte and Carl de Boor, Elementary Numerical Analysis-An Algorithmic Approach (3rd Edition), McGraw-Hill, 1980",
+    "E. Kreyszig, Advanced Engineering Mathematics, 10th Edition, John Wiley & Sons (2011)"
+  ],
+  "references": [
+  "E. Isaacson and H B Keller, Analysis of Numerical Methods, Dover (19994)"
+  ]
+}

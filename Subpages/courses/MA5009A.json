@@ -1,0 +1,54 @@
+{
+  "code": "MA5009A",
+  "title": "Ordinary Differential Equations",
+  "ltpc": "3-0-0-3",
+  "category": "Core",
+  "program": "MSc",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "10",
+      "details": "Review of basic concepts and solution techniques, power series solutions, properties of Legendre polynomials, and Bessel functions."
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "4",
+      "details": "Qualitative properties of solutions: Oscillations and Sturm separation theorem, Sturm comparison theorem."
+    },
+    {
+      "unit": "Module 3",
+      "lectures": "7",
+      "details": "Existence and Uniqueness Theorems for systems: Contraction mapping theorem, Peano’s and Picard’s theorems, Gronwall’s inequality, Maximal interval of existence."
+    },
+    {
+      "unit": "Module 4",
+      "lectures": "7",
+      "details": "Linear systems: The fundamental matrix, exponential of a matrix,solution to linear systems, critical points, and stability."
+    },
+    {
+      "unit": "Module 5",
+      "lectures": "6",
+      "details": "Boundary value problems: Sturm-Liouville theory."
+    },
+    {
+      "unit": "Module 6",
+      "lectures": "8",
+      "details": "Nonlinear systems: Autonomous systems, phase plane analysis."
+    }
+  ],
+  "textbooks": [
+    "Nandakumaran AK, Datti PS, George RK. Ordinary Differential Equations: Principles and Applications. Cambridge University Press; 2017.",
+    "M. Hirsh, S. Smale, and R. Devaney, Differential Equations, Dynamical Systems, and an Introduction to Chaos, 3rd ed., Academic Press, 2012, ISBN-10: 0123820103, ISBN-13:978-0123820105",
+    "George F Simmons, Differential Equations with Applications and Historical Notes, 2nd Ed.,McGrawHill, 1991, ISBN-10: 0070530718, ISBN-13: 978-0070530713"
+  ],
+  "references": [
+    "Coddington, E. A. and Levinson, N., Theory of Ordinary Differential Equations, McGraw-Hill,1972, ISBN-10: 9780070992566, ISBN-13: 978-0070992566",
+    "Vladimir I. Arnold, Ordinary Differential Equations, Translated by Cooke, R., Springer-Verlag Berlin Heidelberg, 1992, ISBN 978-3540345633",
+    "Philip Hartman, Ordinary differential equations, Magnum Publishing 2017, ISBN-10: 168250395X,ISBN-13: 978-3764330682",
+    "Lawrence Perko, Differential equations and dynamical systems, third ed., Texts in Applied Mathematics, vol. 7, Springer-Verlag, New York, 2001, ISBN-10: 1461265266, ISBN-13:97 -1461265269",
+    "Coddington, E, A, An introduction to ordinary differential equations, Dover Publications, 1989,ISBN-10: 0486659429, ISBN-13: 978-0486659428",
+    "M.W. Hirsch, Sverre O. Smale, Differential Equations, Dynamical Systems and Linear Algebra, Academic Press Inc, 1974, ISBN-10: 0123495504, ISBN-13: 978-0123495501"
+  ]
+}
+
+

@@ -1,0 +1,50 @@
+{
+  "code": "MA5005A",
+  "title": "Groups and Rings",
+  "ltpc": "3-0-0-3",
+  "category": "Core",
+  "program": "MSc",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "",
+      "details": "Basic concepts from set theory, definition of groups, subgroups"
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "4",
+      "details": "Lagrange’s theorem, normal subgroups, homomorphisms, factor groups, theorems concerning homomorphisms"
+    },
+    {
+      "unit": "Module 3",
+      "lectures": "10",
+      "details": "Group actions, Cayley’s theorem, Orbit-stabilizer theorem, conjugacy classes and class equation,Sylow’s theorems"
+    },
+    {
+      "unit": "Module 4",
+      "lectures": "3",
+      "details": "Free groups, generators and presentation of groups, Direct and semi-direct product of groups"
+    },
+    {
+      "unit": "Module 5",
+      "lectures": "17",
+      "details": "Definition of Rings, commutative rings, ideals, prime and maximal ideals, existence of maximal ideals, quotient construction, isomorphism theorems, Chinese remainder theorem, fraction fields of domains."
+    },
+    {
+      "unit": "Module 6",
+      "lectures": "8",
+      "details": "Principal ideal domains, Euclidean domains, unique factorisation domains, Gauss lemma,polynomial rings and irreducibility criteria"
+    }
+  ],
+  "textbooks": [
+    "Michael Artin, Algebra, Pearson India Education Services Pvt.Ltd, ISBN: 978-93-325-4983-8",
+    "IN Herstein, Topics in algebra, Wiley india Pvt.Ltd, ISBN 978-81-265-1018-4",
+    "John B Fraleigh, A first course in abstract algebra, Addison-wesley, ISBN : 978-02-015-3467-2",
+    "N. Jacobson, Basic Algebra I, Dover publications, ISBN-10 : 9780486471891",
+    "David S. Dummit, Richard M. Foote, Abstract Algebra, Wiley india Pvt.Ltd, ISBN-108126532289"
+  ],
+  "references": [
+    "N. Bourbaki, Algebra I, Springer-Verlag Berlin Heidelberg, ISBN 978-3-540-64243-5",
+    "Serge Lang, Algebra, volume 211 of Graduate Texts in Mathematics, Springer-Verlag NewYork, ISBN : 978-0-387-95385-4, 978-1-4612-6551-1"
+  ]
+}

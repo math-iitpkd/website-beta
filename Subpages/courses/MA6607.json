@@ -1,0 +1,52 @@
+{
+  "code": "MA6607",
+  "title": "Riemannian Geometry",
+  "ltpc": "4-0-0-4",
+  "category": "Elective",
+  "program": "MSc",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "8",
+      "details": "Definition and examples of Riemannian metrics,examples of RIemannian manifolds with special focus on graphs, level sets and surfaces, Model Riemannian manifolds."
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "8",
+      "details": "Geodesics, Completeness and the Hopf–Rinow theorem, first and second variational formula."
+    },
+    {
+      "unit": "Module 3",
+      "lectures": "14",
+      "details": "Connections,, Geodesics, Parallel Transport,Levi-Civita Connection, Exponential map, Tubular Neighborhoods."
+    },
+    {
+      "unit": "Module 4",
+      "lectures": "10",
+      "details": "The curvature tensor, Ricci and Scalar curvature,sectional curvature, The second fundamental form,hypersurfaces."
+    },
+    {
+      "unit": "Module 5",
+      "lectures": "6",
+      "details": "The Jacobi equation, cut points."
+    },
+    {
+      "unit": "Module 6",
+      "lectures": "10",
+      "details": "Jacobi fields, Hessians and Riccati equation, Comparison theory, Curvature and Topology, Cartan–Hadamard theorem, Global results of Riemannian geometry like the Bonnet–Myers theorem"
+    }
+  ],
+  "textbooks": [
+    "John M Lee, Introduction to Riemannian Manifolds. Springer, ISBN:978-3-319-91754-2",
+    "William M. Boothby, An Introduction to Differentiable Manifolds and Riemannian Geometry.Academic press, 1986, ISBN:9780080874395, 0080874398",
+    "S. Kumaresan, A Course in Differential Geometry and Lie Groups. Vol. 22. Springer, 2002.ISBN:9789386279088, 9386279088."
+  ],
+  "references": [
+    "Jeffrey Lee, Manifolds and Differential Geometry, American Mathematical Society,2009.ISBN 9780821848159, 0821848151",
+    "Loring W. Tu, Differential Geometry, Springer, 2017, Volume 275ISBN : 978-3-319-55082-4",
+    "Walter A. Poor, Differential geometric structures. Dover; Reprint edition, 2007, ISBN 978-0486458441",
+    "Do Carmo, Manfredo Perdigao, and J. Flaherty Francis. Riemannian geometry. Vol. 6.Boston: Birkhäuser, 1992",
+    "Petersen, Peter. Riemannian geometry. Vol. 171. New York: Springer, 2006",
+    "Gallot, Sylvestre, Dominique Hulin, and Jacques Lafontaine. Riemannian Geometry.Springer Science & Business Media, 2012"
+  ]
+}

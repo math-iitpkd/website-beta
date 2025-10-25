@@ -1,0 +1,32 @@
+{
+  "code": "MA2020",
+  "title": "Differential Equations",
+  "ltpc": "3-0-0-3",
+  "category": "Elective",
+  "program": "BTech",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "",
+      "details": "First order ODE: Geometrical meaning of a first order ODE, variable separable equations, exact equations, integrating factors, linear equations of first order, solution of homogeneous linear equations with constant coefficients of higher order, linear independence of solutions and Wronskian, complex roots and repeated roots of characteristic equation, solution of non-homogeneous equations."
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "",
+      "details": "Series solution of ODE: Power series method, Legendre’s equation, Legendre polynomials, Frobenius method, Bessel’s equation, Sturm-Liouville problem."
+    },
+    {
+      "unit": "Module 3",
+      "lectures": "",
+      "details": "Partial differential equations: First order equations, characterization of second order equations, wave equation, D’Alembert’s solution of wave equation, separation of variables, use of Fourier series, heat equation and solution by Fourier series, Laplacian in polar coordinates, Laplacian in cylindrical and spherical coordinates, solution of Laplace equation."
+    }
+  ],
+  "textbooks": [
+    "E. Kreyszig, Advanced Engineering Mathematics, 10th Edition, John Wiley & Sons, 2010"
+  ],
+  "references": [
+    "W.E. Boyce and R.C. DiPrima, Elementary Differential Equations, 7th Edition,John Wiley & Sons, 2002",
+    "S.J. Farlow, Partial Differential Equations for Scientists and Engineers, Dover, 2006",
+    "N. Piskunov, Differential and Integral Calculus Vol. 1-2, Mir Publishers, 1974"
+  ]
+}

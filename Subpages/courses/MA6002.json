@@ -1,0 +1,44 @@
+{
+  "code": "MA6002",
+  "title": "Introduction to Several Complex Variables",
+  "ltpc": "3-0-0-3",
+  "category": "Elective",
+  "program": "MSc",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "9",
+      "details": "Various equivalent definitions of holomorphic functions in C^n; power series development(s), the domain of convergence of a power series, circular and Reinhardt domains; characterizations of domains ofconvergence of power series and Laurent series."
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "12",
+      "details": "Analytic continuation: basic theory and contrasts with the one-variable theory; introduction to the Hartogs phenomenon and domains of holomorphy. Role of convexity in analytic continuation, holomorphic convexity, plurisubharmonic functions, pseudoconvexity."
+    },
+    {
+      "unit": "Module 3",
+      "lectures": "12",
+      "details": "Characterizations of domains of holomorphy; the Levi problem and the role of the d-bar equation in this characterization. The d-bar equation: review of distribution theory and an overview of Hormander’s method of solution and applications."
+     },
+     {
+       "unit": "Module 4",
+       "lectures": "9",
+      "details": "Zeros of holomorphic functions: Weierstrass's Preparation Theorem, analytic varieties and some of their local and global properties; holomorphic maps; the inequivalence of the unit ball and the unit polydisc."
+     }
+  ],
+  "textbooks": [
+    "Lars Hormander, An Introduction to Complex Analysis in Several Variables, 3rd edition,North-Holland Mathematical Library, North-Holland, (1989). ISBN: 978-0444884466",
+    "Michael Range: Holomorphic Functions and Integral Representations in Several Complex Variables, Springer, (2013). ISBN:1475719183, 9781475719185",
+    "K. Fritzsche and H. Grauert, From Holomorphic Functions to Complex Manifolds, Springer (2012),ISBN: 146849273X, 9781468492736"
+  ],
+  "references": [
+    "V. V. Vladimirov, Methods of the Theory of Functions of Many Complex Variables, Courier Corporation (2007), ISBN: 0486458121, 9780486458120",
+    "Raghavan Narasimhan, Several Complex Variables, Chicago Lectures in Mathematics Series, The University of Chicago Press, 1971. ISBN: 0226568172, 9780226568171",
+    "Marek Jarnicki, Peter Pflug, First Steps in Several Complex Variables: Reinhardt Domains, Hindustan Book Agency (2012, Indian Edition), ISBN: 9789380250298",
+    "B. V. Shabat, Introduction to Complex Analysis: Functions of Several Variables, American Mathematical Society (1992), ISBN: 0821819755, 9780821819753",
+    "Ludger Kaup, Burchard Kaup, Holomorphic Functions of Several Variables: An Introduction to the Fundamental Theory, Walter de Gruyter (2011), ISBN: 3110838354, 9783110838350",
+    "Steven G. Krantz. Function Theory of Several Complex Variables, American Mathematical Society, (2001), ISBN: 0821827243, 9780821827246"
+  ]
+}
+
+

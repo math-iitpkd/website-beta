@@ -1,0 +1,47 @@
+{
+  "code": "MA6608",
+  "title": "Mathematical theory of finite elements",
+  "ltpc": "3-0-0-3",
+  "category": "Elective",
+  "program": "MSc",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "5",
+      "details": "(Boundary value problems in 1D)weak formulation, Lax–Milgram lemma and well-posedness, finite element formulation, well-posedness of the discrete solution,error estimates in energy norm, Cea’s lemma, L2–norm error estimates, Aubin-Nitsche duality argument, computational implementation."
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "10",
+      "details": "(Poisson equation in 2D)weak and discrete formulation for Dirich-let, Neumann, and Robin boundary conditions, conforming finite element method, triangulation and refinement (red, green, blue), Barycentric coordinate functions, error estimates, best approximation property, local to global assembly, computational implementation."
+    },
+    {
+      "unit": "Module 3",
+      "lectures": "10",
+      "details": "(Approximation in Banach spaces) limitations of Lax–Milgram theorem, inf-sup conditions, Banach-Nečas-Babuška theorems, stability, conformity, consistency,approximability, error analysis, Strang’s lemmas, saddle point problems, Stoke’s equation, mixed finite elements, Fortin criterion, Taylor-Hood method."
+    },
+    {
+      "unit": "Module 4",
+      "lectures": "6",
+      "details": "(Lower–order error estimates)Aubin–Nitsche theorem, Goal–oriented error control, max–norm and weighted norm estimates, Lp–estimates for linear and nonlinear problems."
+    },
+    {
+      "unit": "Module 5",
+      "lectures": "11",
+      "details": "(General theory of Galerkin methods)Sobolev spaces, abstract variational problem, minimisation problem, Babuška–Brezzi theorems, elliptic regularity, Galerkin method, compactness and embedding theorems, convergence analysis, polynomial spaces and interpolation theorems, affine mappings, nonconforming finite element methods, extension to time-dependent problems with heat example as an example."
+    }
+  ],
+  "textbooks": [
+    "Theory and practice of finite elements, Alexandre Ern and Jean-Luc Guermond, Springer-Verlag,2004, (ISBN - 81-8128-362-7)",
+    "The finite element method for elliptic problems, Philippe G. Ciarlet, SIAM (Classics in applied mathematics), (ISBN - 978-0-89871-514-9)",
+    "Topics in functional analysis and applications, S. Kesavan, New Age International, (ISBN-81- 224-0062-0)"
+  ],
+  "references": [
+    "The mathematical theory of finite element methods, Susanne C. Brenner, L. Ridgway Scott,Springer, (ISBN - 978-0-387-75933-3)",
+    "Discontinuous Galerkin methods for solving elliptic and parabolic equations: theory and imple mentation, Beatrice Riviere, SIAM (Frontiers in Applied Mathematics), (ISBN 970898716566)",
+    "Numerical approximation of partial differential equations, Soren Bartles, Springer (ISBN - 978-3-319-32354-4)",
+    "Finite elements: theory, fast solvers, and applications in solid mechanics, Dietrich Braess, Cam bridge University Press, (ISBN - 978-0415061391)",
+    "The gradient discretisation method, Jerome Droniou, Robert Eymard, Thierry Gallouet, Cindy Guichard, Raphaele Herbin, Springer Cham (ISBN - 978-3-319-79041-1)",
+    "Sobolev spaces, Robert Adams, John Fournier, Elsevier (ISBN - 9780120441433)"
+  ]
+}

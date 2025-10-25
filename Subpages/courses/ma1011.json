@@ -1,0 +1,48 @@
+{
+    "code": "MA1011",
+    "title": "Linear Algebra and Series",
+    "ltpc": "3-1-0-4",
+    "category": "Core",
+    "program": "BTech",
+    "syllabus": [
+      {
+        "unit": "Systems of linear equations and their solutions",
+        "lectures": "",
+        "details": "Rn and Cn as vector spaces and their linear subspaces; spanning set and linear independence; basis and dimension of a subspace of Rn. Matrices and their associated four fundamental subspaces: null space, column space, row space of a matrix and null space of its transpose. Row rank and column rank."
+      },
+      {
+        "unit": "Elementary row operations on matrices and elementary matrices",
+        "lectures": "",
+        "details": "Reduced row echelon form. Gaussian elimination method for solving systems of linear equations. Determination of row rank, column rank using elementary row operations; row rank equals column rank. Inverse and determinant of a square matrix. The Gauss-Jordan method of computing the inverse of an (invertible) matrix."
+      },
+      {
+        "unit": "Linear transformations and their matrix representations",
+        "lectures": "",
+        "details": "Effect of a change of basis on their matrix representations. Null space and range of a linear transformation. Rank-nullity theorem."
+      },
+      {
+        "unit": "Eigenvectors and eigenvalues",
+        "lectures": "",
+        "details": "Characteristic polynomials, Cayley-Hamilton theorem, eigenvalues of special matrices, algebraic and geometric multiplicity, diagonalization."
+      },
+      {
+        "unit": "Sequences and series of real numbers",
+        "lectures": "",
+        "details": "Tests for convergence. Power series, Taylor series and Fourier series."
+      }
+    ],
+    "textbooks": [
+      "Gilbert Strang, Linear Algebra and Its Applications, Thomson, Brooks/Cole (2006)",
+      "E. Kreyszig, Advanced engineering mathematics, 10th Edition, John Wiley & Sons (2011)",
+      "G. B. Thomas Jr., M.D. Weir and J.R. Hass, Thomas Calculus, Pearson Education (2009)"
+    ],
+    "references": [
+      "S. Lang, Introduction to Linear Algebra, 2nd Ed., Springer 2012",
+      "D. W. Lewis, Matrix Theory, World Scientific, 1991",
+      "K. D. Joshi, Calculus for Scientists and Engineers: An Analytical Approach, Alpha Science 2007",
+      "S. R. Ghorpade, B. V. Limaye, A Course in Calculus and Real Analysis, Springer 2018",
+      "Thamban Nair, Calculus of One Variable, Ane Books, 2015",
+      "Tom M. Apostol, Calculus - Volume I, 2nd Ed, 2007",
+      "Kenneth A. Ross, Elementary Analysis: The Theory of Calculus, 2nd Ed, Springer 2013"
+    ]
+  }

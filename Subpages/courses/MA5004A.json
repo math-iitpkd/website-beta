@@ -1,0 +1,47 @@
+{
+  "code": "MA5004A",
+  "title": "Measure Theory",
+  "ltpc": "3-0-0-3",
+  "category": "Core",
+  "program": "MSc",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "13",
+      "details": "Classes of sets and measures: Sigma algebras, Borel sigma algebra,measure and its properties (monotonicity, continuity, etc.),Carathéodory's extension theorem, and construction of Lebesgue measure on the real line."
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "15",
+      "details": "Integration: Lebesgue integration, Monotone, Dominated convergence theorems, Fatou’s lemma, modes of convergence,Egoroff’s and Lusin’s theorems, Lp spaces, Radon-Nikodym Theorem."
+    },
+    {
+      "unit": "Module 3",
+      "lectures": "7",
+      "details": "Product spaces, product σ-algebras and measures, Lebesgue measure on Rn, the Fubini and Tonelli theorems, change of variable."
+    },
+    {
+      "unit": "Module 4",
+      "lectures": "7",
+      "details": "Differentiation and integration - functions of bounded variation,absolutely continuous functions, fundamental theorem of calculus for Lebesgue integrals."
+    }
+  ],
+  "textbooks": [
+    "Gerald B. Folland, Real Analysis : Modern Techniques and their Applications, Second Ed., John Wiley & Sons Inc; 1999, ISBN: 978-0471317166",
+    "H. L. Royden, Real Analysis, Pearson publications; Fourth Ed.,ISBN:978-93-325-5158-9",
+    "Inder K. Rana, An Introduction to Measure and Integration (2nd Edition), Narosa Publishing House, New Delhi, 2004, ISBN:978-8173194306"
+  ],
+  "references": [
+    "W. Rudin, Real and Complex Analysis, McGraw Hill Education; 3rd edition, ISBN: 978-0070619876",
+    "P. Billingsley, Probability and Measure, John Wiley & Sons Inc; Third Ed., ISBN 978-81-265-1771-8",
+    "R. G. Bartle, The elements of integration and Lebesgue measure, Wiley Classics Library,John Wiley & Sons Inc., New York",
+    "Donald L. Cohn, Measure theory, Birkhäuser, 2015",
+    "Elias M. Stein and Rami Shakarchi, Real analysis, Princeton Lectures in Analysis, vol. 3,Princeton University Press, Princeton, NJ, 2005, Measure theory, integration, and Hilbert spaces",
+    "Terence Tao, An Introduction to Measure Theory, Graduate Studies in Mathematics Vol 126, American Mathematical Society, 2011",
+    "Bogachev, V. I., Measure theory. Vol. I, II. Springer-Verlag, Berlin, 2007, ISBN-10:3540345132, ISBN-13: 978-3540345138",
+    "Frank Jones, Lebesgue Integration On Euclidean Space, Jones and Bartlett Publishers,Inc; ISBN: 978-0763717087",
+    "S. Kesavan, Measure and Integration, Jainendra K Jain Publishers, ISBN-13 :978-9386279774"
+  ]
+}
+
+

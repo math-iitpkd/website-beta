@@ -1,0 +1,91 @@
+{
+  "code": "MA6011",
+  "title": "Abstract Harmonic Analysis",
+  "ltpc": "3-0-0-3",
+  "category": "Elective",
+  "program": "MSc",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "3",
+      "details": "Topological groups and their properties,Subgroups, Quotient groups."
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "2",
+      "details": "Locally Compact groups, connected groups."
+    },
+    {
+      "unit": "Module 3",
+      "lectures": "4",
+      "details": "Haar measure (without proof), properties Computation of Haar measures for classical groups."
+     },
+     {
+       "unit": "Module 4",
+       "lectures": "3",
+       "details": "Convolution, Group algebra and its properties."
+     },
+     {
+       "unit": "Module 5",
+       "lectures": "2",
+       "details": "Approximate identities, Examples for the real line R, and the unit circle T."
+     },
+     {
+       "unit": "Module 6",
+       "lectures": "3",
+       "details": "Representation theory of groups."
+     },
+     {
+       "unit": "Module 7",
+       "lectures": "3",
+       "details": "The representations of Group and Group algebras."
+     },
+     {
+       "unit": "Module 8",
+       "lectures": "3",
+       "details": "Positive definite functions."
+     },
+     {
+       "unit": "Module 9",
+       "lectures": "3",
+       "details": "GNS constructions, C*-algebra of a group."
+     },
+     {
+       "unit": "Module 10",
+       "lectures": "3",
+       "details": "Dual group of abelian groups, Fourier transform."
+     },
+     {
+       "unit": "Module 11",
+       "lectures": "4",
+       "details": "Fourier inversion formula, Plancherel theorem for Abelian groups."
+     },
+     {
+       "unit": "Module 12",
+       "lectures": "3",
+       "details": "Irreducible representations of compact non-abelian groups."
+     },
+     {
+       "unit": "Module 13",
+       "lectures": "3",
+       "details": "Peter-Weyl Theory"
+     },
+     {
+       "unit": "Module 14",
+       "lectures": "3",
+       "details": "Plancherel theory for compact groups."
+     }
+  ],
+  "textbooks": [
+    "G. Folland A course in Abstract Harmonic analysis CRC Press. 1994. ISBN-13:978-1-4987-2713-6",
+    "Loomis: An introduction to Abstract Harmonic analysis Von Nostrand. 1954.ISBN- 13:978-0-486-48123-4"
+  ],
+  "references": [
+    "W. Fulton & J. Harris, Representation theory: A first course, Springer - Verlag, 1991,ISBN-10: 0387974954, ISBN-13: 978-0387974958",
+    "H. Helson, Harmonic analysis, 2nd ed., Trim Series, Hindustan Book Agency, 1995",
+    "Y. Katznelson, Introduction to harmonic analysis, Cambridge University Press, 2004(ISBN: 0521543592, 9780521543590); published in 1968 by John Wiley & sons",
+    "E. Hewitt & K.A. Ross, Abstract harmonic analysis, vol. I, Springer-Verlag, 1963,ISBN-13: 978-1-4419-8638-2",
+    "W. Rudin, Real and complex analysis, 2nd ed., TMH Edition, 1962, ISBN-10:0070619875, ISBN-13: 978-0070619876"
+  ]
+}
+

@@ -1,0 +1,53 @@
+{
+  "code": "MA5609",
+  "title": "Introduction to Scientific Computing",
+  "ltpc": "3-0-2-4",
+  "category": "Elective",
+  "program": "MSc",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "5",
+      "details": "Error and computer arithmetic: Floating point numbers (accuracy,rounding and chopping), Consequences for programming of floating-point arithmetic, Errors (definition, sources and examples),Propagation of error."
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "6",
+      "details": "Root finding: Bisection method, Fixed point-iteration, Newton’s method and its extensions, Error analysis, Rate of convergence."
+    },
+    {
+      "unit": "Module 3",
+      "lectures": "6",
+      "details": "Solution of systems of linear equations: Direct (Gauss elimination,Factorization) and Iterative (Gauss Jordan, Gauss-Seidel) methods,Relaxation techniques, Errors in solving linear systems."
+    },
+    {
+      "unit": "Module 4",
+      "lectures": "7",
+      "details": "Interpolation and approximation: Polynomial interpolation (Divided Differences, Hermite Interpolation, Cubic spline interpolation, Lagrange interpolation), Error analysis, Least square approximations."
+    },
+    {
+      "unit": "Module 5",
+      "lectures": "8",
+      "details": "Numerical Differentiation and integration: Differentiation using interpolation and Taylor series, Method of undetermined coefficients,Application to solving differential equations, Trapezoidal and Simpson’s rules, Gaussian quadrature, Method of steepest descent, Error analysis."
+    },
+    {
+      "unit": "Module 6",
+      "lectures": "10",
+      "details": "Solution of ordinary differential equations: Initial value problems(Taylor’s, Picard’s, Euler’s and Runge-Kutta methods), Consistency,Order, Stability, and Convergence, Error prediction and control,Predictor-Corrector methods, Boundary value problems (shooting methods, Finite difference approximations)"
+    },
+    {
+      "unit": "Module 7",
+      "lectures": "4",
+      "details": "Lab Sessions: Algorithms and Computer programs to implement the above numerical techniques."
+    }
+  ],
+  "textbooks": [
+    "Scientific Computing: An Introductory Survey by M. T. Heath, McGraw Hill 2002 (ISBN 0-07-239910-4)",
+    "Numerical Analysis by Richard L. Burden, J. Douglas Faires, Cengage Learning 2012 (ISBN 81-315-1654-7)",
+    "Numerical Recipes: The Art of Scientific Computing by William H. Press, Saul A.Teukolsky, William T. Vetterling, Brian P. Flannery, Cambridge University Press (ISBN-13:978-0521880688)"
+  ],
+  "references": [
+    "Numerical Methods for Engineers and Scientists by Joe D. Hoffman, CRC Press, 2001(ISBN 13:978-0824704438)",
+    "Elementary Numerical Analysis by Kendall Atkinson, Weimin Han, John Wiley and Son, 2004(ISBN: 0-471-43337-3)"
+  ]
+}

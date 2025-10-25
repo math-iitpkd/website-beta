@@ -1,0 +1,53 @@
+{
+  "code": "MA5001",
+  "title": "Linear Algebra",
+  "ltpc": "4-0-0-4",
+  "category": "Core",
+  "program": "MSc",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "5 Lectures",
+      "details": "Systems of linear equations, elementary row operations, rank of a matrix,Gaussian elimination, elementary matrices, inverse of a matrix."
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "6",
+      "details": "Determinants : Determinant as area and volume, determinant using permutations, properties of determinants."
+    },
+    {
+      "unit": "Module 3",
+      "lectures": "8",
+      "details": "Vector Spaces: Vector Spaces over fields, subspaces, linear independence, bases, dimension."
+     },
+     {
+      "unit": "Module 4",
+      "lectures": "10",
+      "details": "Linear Transformations: Linear transformations, algebra of linear transformations, Rank Nullity Theorem and applications, isomorphism,matrix representation of linear transformations, change of bases,transpose of a linear transformation."
+     },
+     {
+      "unit": "Module 5",
+      "lectures": "12",
+      "details": "Inner Product Spaces: Inner products, Gram-Schmidt orthogonalization, orthogonal projections and best approximation, linear functionals and adjoint operator, bilinear maps, quadratic form. Positive definite and positive semidefinite matrices/operators; symmetric, hermitian, unitary and normal operators."
+     },
+     {
+      "unit": "Module 6",
+      "lectures": "15",
+      "details": "Eigenvalues and Eigenvectors: Eigenvalues and eigenvectors,characteristic polynomial, minimal polynomials, Cayley-Hamilton Theorem, triangulation and diagonalization, Finite dimensional spectral theorem for normal operators, Singular Value Decomposition;characterization of positive definite operators/matrices (in terms of eigenvalues or principal minors). Jordan canonical form."
+     }
+  ],
+  "textbooks": [
+    "Serge Lang, Linear Algebra, Springer (1987), ISBN-13 978-0387964126.",
+    "Kenneth Hoffman and Ray Kunze, Linear Algebra, Prentice Hall India Learning Private Limited; 2nd edition (1978), ISBN-13: 978-9332550070."
+   ],
+  "references": [
+    "Gilbert Strang, Linear Algebra and its Applications, Cengage Learning, ISBN-13: 978-8131501726",
+    "Paul R. Halmos, Finite Dimensional Vector Spaces, Springer, ISBN-13: 978-8184898460",
+    "S. Kumaresan, Linear Algebra: a geometric approach, Prentice Hall India, ISBN-13 :978-8120316287",
+    "Serge Lang, Introduction to linear algebra, Springer, ISBN-13:978-0387962054",
+    "M. T. Nair, A. Singh, Linear Algebra, Springer (2018), ISBN: 9811309264,9789811309267 ",
+    "F. R. Gantmacher, The Theory of Matrices, Volume 1, American Mathematical Soc.(1959), ISBN:0821813765, 9780821813768",
+    "F. R. Gantmacher, The Theory of Matrices, Volume 1, American Mathematical Soc.(1959), ISBN: 0821813765, 9780821813768"
+  ]
+}
+

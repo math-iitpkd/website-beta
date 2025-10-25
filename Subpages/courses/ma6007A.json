@@ -1,0 +1,50 @@
+{
+  "code": "MA6007A",
+  "title": "Partial Differential Equations",
+  "ltpc": "3-0-0-3",
+  "category": "Core",
+  "program": "MSc",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "8",
+      "details": "Introduction, PDEs as mathematical models, first order PDEs: method of characteristics, quasilinear first order PDEs."
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "12",
+      "details": "Classification of second order PDEs Laplace equation: fundamental solution, mean-value formulas, The maximum principle, Poisson equation, properties of harmonic functions, Green’s functions,energy methods."
+    },
+    {
+      "unit": "Module 3",
+      "lectures": "6",
+      "details": "Heat equation: Diffusion, Fourier transforms, energy methods."
+     },
+     {
+      "unit": "Module 4",
+      "lectures": "8",
+      "details": "Wave equation: one-dimensional wave equation, d'Alembert’s formula,higher-dimensional wave equation, energy estimates."
+     },
+     {
+      "unit": "Module 5",
+      "lectures": "8",
+      "details": "Fourier series, boundary value problems, separation of variables."
+     }
+  ],
+  "textbooks": [
+    "Walter A. Strauss, Partial Differential Equations: An Introduction, John Wiley & Sons;2nd edition, 2008, ISBN-10: 0470054565, ISBN-13: 978-0470054567",
+    "Lawrence C. Evans, Partial Differential Equations, American Mathematical Society; 2nd Revised edition, 2010, ISBN-10: 0821849743, ISBN-13: 978-0821849743",
+    "Qing Han, A Basic Course in Partial Differential Equations, American Mathematical Society; 2011, ISBN-10: 0821852558, ISBN-13: 978-0821852552"
+   ],
+  "references": [
+    "András, Vasy, Partial Differential Equations: An Accessible Route through Theory and Applications: American Mathematical Society, 2015, ISBN-10: 1470418819, ISBN-13:978-1470418816",
+    "Gerald B. Folland, Introduction to partial differential equations, Princeton University Press, Princeton, NJ, second edition, 1995",
+    "Michael E. Taylor. Partial differential equations: Basic theory, Texts in Applied Mathematics, Vol. 23, Springer-Verlag; 1996, ISBN-10: 0387946543, ISBN-13:978-0387946542",
+    "Yehuda Pinchover and Jacob Rubinstein, An Introduction to Partial Differential Equations, Cambridge University Press; 2005, ISBN-10: 052161323X, ISBN-13:978-0521613231",
+    "Fritz John, Partial Differential Equations (Applied Mathematical Sciences), Springer; 4th ed.1991, ISBN-10: 0387906096, ISBN-13: 978-0387906096",
+    "Jurgen Jost, Partial Differential Equations, Graduate Texts in Mathematics 214, Springer;2007, ISBN-10: 1441923802, ISBN-13: 978-1441923806",
+    "Hörmander, L. Lectures on Nonlinear Hyperbolic Differential Equations, Springer; 1997,ISBN-10: 3540629211, ISBN-13: 978-3540629214",
+    "Courant, R. and Hilbert, D. Methods of mathematical physics. Vol. II: Partial differential equations, Wiley VCH; 1989, ISBN-10: 9780471504399, ISBN-13: 978-0471504399",
+    "Michael Taylor, Partial Differential Equations I: Basic Theory; Springer, 2011, ISBN-10: 1461427266, ISBN-13: 978-1461427261"
+  ]
+}

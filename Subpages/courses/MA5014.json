@@ -1,0 +1,32 @@
+{
+  "code": "MA5014",
+  "title": "Fundamentals of Mathematics",
+  "ltpc": "2-0-0-2",
+  "category": "Core",
+  "program": "MSc",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "10",
+      "details": "Sets, functions, logic: The notion of proof and the need for proofs, basic propositional logic, quantifiers, sets and set operations, relations, functions, the concept of isomorphism, equivalence relations and partitions, the canonical decomposition of functions and the quotient construction, cardinality, Cantor—Schroder—Bernstein theorem, the axiomatic method, the ZFC axioms, Zorn’s lemma and its uses."
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "8",
+      "details": "The Natural numbers: The Peano axioms, inductions and recursion, basic facts about natural numbers, the integers modulo n, the rational numbers."
+    },
+    {
+      "unit": "Module 3",
+      "lectures": "10",
+      "details": "The real numbers: The construction of the real numbers, consequences of completeness(as an ordered field). Deep dive into the epsilon—delta definition of continuity."
+    }
+  ],
+  "textbooks": [
+    "Diedrichs, Danilo R.., Lovett, Stephen. Transition to Advanced Mathematics. United States: Chapman & Hall/CRC Press, 2022, 9781000581867, 1000581861",
+    "Liebeck, Martin. A Concise Introduction to Pure Mathematics. United States: CRC Press, 2015,9781498722933, 1498722938"
+  ],
+  "references": [
+    "Beck, Matthias., Geoghegan, Ross. The Art of Proof: Basic Training for Deeper Mathematics. United States: Springer New York, 2010, 9781441970237, 1441970231"
+  ]
+}
+

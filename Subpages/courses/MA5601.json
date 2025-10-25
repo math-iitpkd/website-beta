@@ -1,0 +1,51 @@
+{
+  "code": "MA5601",
+  "title": "Introduction to Commutative Algebra",
+  "ltpc": "3-0-0-3",
+  "category": "Elective",
+  "program": "MSc",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "7",
+      "details": "Review of rings, ideals, modules, submodules, tensor product of modules, Noetherian rings.Operations on modules, exact sequences, Adjointness of Hom and Tensor."
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "5",
+      "details": "Localization and Spec of a ring."
+    },
+    {
+      "unit": "Module 3",
+      "lectures": "6",
+      "details": "Associated primes and primary decomposition."
+    },
+    {
+      "unit": "Module 4",
+      "lectures": "8",
+      "details": "Artinian rings, Krull dimension and Hilbert’s Nullstellensatz."
+    },
+    {
+      "unit": "Module 5",
+      "lectures": "8",
+      "details": "Integral extensions, Going up, Noether’s Normalization,Going down."
+    },
+    {
+      "unit": "Module 6",
+      "lectures": "8",
+      "details": "Discrete valuation rings and Dedekind domains.Graded rings and graded modules, Artin Rees Lemma, Krull’s Intersection Theorem."
+    }
+  ],
+  "textbooks": [
+    "M. F. Atiyah and I. G. Macdonald, Introduction to Commutative Algebra, Addison Wesley,1969. ISBN: 0813345448, 9780813345444",
+    "N. Jacobson, Basic Algebra II, 2nd Edition, W. H. Freeman, 1985 and 1989.ISBN: 9780486135212, 0486135217",
+    "S. Lang, Algebra, 3rd Edition, Springer (India), 2004. ISBN: 9781461300410, 146130041X"
+  ],
+  "references": [
+    "H. Matsumura, Commutative ring theory, Cambridge Studies in Advanced Mathematics No. 8,Cambridge University Press, 1980.ISBN: 9781107717121, 1107717124",
+    "D. S. Dummit and R. M. Foote, Abstract Algebra, 2nd Edition, John Wiley, 2002.ISBN: 9788126517763, 812651776X",
+    "O. Zariski and P. Samuel, Commutative Algebra, Vol. I, Springer, 1975.ISBN:9780387900896"
+  ]
+}
+
+

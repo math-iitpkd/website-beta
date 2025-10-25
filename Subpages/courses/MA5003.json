@@ -1,0 +1,47 @@
+{
+  "code": "MA5003",
+  "title": "Real Analysis",
+  "ltpc": "4-0-0-4",
+  "category": "Core",
+  "program": "MSc",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "6",
+      "details": "Review of the real number system: Real number as complete ordered field, Archimedean property. Countable and uncountable sets, Sequences of real numbers, Subsequences, Cauchy sequence, Monotone sequences, Limit inferior,Limit superior."
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "16",
+      "details": "Metric Spaces: Definition and examples, open and closed sets, convergence of sequences in metric spaces, completeness, Baire category theorem, connectedness,compactness, Heine-Borel theorem, continuity and limit of functions, Uniform continuity, Continuity and compactness, Continuity and connectedness."
+    },
+    {
+      "unit": "Module 3",
+      "lectures": "5",
+      "details": "Review of differentiation of real valued functions, Taylor’s theorem."
+    },
+    {
+      "unit": "Module 4",
+      "lectures": "13",
+      "details": "Integration: The Riemann integral and its properties, monotone functions, functions of bounded variation, The Riemann-Stieltjes integral and its properties, Reduction to Riemann integral, integrals of continuous and monotone functions, fundamental theorems of calculus, integration by parts, change of variables formula, Improper integrals."
+    },
+    {
+      "unit": "Module 5",
+      "lectures": "16",
+      "details": "Revision of series of real numbers, Sequences and series of functions, Pointwise and uniform convergence, Weierstrass M-test, uniform convergence and its relation to continuity, differentiation and integration, Weierstrass approximation theorem,equicontinuous family of functions, Arzela - Ascoli Theorem, overview of Fourier series."
+    }
+  ],
+  "textbooks": [
+    "W. Rudin, Principles of mathematical analysis, 3rd Ed., Mcgraw-Hill 1976, ISBN-13: 978- 0070542358",
+    "N.L. Carothers, Real Analysis, Cambridge University Press, 2000, ISBN-13: 978-0521497565"
+  ],
+  "references": [
+    "R.G. Bartle and D.R. Sherbert, Introduction to Real Analysis, 4th Ed., John Wiley Bros(1982), ISBN:978-0-471-43331-6",
+    "T. M. Apostol, Mathematical Analysis, 2nd Ed., Narosa (2002), ISBN-13: 978-8185015668",
+    "R. R. Goldberg, Methods of Real Analysis, Oxford and IBH Publishing, 2020, ISBN-13: 978-8120417571",
+    "Terence Tao, Analysis I, 3rd Ed., TRIM series, Hindustan Book Agency, 2016, ISBN-13: 978-9380250649",
+    "Terence Tao, Analysis II, 3rd Ed., TRIM series, Hindustan Book Agency, 2016, ISBN-13: 978-9380250656",
+    "Sudhir R. Ghorpade and Balmohan V. Limaye, A Course in Calculus and Real Analysis, 2nd Ed., Springer, NY, 2018, ISBN: 978-3-030-01399-8"
+  ]
+}
+

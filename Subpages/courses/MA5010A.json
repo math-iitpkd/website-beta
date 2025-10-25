@@ -1,0 +1,61 @@
+{
+  "code": "MA5010A",
+  "title": "Complex Analysis",
+  "ltpc": "3-0-0-3",
+  "category": "Core",
+  "program": "MSc",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "3",
+      "details": "The field of complex numbers. Topology of the complex plane. The extended complex plane and Stereographic projection. Complex differentiability and the Cauchy-Riemann equations; angles under complex-differentiable maps."
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "6",
+      "details": "Examples of complex-differentiable functions: functions defined by a power series; radius of convergence. The exponential and logarithm with the source of its multivaluedness -- the argument function. The principal branch of the logarithm."
+    },
+    {
+      "unit": "Module 3",
+      "lectures": "8",
+      "details": "Complex line integrals. Cauchy’s integral theorem and existence of local primitive for a complex differentiable function on discs or convex domains. The homotopy form of Cauchy’s integral theorem. The Local Cauchy integral formula and the equivalence of complex differentiability and complex analyticity"
+    },
+    {
+      "unit": "Module 4",
+      "lectures": "5",
+      "details": "Goursat’s theorem. Morera’s theorem; Uniform limits of holomorphic functions. Cauchy’s estimates; Liouville’s theorem. Fundamental theorem of Algebra."
+    },
+    {
+      "unit": "Module 5",
+      "lectures": "5",
+      "details": "Inverse and Open mapping theorems; the local maximum modulus principle. Isolated singularities: removable, pole and essential. Riemann’s removable singularities theorem. Meromorphic functions; functions holomorphic at infinity. Laurent series expansions.Casoratti-Weierstrass theorem"
+    },
+    {
+      "unit": "Module 6",
+      "lectures": "6",
+      "details": "Residue theorem. Argument principle with a discussion about winding numbers. Rouche’s theorem."
+    },
+    {
+      "unit": "Module 7",
+      "lectures": "6",
+      "details": "Conformal mappings. Schwarz lemma. Holomorphic automorphisms of the disc. Fractional Linear transformations."
+    }
+  ],
+  "textbooks": [
+    "Serge Lang, Complex Analysis, Springer, 2013, ISBN: 1475730837, 9781475730838",
+    "J. Bruna, J. Cufi, Complex Analysis, Hindustan Book Agency, 2015,ISBN:978-93-80250-73-1",
+    "Gamelin T., Complex Analysis, Springer, 2013, ISBN: 0387216073, 9780387216072"
+  ],
+  "references": [
+    "Tristan Needham, Visual Complex Analysis, Clarendon Press (1998), ISBN: 0198534469,9780198534464",
+    "Lars V. Ahlfors, Complex Analysis, McGraw Hill Education; Third edition (2017), ISBN:978-1259064821",
+    "Elias M. Stein, Rami Shakarchi, Complex Analysis, Volume 2 of Princeton lectures in analysis,Princeton University Press (2010), ISBN: 1400831156, 9781400831159",
+    "R. P. Boas (edited by H. P. Boas), Invitation to Complex Analysis, (Mathematical Association of America Books), American Mathematical Society, Revised Edition (2010), ISBN: 0883857642,9780883857649",
+    "J. B. Conway, Functions of One Complex Variable, Springer (2012), ISBN: 1461599725,9781461599722",
+    "David C. Ullrich, Complex Made Simple, American Mathematical Society (2008), ISBN: 0821844792, 9780821844793",
+    "D. Sarason, Complex Function Theory, Hindustan Book Agency (2012), ISBN: 9788185931845",
+    "Donald E. Marshall, Complex Analysis, Cambridge University Press (2019), ISBN: 110713482X, 9781107134829",
+    "Robert Everist Greene, Steven George Krantz, Function Theory of One Complex Variable,American Mathematical Society (2006), ISBN: 0821839624, 9780821839621",
+    "R. Remmert, Theory of Complex Functions, Springer (2012), ISBN: 1461209390,9781461209393"
+  ]
+}

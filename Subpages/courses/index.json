@@ -1,0 +1,329 @@
+[
+  {
+    "code": "MA1011A",
+    "title": "Linear Algebra and Series",
+    "program": "BTech",
+    "category": "Core"
+  },
+  {
+    "code": "MA1021",
+    "title": "Multivariable Calculus",
+    "program": "BTech",
+    "category": "Core"
+  },
+  {
+    "code": "MA2010",
+    "title": "Complex Variables",
+    "ltpc": "3-0-0-3",
+    "category": "Elective",
+    "program": "BTech"
+  },
+  {
+    "code": "MA2020",
+    "title": "Differential Equations",
+    "ltpc": "3-0-0-3",
+    "category": "Elective",
+    "program": "BTech"
+  },
+  {
+    "code": "MA2032",
+    "title": "Numerical Analysis",
+    "ltpc": "3-0-0-3",
+    "category": "Elective",
+    "program": "BTech"
+  },
+  {
+    "code": "MA2041",
+  "title": "Probability and Statistics",
+  "ltpc": "3-0-0-3",
+  "category": "Elective",
+  "program": "BTech"
+  },
+  {
+    "code": "MA2130",
+    "title": "Graph Theory",
+    "ltpc": "3-0-0-3",
+    "category": "Elective",
+    "program": "BTech"
+  },
+  {
+    "code": "MA7001",
+  "title": "Banach Space Theory",
+  "ltpc": "3-0-0-3",
+  "category": "Elective",
+  "program": "PhD"
+  },
+  {
+    "code": "MA7002",
+    "title": "Advanced Partial Differential Equations",
+    "ltpc": "3-0-0-3",
+    "category": "Elective",
+    "program": "PhD"
+  },
+  {
+    "code": "MA6001",
+    "title": "Probability Theory",
+    "ltpc": "3-0-0-3",
+    "category": "Elective",
+    "program": "MSc"
+  },
+  {
+    "code": "MA7003",
+    "title": "Real and Functional Analysis",
+    "ltpc": "4-0-0-4",
+    "category": "Elective",
+    "program": "PhD"
+  },
+  {
+  "code": "MA7004",
+  "title": "Complex Analysis",
+  "ltpc": "3-0-0-3",
+  "category": "Elective",
+  "program": "PhD"
+  },
+  {
+  "code": "MA6002",
+  "title": "Introduction to Several Complex Variables",
+  "ltpc": "3-0-0-3",
+  "category": "Elective",
+  "program": "MSc"
+  },
+  {
+  "code": "MA6003",
+  "title": "Introduction to Algebraic Geometry",
+  "ltpc": "3-0-0-3",
+  "category": "Elective",
+  "program": "MSc"
+  },
+  {
+  "code": "MA5001",
+  "title": "Linear Algebra",
+  "ltpc": "4-0-0-4",
+  "category": "Core",
+  "program": "MSc"
+  },
+   {
+  "code": "MA5002A",
+  "title": "Multivariable Calculus",
+  "ltpc": "3-0-0-3",
+  "category": "Core",
+  "program": "MSc"
+  },
+  {
+  "code": "MA5003",
+  "title": "Real Analysis",
+  "ltpc": "4-0-0-4",
+  "category": "Core",
+  "program": "MSc"
+  },
+  {
+  "code": "MA5004A",
+  "title": "Measure Theory",
+  "ltpc": "3-0-0-3",
+  "category": "Core",
+  "program": "MSc"
+  },
+   {
+  "code": "MA5005A",
+  "title": "Groups and Rings",
+  "ltpc": "3-0-0-3",
+  "category": "Core",
+  "program": "MSc"
+  },
+    {
+  "code": "MA5006A",
+  "title": "Fields and Modules",
+  "ltpc": "3-0-0-3",
+  "category": "Core",
+  "program": "MSc"
+  },
+  {
+  "code": "MA5007A",
+  "title": "Probability and Statistics",
+  "ltpc": "3-0-0-3",
+  "category": "Core",
+  "program": "MSc"
+  },
+   {
+  "code": "MA5008A",
+  "title": "Topology",
+  "ltpc": "3-0-0-3",
+  "category": "Core",
+  "program": "MSc"
+  },
+    {
+  "code": "MA5009A",
+  "title": "Ordinary Differential Equations",
+  "ltpc": "3-0-0-3",
+  "category": "Core",
+  "program": "MSc"
+  },
+    {
+  "code": "MA5010A",
+  "title": "Complex Analysis",
+  "ltpc": "3-0-0-3",
+  "category": "Core",
+  "program": "MSc"
+  },
+  {
+  "code": "MA5601",
+  "title": "Introduction to Commutative Algebra",
+  "ltpc": "3-0-0-3",
+  "category": "Elective",
+  "program": "MSc"
+  },
+  {
+  "code": "MA5602",
+  "title": "Algebraic Topology",
+  "ltpc": "3-0-0-3",
+  "category": "Elective",
+  "program": "MSc"
+  },
+  {
+  "code": "MA5603",
+  "title": "Advanced Complex Analysis",
+  "ltpc": "3-0-0-3",
+  "category": "Elective",
+  "program": "MSc"
+  },
+  {
+  "code": "MA5605",
+  "title": "Topics in Commutative Algebra",
+  "ltpc": "3-0-0-3",
+  "category": "Elective",
+  "program": "MSc"
+  },
+  {
+  "code": "MA5607",
+  "title": "Fourier Analysis",
+  "ltpc": "3-0-0-3",
+  "category": "Elective",
+  "program": "MSc"
+  },
+  {
+  "code": "MA6008",
+  "title": "Lie groups and Lie algebras",
+  "ltpc": "3-0-0-3",
+  "category": "Elective",
+  "program": "MSc"
+  },
+  {
+  "code": "MA6009",
+  "title": "Representation Theory of Linear Lie groups",
+  "ltpc": "3-0-0-3",
+  "category": "Elective",
+  "program": "PhD"
+  },
+  {
+  "code": "MA6010",
+  "title": "Nonlinear Functional Analysis",
+  "ltpc": "3-0-0-3",
+  "category": "Elective",
+  "program": "PhD"
+  },
+  {
+  "code": "MA6605",
+  "title": "Operator Theory",
+  "ltpc": "3-0-0-3",
+  "category": "Elective",
+  "program": "PhD"
+  },
+  {
+  "code": "MA5608",
+  "title": "Numerical Methods for Partial Differential",
+  "ltpc": "3-0-0-3",
+  "category": "Elective",
+  "program": "MSc"
+  },
+  {
+  "code": "MA5609",
+  "title": "Introduction to Scientific Computing",
+  "ltpc": "3-0-2-4",
+  "category": "Elective",
+  "program": "MSc"
+  },
+  {
+  "code": "MA5606A",
+  "title": "Riemann Surfaces",
+  "ltpc": "4-0-0-4",
+  "category": "Elective",
+  "program": "MSc"
+  },
+  {
+  "code": "MA5604A",
+  "title": "Introduction to Differentiable Manifolds",
+  "ltpc": "4-0-0-4",
+  "category": "Elective",
+  "program": "MSc"
+  },
+  {
+  "code": "MA6606",
+  "title": "Advanced Functional Analysis",
+  "ltpc": "4-0-0-4",
+  "category": "Elective",
+  "program": "MSc"
+  },
+  {
+  "code": "MA6607",
+  "title": "Riemannian Geometry",
+  "ltpc": "4-0-0-4",
+  "category": "Elective",
+  "program": "MSc"
+  },
+  {
+  "code": "MA6608",
+  "title": "Mathematical theory of finite elements",
+  "ltpc": "3-0-0-3",
+  "category": "Elective",
+  "program": "MSc"
+  },
+  {
+  "code": "MA6011",
+  "title": "Abstract Harmonic Analysis",
+  "ltpc": "3-0-0-3",
+  "category": "Elective",
+  "program": "MSc"
+  },
+  {
+  "code": "MA6012",
+  "title": "Harmonic analysis on Compact Lie groups",
+  "ltpc": "3-0-0-3",
+  "category": "Elective",
+  "program": "MSc"
+  },
+  {
+  "code": "MA5501",
+  "title": "Information Theory and Statistics",
+  "ltpc": "3-0-0-3",
+  "category": "Elective",
+  "program": "MSc"
+  },
+  {
+  "code": "MA5014",
+  "title": "Fundamentals of Mathematics",
+  "ltpc": "2-0-0-2",
+  "category": "Core",
+  "program": "MSc"
+  },
+  {
+  "code": "MA6005A",
+  "title": "Functional Analysis",
+  "ltpc": "3-0-0-3",
+  "category": "Core",
+  "program": "MSc"
+  },
+  {
+  "code": "MA6007A",
+  "title": "Partial Differential Equations",
+  "ltpc": "3-0-0-3",
+  "category": "Core",
+  "program": "MSc"
+  },
+  {
+  "code": "MA5619",
+  "title": "Geoemtry of Curves and Surfaces",
+  "ltpc": "4-0-0-4",
+  "category": "Elective",
+  "program": "MSc"
+  }
+]

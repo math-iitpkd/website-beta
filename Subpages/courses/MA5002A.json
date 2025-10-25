@@ -1,0 +1,49 @@
+{
+  "code": "MA5002A",
+  "title": "Multivariable Calculus",
+  "ltpc": "3-0-0-3",
+  "category": "Core",
+  "program": "MSc",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "8",
+      "details": "Differentiable mappings from open subsets of R^n to R^m with derivative as a linear map providing first order approximation. Partial and directional derivatives of real-valued functions; Gradient with its geometric interpretation as normals to level surfaces."
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "8",
+      "details": "Chain Rule for the composition of differentiable mappings. Inverse and Implicit function theorems."
+    },
+    {
+      "unit": "Module 3",
+      "lectures": "14",
+      "details": "Mean value theorem. Higher order derivatives and Taylor’s theorem. Critical points and tests for local extrema at such points using the Hessian. Saddle points. Lagrange multiplier method for optimization problems on smooth submanifolds of R^n."
+    },
+    {
+      "unit": "Module 4",
+      "lectures": "12",
+      "details": "Multiple integration: Integration of real-valued functions of several variables and change of variables formula (without proof). Vector fields Divergence and curl. Classical theorems of Green and Stokes in dimensions 2 and 3."
+    }
+  ],
+  "textbooks": [
+    "Wendell Fleming, Functions of Several Variables, Springer (2012), ISBN: 1468494619,9781468494617",
+    "Patrick Fitzpatrick, Advanced Calculus, American Mathematical Soc., 2009, American Mathematical Soc.(2009), ISBN: 0821847910,9780821847916",
+    "Tom M. Apostol, Calculus: Multi-Variable Calculus and Linear Algebra with Applications to Differential Equations and Probability, Wiley; Second edition (2007) ISBN:978-8126515202"
+  ],
+  "references": [
+    "Theodore Shifrin, Multivariable Mathematics: Linear Algebra, Multivariable Calculus, and Manifolds Wiley (2004), ISBN: 047152638X, 9780471526384",
+    "Pietro-Luciano Buono, Advanced Calculus: Differential Calculus and Stokes' Theorem, Walter de Gruyter (2016), ISBN: 3110438224, 9783110438222",
+    "Jerry Shurman, Calculus and Analysis in Euclidean Space, Springer (2016), ISBN: 3319493140, 9783319493145",
+    "J. J. Duistermaat, J. A. C. Kolk, Multidimensional Real Analysis I: Differentiation, Cambridge University Press (2004), ISBN: 1139451197, 9781139451192",
+    "J. J. Duistermaat, J. A. C. Kolk, Multidimensional Real Analysis II: Integration, Cambridge University Press (2004), ISBN: 1139451871, 9781139451871",
+    "Peter D. Lax, M. S. Terrell, Multivariable Calculus with Applications, Springer (2018), ISBN: 3319740733, 9783319740737",
+    "Guillemin Victor, Haine Peter, Differential Forms, World Scientific (2019), ISBN: 9813272791, 9789813272798",
+    "John H. Hubbard and Barbara Burke Hubbard, Vector Calculus, Linear Algebra, and Differential Forms: A Unified Approach, Matrix Editions (5th Edition), ISBN: 9780971576681",
+    "Michael Spivak, Calculus On Manifolds: A Modern Approach To Classical Theorems Of Advanced Calculus, Hachette UK (1971), ISBN: 0813346126, 9780813346120",
+    "Sudhir R. Ghorpade, Balmohan V. Limaye, A Course in Multivariable Calculus and Analysis,Springer ISBN: 1441916210, 9781441916211",
+    "Serge Lang, Calculus of Several Variables, Springer (2012), ISBN: 1461210682, 9781461210689"
+  ]
+}
+
+

@@ -1,0 +1,36 @@
+{
+  "code": "MA2010",
+  "title": "Complex Variables",
+  "ltpc": "3-0-0-3",
+  "category": "Core",
+  "program": "BTech",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "",
+      "details": "Analytic functions: Limits and continuity, differentiability and analyticity, analytic branches of inverse functions, branches of logarithm, Cauchy-Riemann equations, harmonic conjugates."
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "",
+      "details": "Complex integral: Cauchy’s theorem and integral formula, series of complex functions and the Weierstrass M-test, Taylor series, identity theorem, isolation of zeros of an analytic function, statements of open mapping, inverse function, Liouville’s theorem, fundamental theorem of Algebra."
+    },
+    {
+      "unit": "Module 3",
+      "lectures": "",
+      "details": "Residue Calculus: Singularities and their classification, Laurent series, residue theorem and argument principle, computing real integrals using residues."
+    },
+    {
+      "unit": "Module 4",
+      "lectures": "",
+      "details": "Bilinear transformation: Bilinear transformation, conformal mapping, elementary properties of the mapping of exponential, sine and cosine functions."
+    }
+  ],
+  "textbooks": [
+    "E. Kreyszig, Advanced Engineering Mathematics, 10th Edition, John Wiley & Sons (2011)"
+  ],
+  "references": [
+    "R.V. Churchill and J.W. Brown, Complex Variables and Applications, 8th Edition, McGraw-Hill (2009)",
+    "S. Ponnusamy and H. Silverman, Complex Variables with Applications, Birkhäuser (2006)"
+  ]
+}

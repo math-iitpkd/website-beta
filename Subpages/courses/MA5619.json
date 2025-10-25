@@ -1,0 +1,53 @@
+{
+  "code": "MA5009A",
+  "title": "Ordinary Differential Equations",
+  "ltpc": "3-0-0-3",
+  "category": "Core",
+  "program": "MSc",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "8 Lectures",
+      "details": "Curves in Euclidean Space: Parametrization, tangent vectors, and arc length. Curvature and torsion. The Frenet-Serret frame: Tangent, normal, and binormal vectors. Frenet-Serret formulas"
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "6 Lectures",
+      "details": "Surfaces in Euclidean Space: Parametrization, tangent planes, and normal vectors. Tangent planes and the first fundamental form. Surface integrals."
+    },
+    {
+      "unit": "Module 3",
+      "lectures": "6 Lectures",
+      "details": "The Gauss map and the second fundamental form: Normal curvature, principal curvatures, Gaussian Curvature and mean curvature."
+    },
+    {
+      "unit": "Module 4",
+      "lectures": "8 Lectures",
+      "details": "Intrinsic Geometry of Surfaces: Gauss’s Theorema Egregium. Geodesics and the geodesic equation. Examples of surfaces with constant Gaussian curvature: Planes, spheres, surfaces of revolution."
+    },
+    {
+      "unit": "Module 5",
+      "lectures": "(8 Lectures)",
+      "details": "Special Topics: The Gauss-Bonnet theorem. Compact surfaces and the Euler characteristic."
+    },
+    {
+      "unit": "Module 6",
+      "lectures": "6 Lectures",
+      "details": "Applications: Applications of Curves and surfaces in physics (e.g., motion of particles, general relativity), computer graphics (e.g., Bézier curves, splines) and in engineering (e.g., structural design, robotics)."
+    }
+  ],
+  "textbooks": [
+    "Differential Geometry of Curves and Surfaces by Manfredo P. do Carmo. ISBN: 978-0486806990",
+    "Elementary Differential Geometry by Andrew Pressley. ISBN: 978-1848828902",
+    "Differential Geometry by Erwin Kreyszig. ISBN: 978-0486667218"
+  ],
+  "references": [
+    "A Course in Differential Geometry by W. Klingenberg. ISBN-13:978-1461299257",
+    "Differential Geometry of Curves and Surfaces by Kristopher Tapp. ISBN-10:3319397982",
+    "Gravitation by by Charles W. Misner, Kip S. Thorne, John Archibald Wheeler and David I.Kaiser. ISBN-10: 9780691177793",
+    "Computer Graphics: Principles and Practice by James D. Foley, John F. Hughes, Andries van Dam ans Steven K. Feiner - ISBN-10: 0321399528",
+    "Mathematical Methods for Engineers and Scientists by Kwong-Tin Tang. ISBN-10 :3540302735"
+]
+}
+
+

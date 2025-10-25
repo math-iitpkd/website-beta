@@ -1,0 +1,46 @@
+{
+  "code": "MA6005A",
+  "title": "Functional Analysis",
+  "ltpc": "3-0-0-3",
+  "category": "Core",
+  "program": "MSc",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "10",
+      "details": "Normed linear spaces, Banach spaces, Equivalence of norms on finite dimensional spaces, Riesz lemma and characterization of finite dimensional normed spaces, Hamel basis and Schauder basis of normed spaces, Separable normed spaces."
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "12",
+      "details": "Bounded linear operators, Continuous linear functionals, Hahn-Banach theorems (separation and extension theorems), Dual spaces and transpose, Dual of some classical spaces like c0, lp, Lp(for p≥ 1);Bidual of a normed linear space and Reflexive spaces."
+    },
+    {
+      "unit": "Module 3",
+      "lectures": "5",
+      "details": "Uniform boundedness principle, Open mapping theorem, Closed graph theorem."
+    },
+    {
+      "unit": "Module 4",
+      "lectures": "8",
+      "details": "Compact operators, Spectra of bounded linear operators and compact operators."
+    },
+    {
+      "unit": "Module 5",
+      "lectures": "8",
+      "details": "Hilbert spaces, Bessel’s inequality, Orthonormal basis, Separable Hilbert space, Projection theorem and Riesz Representation Theorem."
+    }
+  ],
+  "textbooks": [
+    "J. B. Conway, A course in functional analysis, GTM (96), Springer (Indian reprint 2006)",
+    "B. V. Limaye, Functional Analysis, 2nd Ed., New Age International Publishers, 1996"
+  ],
+  "references": [
+    "M. Reed and B. Simon, Methods of Modern Mathematical Physics, Vol. 1: Functional Analysis,2nd Ed., Academic Press, 1980",
+    "G. Bachman and L. Narici, Functional Analysis, Dover Publication, 2012",
+    "S. Kesavan, Functional Analysis, TRIM series, Hindustan Book Agency, 2009",
+    "Yosida, K., Functional Analysis (4th Edition), Springer-Verlag Berlin Heidelberg, 1995",
+    "Rajendra Bhatia, Notes on Functional Analysis, Hindustan Book Agency, 2015",
+    "M. T. Nair, Functional analysis, PHI-Learning, New Delhi, Fourth Print 2014"
+  ]
+}

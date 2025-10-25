@@ -1,0 +1,55 @@
+{
+  "code": "MA5608",
+  "title": "Numerical Methods for Partial Differential",
+  "ltpc": "3-0-0-3",
+  "category": "Elective",
+  "program": "MSc",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "5",
+      "details": "Introduction and Mathematical Preliminaries: Types of partial differential equations, Well posed problems, Properties of linear and quasi-linear equations,Physical character of Subsonic and Supersonic flows, Second-order wave equations, System of first order equations, Weak solutions."
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "6",
+      "details": "Equations of Parabolic type: Finite difference scheme for heat conduction equation, Crank-Nicolson implicit scheme, Analogy with schemes for ordinary differential equations, Implicit methods, Leap-frog and DuFort-Frankel schemes, Operator notation, The Alternating direction implicit (ADI) method."
+    },
+    {
+      "unit": "Module 3",
+      "lectures": "8",
+      "details": "Finite Difference, Finite Element and Finite Volume Discretization:Discretisation of derivatives, Order of accuracy, Consistency, Convergence and Stability, Basics of Finite Element and Finite Volume discretization."
+    },
+    {
+      "unit": "Module 4",
+      "lectures": "7",
+      "details": "Equations of Hyperbolic type: Explicit schemes, Lax-Wendroff scheme and variants, Implicit schemes, CFL condition, Upwind schemes, Scalar Conservation law, Hyperbolic system of Conservation laws, Second order wave equation,Method of characteristics for second order hyperbolic equations, flux-vector splitting method, Model Convection-Diffusion Equation."
+    },
+    {
+      "unit": "Module 5",
+      "lectures": "7",
+      "details": "Equations of Elliptic type: The Laplace equation in two dimensions, Iterative methods for systems of linear algebraic systems, Solution of the Penta diagonal system, Approximate factorization schemes, Body-fitted and non-body fitted grid generation examples. Multigrid methods, Applications to practical problems of interest."
+    },
+    {
+      "unit": "Module 6",
+      "lectures": "3",
+      "details": "Equations of Mixed Elliptic-Hyperbolic Type: Tricomi equation, Transonic computations based on TSP model."
+    },
+    {
+      "unit": "Module 7",
+      "lectures": "6",
+      "details": "Application to Fluid Mechanics: Basic concepts of Fluid mechanics (Fluid kinematics, Lagrangian and Eulerian Specifications, Streamlines, Path lines and Streaklines, Vorticity and Circulation, Streamfunction), Basic equations of Fluid Dynamics, Navier-Stokes equations, Introduction to numerical solutions of Navier-Stokes equations."
+    }
+  ],
+  "textbooks": [
+    "Numerical Methods for Engineers and Scientists by Joe D. Hoffman, CRC Press, 2001(ISBN 13: 978-0824704438)",
+    "Numerical Solution of Partial Differential Equations (Finite Difference Methods) by GD Smith,3rd Edition, Oxford University Press, Oxford (ISBN 10: 0198596502)"
+  ],
+  "references": [
+    "Numerical Grid Generation: Foundations and Applications by Joe F. Thompson, Elsevier Science Ltd (ISBN13: 978-0444009852)",
+    "Computational Methods for Fluid Dynamics by Joel H. Ferziger, Milovan Perić, Springer,Berlin, Heidelberg (ISBN: 978-3-642-56026-2)",
+    "Introduction to Computational Fluid Dynamics by Pradip Niyogi, S. K. Chakrabartty, M. K. Laha Pearson Publications, 2011 (ISBN13: 978-8177587647)"
+  ]
+}
+
+

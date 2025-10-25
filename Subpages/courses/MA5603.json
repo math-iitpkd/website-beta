@@ -1,0 +1,41 @@
+{
+  "code": "MA5603",
+  "title": "Advanced Complex Analysis",
+  "ltpc": "3-0-0-3",
+  "category": "Elective",
+  "program": "MSc",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "14",
+      "details": "The theorems of Picard: The Poincare metric on the unit disk. Conformal metrics on domains and curvature. The Ahlfors--Schwarz lemma. Existence of a conformal metric on C{0,1} with negative curvature. Normal families and Montel’s theorem. Picard’s little and big theorems."
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "14",
+      "details": "The Riemann mapping theorem: Harmonic and subharmonic functions.Equivalent characterisations of subharmonic functions. Harnack’s inequality.The Perron method for solving the Dirichlet problem. Barriers and sufficient condition for solvability. Green’s functions. Existence of Green’s function. The Riemann mapping theorem using Green’s functions. Equivalent characterisations of simply-connected domains."
+    },
+    {
+      "unit": "Module 3",
+      "lectures": "14",
+      "details": "Analytic continuations and Monodromy theorem: Analytic continuation along curves. Permanence of relations. The sheaf of germs of a holomorphic function. The complete analytic function of a germ. The monodromy theorem. Relation to covering spaces. The Riemann surface of an algebraic function."
+    }
+  ],
+  "textbooks": [
+    "Raghavan Narasimhan, Yves Nievergelt, Complex Analysis in One Variable Birkhauser Boston, Springer, 2011. ISBN: 9781461201755, 1461201756",
+    "J. B. Conway, Functions of One Complex Variable II, Springer, 2012. ISBN: 9781461208174, 1461208173",
+    "J. Bruna, J. Cufi, Complex Analysis, Hindustan Book Agency, 2015, ISBN:978-93-80250-73-1"
+  ],
+  "references": [
+    "Guo-Chun Wen, Conformal Mappings and Boundary Value Problems, American Mathematical Society, ISBN: 9780821886809, 0821886800",
+    "S. Krantz, Geometric Function Theory -- Explorations in Complex Analysis, Birkhauser Boston, Springer, 2006. ISBN: 9780817644406, 0817644407",
+    "Serge Lang, Complex Analysis, Springer, 2013, ISBN: 1475730837, 9781475730838",
+    "Gamelin T., Complex Analysis, Springer, 2013, ISBN: 0387216073, 9780387216072",
+    "Tristan Needham, Visual Complex Analysis, Clarendon Press (1998), ISBN: 0198534469,9780198534464",
+    "Lars V. Ahlfors, Complex Analysis, McGraw Hill Education; Third edition (2017), ISBN: 978- 1259064821",
+    "David C. Ullrich, Complex Made Simple, American Mathematical Society (2008), ISBN:0821844792, 9780821844793",
+    "Barry Simon, Advanced Complex Analysis, Part 2B of 'A comprehensive course in analysis', American Mathematical Society (2015), ISBN: ISBN 1470410982, 9781470410988",
+    "Francis Kirwan, Complex Algebraic Curves, London Mathematical Society Student Texts No.23. Cambridge University Press (1992), ISBN-13 : 978-0521423533"
+  ]
+}
+

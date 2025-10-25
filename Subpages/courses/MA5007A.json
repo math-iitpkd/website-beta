@@ -1,0 +1,42 @@
+{
+  "code": "MA5007A",
+  "title": "Probability and Statistics",
+  "ltpc": "3-0-0-3",
+  "category": "Core",
+  "program": "MSc",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "4",
+      "details": "Statistics: Review of statistics, describing data – frequency tables, graphs, and summarizing data –measures of central tendency and variation, multivariate data - correlation coefficient and linear regression"
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "24",
+      "details": "Probability: Axioms of probability, conditioning and Bayes' rule, independence, random variables,standard probability density functions - binomial, poisson, normal, etc., expected value, Chebhyshev’s inequality, moment generating function, covariance, correlation, functions of random variables, law of large numbers, central limit theorem, conditional expectation."
+    },
+    {
+      "unit": "Module 3",
+      "lectures": "14",
+      "details": "Statistical Inference: Point estimation – maximum likelihood estimation (mle), method of moments,Bayes’ estimator, distributions of sampling statistics, estimation of regression coefficients in a simple linear model, interval estimation, tests of hypotheses – tests for mean and variance, t-test, evaluation of point estimators – unbiasedness, mean squared error (mse), Cramer-Rao bound."
+    }
+  ],
+  "textbooks": [
+    "Robert V. Hogg, Allen Craig, Joseph W. McKean, Introduction to Mathematical Statistics, Pearson, ISBN 978-81-775-8930-6",
+    "A. Popoulis and S. Pillai, Probability, Random Variables and Stochastic Processes,McGraw Hill Education; 4 edition, ISBN: 978-0070486584",
+    "Sheldon M. Ross, Introduction to Probability and Statistics for Engineers and Scientists,Academic Press, ISBN:978-0-12-370483-2."
+  ],
+  "references": [
+    "Hoel, Port, and Stone, Introduction to Probability Theory, Publisher: Houghton Mifflin, ISBN 978-0395046364",
+    "Hoel, Port, and Stone, Introduction to Statistical Theory, Publisher: Houghton Mifflin, ISBN:978-0395046371",
+    "W. Feller, An Introduction to Probability Theory and its Applications Volume-I, Third Edition, John Wiley & Sons, ISBN: 978-81-265-1805-0",
+    "Freedman, Pisani and Purves, Statistics, Viva books; Fourth Edition, ISBN: 978-8130915876",
+    "P.L. Meyer, Introductory Probability and Statistical Applications, Oxford and IBH Publishers, ISBN: 0-201-04710-1",
+    "R.E. Walpole and R.H. Myers, Probability & Statistics for Engineers and Scientists,Macmillan, ISBN: 9788131715529",
+    "A. N. Shiryayev, Probability-1, Springer, ISBN: 978-1493979059",
+    "P. Billingsley, Probability and Measure, John Wiley & Sons Inc; Third Ed., ISBN:978-81-265-1771-8"
+  ]
+}
+
+
+

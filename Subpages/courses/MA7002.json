@@ -1,0 +1,33 @@
+{
+  "code": "MA7002",
+  "title": "Advanced Partial Differential Equations",
+  "ltpc": "3-0-0-3",
+  "category": "Elective",
+  "program": "PhD",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "",
+      "details": "Distribution Theory : Test functions and Distributions, Convolutions of Distributions,Fundamental solutions."
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "",
+      "details": "Sobolev Spaces : Definition and elementary properties of Sobolev spaces, Density results,Extensions, Traces, Sobolev inequalities, Compactness Theorems."
+    },
+    {
+      "unit": "Module 3",
+      "lectures": "",
+      "details": "Weak solutions of second order elliptic boundary value problems: Variational formulation ofsome boundary value problems, Lax-Milgram Theorem, Dirichlet and Neumann problems for second orderelliptic operators, Regularity of weak solutions, Maximum principles, Eigenvalue problems."
+    }
+  ],
+  "textbooks": [
+    "S. Kesavan, Topics in functional analysis and applications, New age international publishers,ISBN-13 : 978 -8122437973.",
+    "L. C. Evans, Partial Differential Equations, American Mathematical Society, ISBN-13 : 978-0821849743."
+  ],
+  "references": [
+    "H. Brezis, Functional Analysis, Sobolev Spaces and Partial Differential Equations, Springer,ISBN-13 : 978-0387709130.",
+    "R. A. Adams, J. F. Fournier, Sobolev Spaces , Academic press, Elsevier, ISBN-13 : 978-0120441433."
+  ]
+}
+

@@ -1,0 +1,49 @@
+{
+  "code": "MA7003",
+  "title": "Real and Functional Analysis",
+  "ltpc": "4-0-0-4",
+  "category": "Elective",
+  "program": "PhD",
+  "syllabus": [
+    {
+      "unit": "Module 1",
+      "lectures": "12",
+      "details": "Brief review of Lebesgue measure on the real line; comparison of Riemann integration and Lebesgue integration. Abstract measure and abstract integration, Monotone convergence theorem, Dominated convergence theorem (DCT), Fatou’s lemma. Definition of the Fourier transform and Riemann-Lebesgue lemma as a corollary of DCT."
+    },
+    {
+      "unit": "Module 2",
+      "lectures": "10",
+      "details": "Product sigma algebras, Product measures, Sections of measurable functions, Fubini’s theorem, Signed measures and Radon-Nikodym theorem."
+    },
+    {
+      "unit": "Module 3",
+      "lectures": "12",
+      "details": "Lp-spaces, Characterization of continuous linear functionals on Lp - spaces, Change of variables, Complex measures, Riesz representation theorem."
+     },
+     {
+       "unit": "Module 4",
+       "lectures": "12",
+      "details": "Review of rudimentary functional analysis: Bounded linear functionals and dual spaces of Normed linear spaces; the Hahn-Banach theorem. Bounded linear operators, open-mapping theorem, closed graph theorem. Uniform Boundedness principle and applications to the existence of continuous functions on the circle, whose Fourier series fails to converge at any prescribed point."
+     },
+     {
+       "unit": "Module 5",
+      "lectures": "10",
+      "details": "Review of Hilbert spaces, Riesz representation theorem, orthogonal complements. Reproducing kernel Hilbert spaces as special examples of Hilbert spaces. Bounded operators on a Hilbert space up to (and including) the spectral theorem for compact, self-adjoint operators."
+     }
+  ],
+  "textbooks": [
+    "Royden,H. L. Real Analysis,Prentice Hall India Learning Private Limited;4th edition (2011),ISBN-10: 8120342801,ISBN-13: 978-8120342804.",
+    "Walter Rudin,Real and Complex Analysis,Tata McGraw-Hill Education,(2006 Indian reprint), ISBN: 0070619875, 9780070619876.",
+    "John B. Conway, A Course in Functional Analysis,Springer, ISBN: 1475738285, 9781475738285."
+  ],
+  "references": [
+    "Gerald B. Folland, Real Analysis: Modern Techniques and their Applications, John Wiley & Sons,(2013) ISBN: 1118626397, 9781118626399.",
+    "E. Hewitt,K . Stromberg, Real and Abstract Analysis: A modern treatment of the theory of functions of a real variable,Springer(2013 reprint) ISBN: 3642880479, 9783642880476.",
+    "Paul J. Sally, Fundamentals of Mathematical Analysis,American Mathematical Society (2013), ISBN: 0821891413, 9780821891414.",
+    "John B. Conway, A Course in Abstract Analysis, AMerican Mathematical Society (2012),ISBN: 0821890832, 9780821890837.",
+    "Serge Lang,Real and Functional Analysis,Springer (2012),ISBN: 1461208971, 9781461208976.",
+    "C. D. Aliprantis,O. BurkinshawPrinciples of Real Analysis,Academic Press/Elsevier, ISBN: 978-0120502578.",
+    "Robert B Ash, Measure,Integration, and Functional Analysis,Elsevier,ISBN: 978-0-12-065260-0."
+  ]
+}
+
