@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/fonts.css">
+    <link rel="stylesheet" href="../CSS/flyin_square.css" />
+    <link rel="stylesheet" href="../CSS/info.css" />
+    <link rel="stylesheet" href="../CSS/menubar.css" />
+    <link rel="stylesheet" href="../CSS/footer.css" />
+    <link rel="stylesheet" href="../CSS/freeze.css" />
+    <link rel="stylesheet" href="../CSS/contactstyle.css" />
+    <title>Projcts - Dept. of Mathematics</title>
+    <link rel="icon" href="../images/IITPkd_Only_Logo_colour_RGB.png" type="image/png">
+</head>
+
+<body>
+
+
+    <div class="top-info-bar">
+        <div class="info-container">
+            <div class="info-left">
+                <span class="info-item">📧 <a href="mailto:office_ma@iitpkd.ac.in ">office_ma@iitpkd.ac.in </a></span>
+                <span class="info-item">📞 <a href="tel:+911234567890">+91-491-209-1400</a></span>
+            </div>
+            <div class="info-right">
+                <span class="info-item">🌐 <a href="https://www.iitpkd.ac.in" target="_blank">IIT Palakkad</a></span>
+            </div>
+        </div>
+    </div>
+    <!-- Top Banner -->
+    <header>
+        <div class="banner">
+            <img src="../images/IITPkd_Master_Lockup_colour_RGB.png" alt="Logo" class="logo" />
+            <div class="divider"></div>
+            <div class="title-group">
+                <div class="main-title">Department of Mathematics</div>
+                <div class="sub-title">Indian Institute of Technology Palakkad</div>
+            </div>
+        </div>
+    </header>
+
+    <div class="sticky-header">
+        <button class="hamburger" onclick="toggleMenu()">☰</button>
+
+        <!-- Menu Bar -->
+        <nav class="menu-bar" id="menu">
+            <a href="index_edits.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">Academic</button>
+                <div class="dropdown-content">
+
+                    <div class="submenu">
+                        <span>Courses</span>
+                        <div class="submenu-content">
+                            <a href="#">Course Catalogue</a>
+                            <a href="#">Current Semester</a>
+                        </div>
+                    </div>
+
+                    <div class="submenu">
+                        <span>Programmes</span>
+                        <div class="submenu-content">
+
+                            <div class="submenu">
+                                <span>Department</span>
+                                <div class="submenu-content">
+                                    <a href="#">MSc</a>
+                                    <a href="#">MS by Research</a>
+                                    <a href="#">PhD</a>
+                                </div>
+                            </div>
+
+                            <div class="submenu">
+                                <span>Institute</span>
+                                <div class="submenu-content">
+                                    <a href="#">B.Tech</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- People Menu -->
+            <div class="dropdown">
+                <button class="dropbtn">People</button>
+                <div class="dropdown-content">
+                    <div class="submenu">
+                        <span>Faculty</span>
+                        <div class="submenu-content">
+                            <a href="#">Regular Faculty</a>
+                            <a href="#">Visiting Faculty</a>
+                        </div>
+                    </div>
+                    <a href="#">Post-docs</a>
+                    <a href="#">PhD Scholars</a>
+                    <a href="#">MS Scholars</a>
+                    <a href="#">M.Sc. Students</a>
+                    <a href="#">Staff</a>
+
+                    <div class="submenu">
+                        <span>Past Members</span>
+                        <div class="submenu-content">
+                            <a href="#">Alumni</a>
+                            <a href="#">Faculty</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Research</button>
+                <div class="dropdown-content">
+                    <a href="Subpages/research.html">Research Area</a>
+                    <a href="#">Projects</a>
+                    <a href="#">Awards and Recognitions</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Activities</button>
+                <div class="dropdown-content">
+                    <a href="https://math-iitpkd.github.io/stp2025/" target="_blank">Summer Training Programme</a>
+                    <a href="#">Yukthibhasa Series</a>
+                    <a href="#">Symposium</a>
+                    <a href=" https://sites.google.com/view/math-pits?usp=sharing" target="_blank">Math-PITS</a>
+                    <a href="#">Workshops and Conferences</a>
+                    <a href="Subpages/seminar.html">Seminars Archive</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Committee</button>
+                <div class="dropdown-content">
+                    <a href="Subpages/grievance.html">Department Grievance Cell</a>
+                    <a href="Subpages/drc.html">Department Research Committee</a>
+                </div>
+            </div>
+            <a href="Subpages/contact.html">Contact</a>
+        </nav>
+    </div>
+
+    <div style="height: 20px;"></div>
+
+    <main>
+        <section class="projects-section">
+            <h2 class="section-title">Externally Funded Projects</h2>
+
+            <div class="project-filter">
+                <input type="text" id="facultyFilter" oninput="filterProjects()"
+                    placeholder="🔍 Search by faculty..." />
+            </div>
+
+            <div class="project-grid" id="projectGrid">
+                <!-- Example Project Card -->
+                <div class="project-card" data-pi="Dr Lakshmi Sankar">
+                    <div class="project-header">
+                        <img src="../images/faculty_placeholder.jpg" alt="PI Photo" class="pi-photo">
+                        <div class="project-info">
+                            <h3 class="project-title">Project Title : Semilinear Elliptic Boundary
+                                Value Problems on Unbounded Domains in \(\mathbb{R}^2\) </h3>
+                            <p><strong>Principal Investigator:</strong> Dr. Lakshmi Sankar</p>
+                            <p><strong>Funding Agency:</strong> SERB Core Research Grant (CRG)</p>
+                            <p><strong>Duration:</strong> 2023-2026</p>
+                            <button class="pub-btn" onclick="openPublications('project-LS-CRG-2023')">View Publications</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Example Project Card -->
+                <div class="project-card" data-pi="Dr. Arpan Kabiraj">
+                    <div class="project-header">
+                        <img src="../images/faculty_placeholder.jpg" alt="PI Photo" class="pi-photo">
+                        <div class="project-info">
+                            <h3 class="project-title">Project Title : Study of Skein Algebras Through
+                                Quantization of Poisson Algebras </h3>
+                            <p><strong>Principal Investigator:</strong> Dr. Arpan Kabiraj</p>
+                            <p><strong>Funding Agency:</strong> SERB Start-up Research Grant</p>
+                            <p><strong>Duration:</strong> 2023-2025</p>
+                            <button class="pub-btn" onclick="openPublications('project-AK-SU-2023')">View Publications</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Example Project Card -->
+                <div class="project-card" data-pi="Dr. Arpan Kabiraj">
+                    <div class="project-header">
+                        <img src="../images/faculty_placeholder.jpg" alt="PI Photo" class="pi-photo">
+                        <div class="project-info">
+                            <h3 class="project-title">Project Title : The Study of Turaev Cobracket from a Hyperbolic Geometric Perspective </h3>
+                            <p><strong>Principal Investigator:</strong> Dr. Arpan Kabiraj</p>
+                            <p><strong>Funding Agency:</strong> SERB Mathematical Research Impact Centric Suppport (MATRICS)</p>
+                            <p><strong>Duration:</strong> 2023-2026</p>
+                            <button class="pub-btn" onclick="openPublications('project-AK-MAT-2023')">View Publications</button>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+            </div>
+
+            <!-- Popup Modal -->
+            <!-- Popup Modal -->
+            <div class="pub-popup" id="pub-popup">
+                <div class="popup-content">
+                    <div class="popup-header">
+                        <span class="popup-title">Publications from this project</span>
+                        <button class="popup-close" onclick="closePublications()">&times;</button>
+                    </div>
+                    <ul class="publication-list" id="publication-list">
+                        <!-- JS will fill this -->
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <style>
+            .projects-section {
+                padding: 60px 20px;
+                background: linear-gradient(to bottom, #edf3f9, #f9fcff);
+                font-family: 'Segoe UI', sans-serif;
+            }
+
+            .section-title {
+                text-align: center;
+                font-size: 2rem;
+                color: #224477;
+                margin-bottom: 30px;
+            }
+
+            .project-filter {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 30px;
+            }
+
+            .project-filter input {
+                padding: 10px 16px;
+                border-radius: 30px;
+                border: 1px solid #aac6e2;
+                font-size: 1rem;
+                width: 300px;
+                max-width: 80%;
+                background-color: #f0f6fc;
+                color: #224477;
+                box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+                outline: none;
+                transition: box-shadow 0.3s ease;
+            }
+
+            .project-filter input:focus {
+                box-shadow: 0 4px 10px rgba(106, 168, 214, 0.3);
+            }
+
+            .project-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+                gap: 30px;
+                max-width: 1100px;
+                margin: auto;
+            }
+
+            .project-card {
+                background: rgba(255, 255, 255, 0.85);
+                backdrop-filter: blur(4px);
+                border-left: 5px solid #224477;
+                border-radius: 12px;
+                box-shadow: 0 6px 18px rgba(106, 168, 214, 0.15);
+                padding: 20px;
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+
+            .project-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 12px 24px rgba(106, 168, 214, 0.25);
+            }
+
+            .project-header {
+                display: flex;
+                gap: 20px;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+
+            .pi-photo {
+                width: 90px;
+                height: 90px;
+                object-fit: cover;
+                border-radius: 8px;
+                box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            }
+
+            .project-info {
+                flex: 1 1 300px;
+            }
+
+            .project-title {
+                margin: 0 0 8px;
+                color: #224477;
+                font-size: 1.2rem;
+            }
+
+            .pub-btn {
+                margin-top: 10px;
+                padding: 6px 12px;
+                background: #6aa8d6;
+                color: white;
+                border: none;
+                border-radius: 6px;
+                cursor: pointer;
+                transition: background 0.3s ease;
+            }
+
+            .pub-btn:hover {
+                background: #4b92c2;
+            }
+
+            .pub-popup {
+                display: none;
+                position: fixed;
+                inset: 0;
+                background: rgba(0, 0, 0, 0.5);
+                justify-content: center;
+                align-items: center;
+                z-index: 9999;
+            }
+
+            .popup-content {
+                background: #ffffff;
+                border-radius: 12px;
+                padding: 30px;
+                width: 90%;
+                max-width: 600px;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+                position: relative;
+            }
+
+            .popup-header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 20px;
+                border-bottom: 1px solid #ccc;
+                padding-bottom: 10px;
+            }
+
+            .popup-title {
+                font-size: 1.2rem;
+                color: #224477;
+            }
+
+            .popup-close {
+                background: none;
+                border: none;
+                font-size: 1.5rem;
+                cursor: pointer;
+                color: #224477;
+            }
+
+            .publication-list {
+                list-style: none;
+                padding-left: 20px;
+                color: #333;
+                font-size: 0.95rem;
+            }
+
+            .publication-list li {
+                margin-bottom: 10px;
+            }
+        </style>
+    </main>
+
+    <div class="footer-ribbon">
+        <div class="footer-section">
+            <ul>
+                <li><a href="#">Main Website</a></li>
+                <li><a href="#">LMS/Moodle</a></li>
+                <li><a href="#">Library</a></li>
+                <li><a href="#">PG Admission</a></li>
+                <li><a href="#">Research Admission</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <ul>
+                <li><a href="#">Telephone Directory</a></li>
+                <li><a href="#">Join Us</a></li>
+                <li><a href="#">Faculty Recruitment</a></li>
+                <li><a href="#">HPC</a></li>
+                <li><a href="#">How to Reach</a></li>
+            </ul>
+        </div>
+        <div class="footer-section address">
+            <p><strong>Address:</strong><br>
+                Indian Institute of Technology Palakkad<br>
+                Kanjikkode | Palakkad<br>
+                Kerala | Pin: 678623</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        All rights reserved. &copy; 2025 Department of Mathematics. <br> <br>
+        Last updated: March 25, 2025
+    </footer>
+
+    </div>
+    <!-- Page Container Ends -->
+
+    <!-- Toggle Script -->
+    <script src="../scripts/masterpub.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../CSS/fonts.css">
+  <link rel="stylesheet" href="../CSS/flyin_square.css" />
+  <link rel="stylesheet" href="../CSS/info.css" />
+  <link rel="stylesheet" href="../CSS/menubar.css" />
+  <link rel="stylesheet" href="../CSS/footer.css" />
+  <link rel="stylesheet" href="../CSS/freeze.css" />
+  <link rel="stylesheet" href="../CSS/contactstyle.css" />
+  <link rel="stylesheet" href="../CSS/catal.css" />
+  <title>Current courses</title>
+  <link rel="icon" href="../images/IITPkd_Only_Logo_colour_RGB.png" type="image/png">
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      },
+      svg: {
+        fontCache: 'global'
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+</head>
+
+<body>
+
+
+  <div class="top-info-bar">
+    <div class="info-container">
+      <div class="info-left">
+        <span class="info-item">📧 <a href="mailto:office_ma@iitpkd.ac.in ">office_ma@iitpkd.ac.in </a></span>
+        <span class="info-item">📞 <a href="tel:+911234567890">+91-491-209-1400</a></span>
+      </div>
+      <div class="info-right">
+        <span class="info-item">🌐 <a href="https://www.iitpkd.ac.in" target="_blank">IIT Palakkad</a></span>
+      </div>
+    </div>
+  </div>
+  <!-- Top Banner -->
+  <header>
+    <div class="banner">
+      <img src="../images/IITPkd_Master_Lockup_colour_RGB.png" alt="Logo" class="logo" />
+      <div class="divider"></div>
+      <div class="title-group">
+        <div class="main-title">Department of Mathematics</div>
+        <div class="sub-title">Indian Institute of Technology Palakkad</div>
+      </div>
+    </div>
+  </header>
+
+  <div class="sticky-header">
+    <button class="hamburger" onclick="toggleMenu()">☰</button>
+
+    <!-- Menu Bar -->
+    <nav class="menu-bar" id="menu">
+      <a href="index_edits.html">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn">Academic</button>
+        <div class="dropdown-content">
+
+          <div class="submenu">
+            <span>Courses</span>
+            <div class="submenu-content">
+              <a href="catalouge.html" target="_blank">Course Catalogue</a>
+              <a href="current_courses.html">Current Semester</a>
+            </div>
+          </div>
+
+          <div class="submenu">
+            <span>Programmes</span>
+            <div class="submenu-content">
+
+              <div class="submenu">
+                <span>Department</span>
+                <div class="submenu-content">
+                  <a href="MSc.html" target="_blank">MSc</a>
+                 <!--<a href="#">MS by Research</a>-->
+                  <a href="phd.html" target="_blank">PhD</a>
+                </div>
+              </div>
+
+              <div class="submenu">
+                <span>Institute</span>
+                <div class="submenu-content">
+                  <a href="btech.html" target="_blank">B.Tech</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- People Menu -->
+      <div class="dropdown">
+        <button class="dropbtn">People</button>
+        <div class="dropdown-content">
+          <div class="submenu">
+            <span>Faculty</span>
+            <div class="submenu-content">
+              <a href="faculty.html" target="_blank">Regular Faculty</a>
+              <a href="visitingfac.html" target="_blank">Visiting Faculty</a>
+            </div>
+          </div>
+          <a href="postdoc.html" target="_blank">Post-docs</a>
+          <a href="phdscholars.html" target="_blank">PhD Scholars</a>
+          <a href="mscholars.html" target="_blank">MS Scholars</a>
+          <a href="mscstudents.html" target="_blank">M.Sc. Students</a>
+          <a href="staff.html" target="_blank">Staff</a>
+          <a href="alumni_new.html" target="_blank">Alumni</a>
+
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Research</button>
+        <div class="dropdown-content">
+          <a href="research.html" target="_blank">Research Area</a>
+          <a href="projects.html" target="_blank">Projects</a>
+          <a href="awards.html" target="_blank">Awards and Recognitions</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Activities</button>
+        <div class="dropdown-content">
+          <a href="https://math-iitpkd.github.io/stp2025/" target="_blank">Summer Training Programme</a>
+          <a href="#">Yukthibhasa Series</a>
+          <a href="#">Symposium</a>
+          <a href=" https://sites.google.com/view/math-pits?usp=sharing" target="_blank">Math-PITS</a>
+          <a href="#">Workshops and Conferences</a>
+          <a href="seminar.html">Seminars Archive</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Committee</button>
+        <div class="dropdown-content">
+          <a href="grievance.html" target="_blank">Department Grievance Cell</a>
+          <a href="drc.html" target="_blank">Department Research Committee</a>
+        </div>
+      </div>
+      <a href="contact.html" target="_blank">Contact</a>
+    </nav>
+  </div>
+
+  <div style="height: 20px;"></div>
+
+  <main>
+
+    <section class="current-semester-section" style="padding: 0 5vw;">
+      <h1 class="catalogue-title">Current Semester (Aug-Dec 2025)</h1>
+
+      <!-- BTech Semester 1 Table -->
+      <h2>BTech - Semester 1</h2>
+      <div class="table-container">
+        <table class="course-table" id="btech-sem1">
+          <thead>
+            <tr>
+              <th>Course Name</th>
+              <th>Instructor</th>
+              <th>LTPC</th>
+              <th>Slot</th>
+              <th>Days & Time</th>
+              <th>Details</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <!-- BTech Semester 3 Table -->
+      <h2>BTech - Semester 3</h2>
+      <div class="table-container">
+        <table class="course-table" id="btech-sem3">
+          <thead>
+            <tr>
+              <th>Course Name</th>
+              <th>Instructor</th>
+              <th>LTPC</th>
+              <th>Slot</th>
+              <th>Days & Time</th>
+              <th>Details</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <!-- MSc Semester 1 Table -->
+      <h2>MSc - Semester 1</h2>
+      <div class="table-container">
+        <table class="course-table" id="msc-sem1">
+          <thead>
+            <tr>
+              <th>Course Name</th>
+              <th>Instructor</th>
+              <th>LTPC</th>
+              <th>Slot</th>
+              <th>Days & Time</th>
+              <th>Details</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <!-- MSc Semester 3 Table -->
+      <h2>MSc - Semester 3</h2>
+      <div class="table-container">
+        <table class="course-table" id="msc-sem3">
+          <thead>
+            <tr>
+              <th>Course Name</th>
+              <th>Instructor</th>
+              <th>LTPC</th>
+              <th>Slot</th>
+              <th>Days & Time</th>
+              <th>Details</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <!-- PhD Table -->
+      <h2>PhD</h2>
+      <div class="table-container">
+        <table class="course-table" id="phd">
+          <thead>
+            <tr>
+              <th>Course Name</th>
+              <th>Instructor</th>
+              <th>LTPC</th>
+              <th>Slot</th>
+              <th>Days & Time</th>
+              <th>Details</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Modal -->
+
+
+
+   <div class="footer-ribbon">
+    <div class="footer-section">
+      <ul>
+        <li><a href="https://iitpkd.ac.in/" target="_blank">Main Website</a></li>
+        <li><a href="https://lms.iitpkd.ac.in/login/index.php" target="_blank">LMS/Moodle</a></li>
+        <li><a href="https://lib.iitpkd.ac.in/" target="_blank">Library</a></li>
+        <li><a href="https://pgadmit.iitpkd.ac.in/" target="_blank">PG Admission</a></li>
+        <li><a href="https://resap.iitpkd.ac.in/" target="_blank">Research Admission</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <ul>
+        <li><a href="https://iitpkd.ac.in/TelephoneDirectory" target="_blank">Telephone Directory</a></li>
+        <li><a href="https://joinus.iitpkd.ac.in/" target="_blank">Join Us</a></li>
+        <li><a href="https://facap.iitpkd.ac.in/" target="_blank">Faculty Recruitment</a></li>
+        <li><a href="https://iitpkd.ac.in/hpc" target="_blank">HPC</a></li>
+        <li><a href="https://iitpkd.ac.in/how-reach" target="_blank">How to Reach</a></li>
+      </ul>
+    </div>
+    
+      <div class="footer-section address">
+        <p><strong>Address:</strong><br>
+          Indian Institute of Technology Palakkad<br>
+          Kanjikkode | Palakkad<br>
+          Kerala | Pin: 678623</p>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      All rights reserved. &copy; 2025 Department of Mathematics. <br> <br>
+      Last updated: March 25, 2025
+    </footer>
+
+    </div>
+    <!-- Page Container Ends -->
+
+    <!-- Toggle Script -->
+    <style>
+      .course-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 40px;
+      }
+
+      .course-table th,
+      .course-table td {
+        border: 1px solid #ccc;
+        padding: 10px;
+        text-align: center;
+      }
+
+      .course-table th {
+        background-color: #f0f8ff;
+        font-weight: bold;
+      }
+
+      .modal {
+        display: none;
+        position: fixed;
+        z-index: 99999;
+        padding-top: 60px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.6);
+      }
+
+      .modal-content {
+        background-color: #fefefe;
+        margin: auto;
+        padding: 25px;
+        border-radius: 12px;
+        width: 80%;
+        max-width: 700px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        font-size: 0.95rem;
+        line-height: 1.6;
+      }
+
+      .close-btn {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+      .close-btn:hover {
+        color: black;
+      }
+    </style>
+    <script>
+      const courses = [
+        {
+          code: "MA5001", name: "Linear Algebra", instructor: "Dr. Subhankar Dey",
+          ltpc: "4-0-0-4", slot: "F,Q (N308)", daysTime: "<b>Tue:</b> 9.00-10.15, <b>Thu:</b> 10.30-11.45, <b>Wed:</b> 14.00-14.50", program: "MSc", semester: 1
+        },
+        {
+          code: "MA5003", name: "Real Analysis", instructor: "Dr. Sarath Sasi",
+          ltpc: "4-0-0-4", slot: "A,E (N308)", daysTime: "<b>Mon:</b> 8.00-8.50, <b>Wed:</b> 10.00--11.50, <b>Fri:</b> 8.00--9.50", program: "MSc", semester: 1
+        },
+        {
+          code: "MA5005A", name: "Groups and Rings", instructor: "Dr. Jaikrishnan J.",
+          ltpc: "3-0-0-3", slot: "G (N308)", daysTime: "<b>Tue:</b> 10.30-11.45, <b>Thu:</b> 9.00-10.15", program: "MSc", semester: 1
+        },
+         {
+          code: "MA5007A", name: "Probability and Statistics", instructor: "Dr. M Ashok Kumar",
+          ltpc: "3-0-0-3", slot: "C (N308)", daysTime: "<b>Mon:</b> 10.00-10.50, <b>Wed:</b> 8.00-8.50, <b>Fri:</b> 11.00-11.50", program: "MSc", semester: 1
+        },
+        {
+          code: "MA5009A", name: "Ordinary Differential Equations", instructor: "Dr. Lakshmi Shankar",
+          ltpc: "3-0-0-3", slot: "K (N308)", daysTime: "<b>Tue:</b> 14.00-15.15, <b>Thu:</b> 15.30-16.45", program: "MSc", semester: 1
+        },
+         {
+          code: "MA5014", name: "Fundamentals of Mathematics", instructor: "Prof. M. Varadharajan",
+          ltpc: "2-0-0-2", slot: "M (N308)", daysTime: "<b>Tue, Thu:</b> 12.00-12.50", program: "MSc", semester: 1
+        },
+        {
+          code: "MA5008A", name: "Topology", instructor: "Dr Balakumar J. P.",
+          ltpc: "3-0-0-3", slot: "J (N308)", daysTime: "<b>Mon:</b> 15.30-16.45, <b>Fri:</b> 14.00-15.15", program: "MSc", semester: 3
+        },
+         {
+          code: "MA6005A", name: "Functional Analysis", instructor: "Dr Srijan Sarkar",
+          ltpc: "3-0-0-3", slot: "G (N306)", daysTime: "<b>Tue:</b> 10.30-11.45, <b>Thu:</b> 9.00-10.15", program: "MSc", semester: 3
+        },
+        {
+          code: "MA6007A", name: "Partial Differential Equations", instructor: "Dr Gopikrishnan C R",
+          ltpc: "3-0-0-3", slot: "R1,R2,CMNA (N203)", daysTime: "<b>Mon, Tue:</b> 17.10-18.00, <b>Wed:</b> 16.00-16.50", program: "MSc", semester: 3
+        },     
+         {
+          code: "MA5601", name: "Introduction to Commutative Algebra (PG-OE)", instructor: "Dr Rohit Varma",
+          ltpc: "3-0-0-3 (N308)", slot: "I", daysTime: "<b>Mon:</b> 14.00-15.15, <b>Fri:</b> 15.30-16.45", program: "MSc", semester: 3
+        },  
+           {
+          code: "MA5501", name: "Information Theory and Statistics (PG-OE)", instructor: "Dr Ashok Kumar",
+          ltpc: "3-0-0-3 (N203)", slot: "F", daysTime: "<b>Tue:</b> 9.00-10.15, <b>Thu:</b> 10.30-11.45", program: "MSc", semester: 3
+        },  
+          {
+          code: "MA7003", name: "Real and Functional Analysis (PhD-OE)", instructor: "Dr Srijan Sarkar",
+          ltpc: "3-0-0-3 (N308)", slot: "L", daysTime: "<b>Tue:</b> 15.30-16.45, <b>Thu:</b> 14.00-15.15", program: "PhD", semester: 3
+        }, 
+        {
+          code: "MA5619", name: "Geometry of Curves and Surfaaces (All-OE)", instructor: "Dr Arpan Kabiraj",
+          ltpc: "4-0-0-4 (N203/204)", slot: "K", daysTime: "<b>Tue:</b> 14.00-15.15, <b>Thu:</b> 15.30-16.45", program: "MSc", semester: 3
+        }, 
+        {
+          code: "MA1011A",
+          name: "Linear Algebra and Series",
+          instructor: "Dr Parangama Sarkar",
+          daysTime: "<b>Tue:</b> 9.00-10.15, <b> Thu:</b> 10.30-11.45, <b>Fri:</b> 17.10-18.00",
+          slot: "F+R5",
+          ltpc: "3-1-0-4",
+          category: "Core",
+          program: "BTech",
+          semester: 1
+        },
+       {
+          code: "MA2041",
+          name: "Probability and Statistics",
+          instructor: "Dr Tanmay Sahoo",
+          daysTime: "<b>Tue:</b> 10.30-11.45, <b> Thu:</b> 9.00-10.15",
+          slot: "G",
+          ltpc: "3-0-0-3",
+          category: "Elective",
+          program: "BTech",
+          semester: 3
+        }
+      ];
+
+      // Mapping for table IDs
+      const tableMap = {
+        "BTech-1": "btech-sem1",
+        "BTech-3": "btech-sem3",
+        "MSc-1": "msc-sem1",
+        "MSc-3": "msc-sem3",
+        "PhD": "phd"
+      };
+
+      courses.forEach(course => {
+        let key = (course.program === "PhD") ? "PhD" : `${course.program}-${course.semester}`;
+        const tableId = tableMap[key];
+        if (!tableId) return;
+
+        const tbody = document.querySelector(`#${tableId} tbody`);
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
+    <td>${course.name}</td>
+    <td>${course.instructor}</td>
+    <td>${course.ltpc}</td>
+    <td>${course.slot}</td>
+    <td>${course.daysTime}</td>
+    <td><a href="#" onclick="showCourseModal('${course.code}')">More</a></td>
+  `;
+        tbody.appendChild(tr);
+      });
+
+      function showCourseModal(code) {
+        fetch(`courses/${code}.json`)
+          .then(res => res.json())
+          .then(data => {
+            const syllabusHTML = data.syllabus?.map(unit =>
+              `<p><strong>${unit.unit}${unit.lectures ? ` (${unit.lectures})` : ''}:</strong> ${unit.details}</p>`
+            ).join('') || '<p>No syllabus available.</p>';
+
+            const textbooksHTML = data.textbooks?.map(book => `<li>${book}</li>`).join("") || '';
+            const referencesHTML = data.references?.map(ref => `<li>${ref}</li>`).join("") || '';
+
+            document.getElementById("modalDetails").innerHTML = `
+        <h2>${data.title} (${data.code})</h2>
+        <h4>LTPC: ${data.ltpc || 'N/A'}</h4>
+        <div><h4>Syllabus:</h4>${syllabusHTML}</div>
+        ${textbooksHTML ? `<div><h4>Textbooks:</h4><ul>${textbooksHTML}</ul></div>` : ''}
+        ${referencesHTML ? `<div><h4>References:</h4><ul>${referencesHTML}</ul></div>` : ''}
+      `;
+
+            document.getElementById("courseModal").style.display = "block";
+          });
+      }
+    </script>
+
+    <div id="courseModal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="document.getElementById('courseModal').style.display='none'">&times;</span>
+        <div id="modalDetails"></div>
+      </div>
+    </div>
+
+</body>
+
+</html>
