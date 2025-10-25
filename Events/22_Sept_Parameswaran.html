@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../CSS/fonts.css">
+  <link rel="stylesheet" href="../CSS/flyin_square.css" />
+  <link rel="stylesheet" href="../CSS/info.css" />
+  <link rel="stylesheet" href="../CSS/menubar.css" />
+  <link rel="stylesheet" href="../CSS/marqueebar.css" />
+  <link rel="stylesheet" href="../CSS/gallery.css" />
+  <link rel="stylesheet" href="../CSS/welcomebox.css" />
+  <link rel="stylesheet" href="../CSS/about.css" />
+  <link rel="stylesheet" href="../CSS/events.css" />
+  <link rel="stylesheet" href="../CSS/footer.css" />
+  <link rel="stylesheet" href="../CSS/freeze.css" />
+  <link rel="stylesheet" href="../CSS/reas_high.css" />
+  <title>Yukthibhsa  - Dept. of Mathematics</title>
+  <link rel="icon" href="../images/IITPkd_Only_Logo_colour_RGB.png" type="image/png">
+</head>
+
+<body>
+
+  
+  <div class="top-info-bar">
+    <div class="info-container">
+      <div class="info-left">
+        <span class="info-item">📧 <a href="mailto:office_ma@iitpkd.ac.in ">office_ma@iitpkd.ac.in </a></span>
+        <span class="info-item">📞 <a href="tel:+911234567890">+91-491-209-1400</a></span>
+      </div>
+      <div class="info-right">
+        <span class="info-item">🌐 <a href="https://www.iitpkd.ac.in" target="_blank">IIT Palakkad</a></span>
+      </div>
+    </div>
+  </div>
+  <!-- Top Banner -->
+  <header>
+    <div class="banner">
+      <img src="../images/IITPkd_Master_Lockup_colour_RGB.png" alt="Logo" class="logo" />
+      <div class="divider"></div>
+      <div class="title-group">
+        <div class="main-title">Department of Mathematics</div>
+        <div class="sub-title">Indian Institute of Technology Palakkad</div>
+      </div>
+    </div>
+  </header>
+
+  <div class="sticky-header">
+  <button class="hamburger" onclick="toggleMenu()">☰</button>
+
+  <!-- Menu Bar -->
+   <!-- Menu Bar -->
+  <nav class="menu-bar" id="menu">
+    <a href="../index.html">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">Academic</button>
+      <div class="dropdown-content">
+
+        <div class="submenu">
+          <span>Courses</span>
+          <div class="submenu-content">
+            <a href="../Subpages/catalouge.html">Course Catalogue</a>
+            <a href="../Subpages/current_courses.html">Current Semester</a>
+          </div>
+        </div>
+
+        <div class="submenu">
+          <span>Programmes</span>
+          <div class="submenu-content">
+
+            <div class="submenu">
+              <span>Department</span>
+              <div class="submenu-content">
+                <a href="../Subpages/MSc.html">MSc</a>
+                <a href="../Subpages/phd.html">PhD</a>
+              </div>
+            </div>
+
+            <div class="submenu">
+              <span>Institute</span>
+              <div class="submenu-content">
+                <a href="../Subpages/btech.html">B.Tech</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- People Menu -->
+    <div class="dropdown">
+      <button class="dropbtn">People</button>
+      <div class="dropdown-content">
+        <div class="submenu">
+          <span>Faculty</span>
+          <div class="submenu-content">
+            <a href="../Subpages/faculty.html">Regular Faculty</a>
+            <a href="../Subpages/visitingfac.html">Visiting Faculty</a>
+          </div>
+        </div>
+        <a href="../Subpages/postdoc.html">Post-docs</a>
+        <a href="../Subpages/phdscholars.html">PhD Scholars</a>
+        <a href="../Subpages/mscholars.html">MS Scholars</a>
+        <a href="../Subpages/mscstudents.html">M.Sc. Students</a>
+        <a href="../Subpages/staff.html">Staff</a>
+        <a href="../Subpages/alumni_new.html" target="_blank">Alumni</a>
+
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Research</button>
+      <div class="dropdown-content">
+        <a href="../Subpages/research.html">Research Area</a>
+        <a href="../Subpages/projects.html">Projects</a>
+        <a href="../Subpages/awards.html">Awards and Recognitions</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Activities</button>
+      <div class="dropdown-content">
+        <a href="https://math-iitpkd.github.io/stp2025/" target="_blank">Summer Training Programme</a>
+        <a href="#">Yukthibhasa Series</a>
+        <a href="#">Symposium</a>
+        <a href=" https://sites.google.com/view/math-pits?usp=sharing" target="_blank">Math-PITS</a>
+        <a href="#">Workshops and Conferences</a>
+        <a href="../Subpages/seminar.html" target="_blank">Seminars Archive</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Committee</button>
+      <div class="dropdown-content">
+        <a href="../Subpages/grievance.html">Department Grievance Cell</a>
+        <a href="../Subpages/drc.html">Department Research Committee</a>
+      </div>
+    </div>
+    <a href="../Subpages/contact.html">Contact</a>
+  </nav>
+</div>
+
+
+  <div style="height: 10px;"></div>
+  <style>
+    body {
+      font-family: 'Segoe UI', Calibri, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #f9fbfc 0%, #ffffff 100%);
+      color: #224466;
+    }
+
+    .event-detail-wrapper {
+      position: relative;
+      max-width: 920px;
+      margin: 40px auto;
+      padding: 0 10px;
+    }
+
+    .event-detail-container {
+      position: relative;
+      background-color: #fff;
+      border-left: 6px solid #224477;
+      border-radius: 10px;
+      padding: 30px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    }
+
+    .event-status-tag {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80px;
+  height: 80px;
+  background: #6aa8d6;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: bold;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 6px;
+  border-radius: 0 0 0 100%;
+  box-shadow: inset -1px -1px 2px rgba(255, 255, 255, 0.3);
+  z-index: 10;
+  box-sizing: border-box;
+}
+    .event-status-tag.upcoming {
+      animation: blink 1.5s infinite;
+    }
+
+    .event-status-tag.past {
+      background: #999;
+      opacity: 0.8;
+    }
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.7; }
+    }
+
+    .event-detail-title {
+      font-size: 1.8rem;
+      color: #224477;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .event-meta {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      font-size: 0.95rem;
+      color: #336699;
+    }
+
+    .event-section {
+      margin-bottom: 30px;
+    }
+
+    .event-section h2 {
+      color: #336699;
+      font-size: 1.3rem;
+      margin-bottom: 10px;
+    }
+
+    .event-section p {
+      color: #444;
+      line-height: 1.6;
+    }
+
+    .event-photo-box {
+      display: none; /* Show only after event */
+      margin: 30px auto;
+      max-width: 700px;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    }
+
+    .event-photo-box img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .speaker-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: space-around;
+    }
+
+    .speaker {
+      flex: 1 1 250px;
+      text-align: center;
+    }
+
+    .speaker img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .event-navigation {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+      padding: 20px 0;
+    }
+
+    .nav-arrow {
+      font-weight: bold;
+      color: #336699;
+      text-decoration: none;
+      padding: 10px 20px;
+      border: 1px solid #cbe1f2;
+      border-radius: 6px;
+      transition: background 0.3s ease;
+    }
+
+    .nav-arrow:hover {
+      background: #eef6fb;
+    }
+
+    .back-btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 16px;
+      background-color: #6aa8d6;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background 0.3s ease;
+    }
+
+    .back-btn:hover {
+      background-color: #4b92c2;
+    }
+
+    @media (max-width: 700px) {
+      .event-meta {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .speaker-list {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .event-status-tag {
+    width: 48px;
+    height: 48px;
+    font-size: 0.6rem;
+    padding: 5px;
+  }
+
+      .event-navigation {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+      }
+
+      .nav-arrow {
+        width: 70%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="event-detail-wrapper">
+    <div class="event-detail-container">
+      <div class="event-status-tag" id="event-status">Past</div>
+
+      <h2 class="event-detail-title">Ramifications in curves (Riemann surfaces)</h2>
+
+      <div class="event-meta">
+        <span>📅 <strong>Date:</strong> September 22, 2025</span>
+        <span>⏰ <strong>Time:</strong> 11.30 AM – 12.30 PM</span>
+        <span>📍 <strong>Venue:</strong> 305 (Samgatha Block), Nila Campus </span>
+      </div>
+
+      <div class="event-section">
+        <h2>📝 Abstract</h2>
+        <div class="pdf-container">
+          <iframe src="../Events/Abstracts/abstract_parameswaran.pdf" width="100%" height="500px" frameborder="0"></iframe>
+        </div>
+      </div>
+
+      <!-- Optional Event Photo -->
+      <div class="event-photo-box" id="event-photo">
+        <img src="../images/ml_event_photo.jpg" alt="Event photo" />
+      </div>
+
+      <div class="event-section">
+        <h2>🎤 Speaker</h2>
+        <div class="speaker-list">
+          <div class="speaker">
+            <img src="../Events/Speaker_photo/ajp.png" alt="Prof A J Parameswaran" />
+            <p>Prof A J Parameswaran</p>
+          </div>
+        </div>
+      </div>
+
+      <a href="../index.html" class="back-btn">← Back to Events</a>
+    </div>
+
+    <div class="event-navigation">
+      <a href="../Events/10_sept_durga.html" class="nav-arrow">← Previous</a>
+      <a href="../Events/24_Oct_Alphonsa.html" class="nav-arrow">Next →</a>
+    </div>
+  </div>
+
+  <!-- 🔁 JS: Status + Optional photo logic -->
+  <script>
+    const eventDate = new Date('2025-09-22'); // <-- CHANGE THIS PER EVENT
+    const today = new Date();
+    const tag = document.getElementById('event-status');
+    const photo = document.getElementById('event-photo');
+
+    if (today > eventDate) {
+      tag.textContent = 'Past';
+      tag.classList.add('past');
+      tag.classList.remove('upcoming');
+      photo.style.display = 'block'; // Show photo after event
+    } else {
+      tag.textContent = 'Upcoming';
+      tag.classList.add('upcoming');
+    }
+  </script>
+</body>
+</html>
