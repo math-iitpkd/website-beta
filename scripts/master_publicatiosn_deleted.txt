@@ -1,0 +1,31 @@
+,
+      {
+        id: "pub2",
+        title: "Adaptive FEM for curved domains",
+        authors: "Gopikrishnan, C. R. et al.",
+        journal: "Journal of Numerical Mathematics",
+        volume: "42",
+        number: "2",
+        year: 2024,
+        tags: ["project-AK-SU-2023", "recent"]
+      },
+      {
+        id: "pub2",
+        title: "Adaptive FEM for curved domains",
+        authors: "Gopikrishnan, C. R. et al.",
+        journal: "Journal of Numerical Mathematics",
+        volume: "42",
+        number: "2",
+        year: 2024,
+        tags: ["project-AK-SU-2023", "recent"]
+      },
+      {
+        id: "pub2",
+        title: "Adaptive FEM for curved domains",
+        authors: "Gopikrishnan, C. R. et al.",
+        journal: "Journal of Numerical Mathematics",
+        volume: "42",
+        number: "2",
+        year: 2024,
+        tags: ["project-AK-SU-2023", "recent"]
+      }

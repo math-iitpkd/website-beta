@@ -1,0 +1,14 @@
+[
+  {
+    "code": "ma1011",
+    "title": "Linear Algebra and Series",
+    "program": "BTech",
+    "category": "Core"
+  },
+  {
+    "code": "MA203",
+    "title": "Numerical Methods",
+    "program": "PhD",
+    "category": "Elective"
+  }
+]
